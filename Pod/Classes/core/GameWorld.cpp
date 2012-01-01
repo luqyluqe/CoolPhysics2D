@@ -90,7 +90,6 @@ void GameWorld::update(double timeInterval)
         if (pi->lifeTime()<0) {
             removeParticle(pi);
         }
-        bounce(pi);
         pi->update(timeInterval);
         
         for (int j=0; j<_fields.size(); j++) {
@@ -102,8 +101,9 @@ void GameWorld::update(double timeInterval)
     }
     
     for (int i=0; i<_unoverlappableParticles.size(); i++) {
+        Particle* pi=_unoverlappableParticles[i];
+        bounce(pi);
         for (int j=i+1; j<_unoverlappableParticles.size(); j++) {
-            Particle* pi=_unoverlappableParticles[i];
             Particle* pj=_unoverlappableParticles[j];
             if (Particle::collide(*pi,*pj)) {
                 Particle::handleCollision(*pi,*pj);
