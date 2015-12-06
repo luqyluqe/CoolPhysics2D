@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4281AEA61C1431F40025DC4F /* BouncingBallView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AE9E1C1431F40025DC4F /* BouncingBallView.mm */; };
+		4281AEA71C1431F40025DC4F /* BouncingBallViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEA01C1431F40025DC4F /* BouncingBallViewController.mm */; };
+		4281AEA81C1431F40025DC4F /* FireView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEA31C1431F40025DC4F /* FireView.mm */; };
+		4281AEA91C1431F40025DC4F /* FireViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEA51C1431F40025DC4F /* FireViewController.mm */; };
+		4281AED21C14356F0025DC4F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4281AEAB1C14356F0025DC4F /* .gitkeep */; };
+		4281AED31C14356F0025DC4F /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEAF1C14356F0025DC4F /* BuoyancyField.cpp */; };
+		4281AED41C14356F0025DC4F /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEB11C14356F0025DC4F /* CentripetalGravityField.cpp */; };
+		4281AED51C14356F0025DC4F /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEB31C14356F0025DC4F /* Circle.cpp */; };
+		4281AED61C14356F0025DC4F /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEB51C14356F0025DC4F /* Color.cpp */; };
+		4281AED71C14356F0025DC4F /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEB71C14356F0025DC4F /* DampingField.cpp */; };
+		4281AED81C14356F0025DC4F /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEB91C14356F0025DC4F /* Field.cpp */; };
+		4281AED91C14356F0025DC4F /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEBB1C14356F0025DC4F /* GameWorld.cpp */; };
+		4281AEDA1C14356F0025DC4F /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEBD1C14356F0025DC4F /* GravityField.cpp */; };
+		4281AEDB1C14356F0025DC4F /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEBF1C14356F0025DC4F /* ObstacleField.cpp */; };
+		4281AEDC1C14356F0025DC4F /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEC11C14356F0025DC4F /* Particle.cpp */; };
+		4281AEDD1C14356F0025DC4F /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEC31C14356F0025DC4F /* ParticleEmitter.cpp */; };
+		4281AEDE1C14356F0025DC4F /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEC51C14356F0025DC4F /* Rectangle.cpp */; };
+		4281AEDF1C14356F0025DC4F /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4281AEC71C14356F0025DC4F /* Vector.cpp */; };
+		4281AEE01C14356F0025DC4F /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AECB1C14356F0025DC4F /* CP2DGameView.mm */; };
+		4281AEE11C14356F0025DC4F /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AECD1C14356F0025DC4F /* CP2DGameViewController.mm */; };
+		4281AEE21C14356F0025DC4F /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AECF1C14356F0025DC4F /* CP2DGameWorldRenderer.mm */; };
+		4281AEE31C14356F0025DC4F /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4281AED11C14356F0025DC4F /* CP2DParticleRenderer.mm */; };
+		4281AEE71C1439210025DC4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4281AEE61C1439210025DC4F /* LaunchScreen.xib */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* CP2DAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CP2DAppDelegate.mm */; };
+		6003F5A7195388D20070C39A /* CP2DViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CP2DViewController.mm */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		89785A2BB313206B4BC6A6AA /* Pods_CoolPhysics2D_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B89AB8AC43B87FA9733F5 /* Pods_CoolPhysics2D_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ECC15499F88C50507F0C96BD /* Pods_CoolPhysics2D_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD1612219FC5A735A9123B5 /* Pods_CoolPhysics2D_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = CoolPhysics2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFCF5F867875C1044D5419F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		260B89AB8AC43B87FA9733F5 /* Pods_CoolPhysics2D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolPhysics2D_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F82B954216934BD31E6A939 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4281AE9D1C1431F40025DC4F /* BouncingBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncingBallView.h; sourceTree = "<group>"; };
+		4281AE9E1C1431F40025DC4F /* BouncingBallView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BouncingBallView.mm; sourceTree = "<group>"; };
+		4281AE9F1C1431F40025DC4F /* BouncingBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncingBallViewController.h; sourceTree = "<group>"; };
+		4281AEA01C1431F40025DC4F /* BouncingBallViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BouncingBallViewController.mm; sourceTree = "<group>"; };
+		4281AEA21C1431F40025DC4F /* FireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireView.h; sourceTree = "<group>"; };
+		4281AEA31C1431F40025DC4F /* FireView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FireView.mm; sourceTree = "<group>"; };
+		4281AEA41C1431F40025DC4F /* FireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireViewController.h; sourceTree = "<group>"; };
+		4281AEA51C1431F40025DC4F /* FireViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FireViewController.mm; sourceTree = "<group>"; };
+		4281AEAB1C14356F0025DC4F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4281AEAD1C14356F0025DC4F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		4281AEAF1C14356F0025DC4F /* BuoyancyField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuoyancyField.cpp; sourceTree = "<group>"; };
+		4281AEB01C14356F0025DC4F /* BuoyancyField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuoyancyField.h; sourceTree = "<group>"; };
+		4281AEB11C14356F0025DC4F /* CentripetalGravityField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CentripetalGravityField.cpp; sourceTree = "<group>"; };
+		4281AEB21C14356F0025DC4F /* CentripetalGravityField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentripetalGravityField.h; sourceTree = "<group>"; };
+		4281AEB31C14356F0025DC4F /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		4281AEB41C14356F0025DC4F /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		4281AEB51C14356F0025DC4F /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		4281AEB61C14356F0025DC4F /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		4281AEB71C14356F0025DC4F /* DampingField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DampingField.cpp; sourceTree = "<group>"; };
+		4281AEB81C14356F0025DC4F /* DampingField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DampingField.h; sourceTree = "<group>"; };
+		4281AEB91C14356F0025DC4F /* Field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Field.cpp; sourceTree = "<group>"; };
+		4281AEBA1C14356F0025DC4F /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		4281AEBB1C14356F0025DC4F /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		4281AEBC1C14356F0025DC4F /* GameWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
+		4281AEBD1C14356F0025DC4F /* GravityField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GravityField.cpp; sourceTree = "<group>"; };
+		4281AEBE1C14356F0025DC4F /* GravityField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityField.h; sourceTree = "<group>"; };
+		4281AEBF1C14356F0025DC4F /* ObstacleField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObstacleField.cpp; sourceTree = "<group>"; };
+		4281AEC01C14356F0025DC4F /* ObstacleField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObstacleField.h; sourceTree = "<group>"; };
+		4281AEC11C14356F0025DC4F /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		4281AEC21C14356F0025DC4F /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		4281AEC31C14356F0025DC4F /* ParticleEmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleEmitter.cpp; sourceTree = "<group>"; };
+		4281AEC41C14356F0025DC4F /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
+		4281AEC51C14356F0025DC4F /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		4281AEC61C14356F0025DC4F /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		4281AEC71C14356F0025DC4F /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		4281AEC81C14356F0025DC4F /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		4281AECA1C14356F0025DC4F /* CP2DGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DGameView.h; sourceTree = "<group>"; };
+		4281AECB1C14356F0025DC4F /* CP2DGameView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameView.mm; sourceTree = "<group>"; };
+		4281AECC1C14356F0025DC4F /* CP2DGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DGameViewController.h; sourceTree = "<group>"; };
+		4281AECD1C14356F0025DC4F /* CP2DGameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameViewController.mm; sourceTree = "<group>"; };
+		4281AECE1C14356F0025DC4F /* CP2DGameWorldRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DGameWorldRenderer.h; sourceTree = "<group>"; };
+		4281AECF1C14356F0025DC4F /* CP2DGameWorldRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameWorldRenderer.mm; sourceTree = "<group>"; };
+		4281AED01C14356F0025DC4F /* CP2DParticleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DParticleRenderer.h; sourceTree = "<group>"; };
+		4281AED11C14356F0025DC4F /* CP2DParticleRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DParticleRenderer.mm; sourceTree = "<group>"; };
+		4281AEE61C1439210025DC4F /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		5B1B5F312A8FDCB7727535A1 /* Pods-CoolPhysics2D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* CoolPhysics2D_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolPhysics2D_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* CoolPhysics2D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolPhysics2D-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* CoolPhysics2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* CP2DAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CP2DAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* CP2DAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DAppDelegate.mm; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* CP2DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CP2DViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* CP2DViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DViewController.mm; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = CoolPhysics2D_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8A2D97ED00E3F2F90ADF98EC /* Pods-CoolPhysics2D_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD1612219FC5A735A9123B5 /* Pods_CoolPhysics2D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolPhysics2D_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9037251B999ABE98F18126FE /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4BE657987DB91FF7A98FC60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E70F6808D480B2AA09B3D405 /* CoolPhysics2D.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoolPhysics2D.podspec; path = ../CoolPhysics2D.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				89785A2BB313206B4BC6A6AA /* Pods_CoolPhysics2D_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				ECC15499F88C50507F0C96BD /* Pods_CoolPhysics2D_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4281AE9C1C1431F40025DC4F /* BouncingBall */ = {
+			isa = PBXGroup;
+			children = (
+				4281AE9D1C1431F40025DC4F /* BouncingBallView.h */,
+				4281AE9E1C1431F40025DC4F /* BouncingBallView.mm */,
+				4281AE9F1C1431F40025DC4F /* BouncingBallViewController.h */,
+				4281AEA01C1431F40025DC4F /* BouncingBallViewController.mm */,
+			);
+			path = BouncingBall;
+			sourceTree = "<group>";
+		};
+		4281AEA11C1431F40025DC4F /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				4281AEA21C1431F40025DC4F /* FireView.h */,
+				4281AEA31C1431F40025DC4F /* FireView.mm */,
+				4281AEA41C1431F40025DC4F /* FireViewController.h */,
+				4281AEA51C1431F40025DC4F /* FireViewController.mm */,
+			);
+			path = Fire;
+			sourceTree = "<group>";
+		};
+		4281AEAA1C14356F0025DC4F /* CoolPhysics2D */ = {
+			isa = PBXGroup;
+			children = (
+				4281AEAB1C14356F0025DC4F /* .gitkeep */,
+				4281AEAC1C14356F0025DC4F /* config */,
+				4281AEAE1C14356F0025DC4F /* core */,
+				4281AEC91C14356F0025DC4F /* ios */,
+			);
+			path = CoolPhysics2D;
+			sourceTree = "<group>";
+		};
+		4281AEAC1C14356F0025DC4F /* config */ = {
+			isa = PBXGroup;
+			children = (
+				4281AEAD1C14356F0025DC4F /* config.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		4281AEAE1C14356F0025DC4F /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4281AEAF1C14356F0025DC4F /* BuoyancyField.cpp */,
+				4281AEB01C14356F0025DC4F /* BuoyancyField.h */,
+				4281AEB11C14356F0025DC4F /* CentripetalGravityField.cpp */,
+				4281AEB21C14356F0025DC4F /* CentripetalGravityField.h */,
+				4281AEB31C14356F0025DC4F /* Circle.cpp */,
+				4281AEB41C14356F0025DC4F /* Circle.h */,
+				4281AEB51C14356F0025DC4F /* Color.cpp */,
+				4281AEB61C14356F0025DC4F /* Color.h */,
+				4281AEB71C14356F0025DC4F /* DampingField.cpp */,
+				4281AEB81C14356F0025DC4F /* DampingField.h */,
+				4281AEB91C14356F0025DC4F /* Field.cpp */,
+				4281AEBA1C14356F0025DC4F /* Field.h */,
+				4281AEBB1C14356F0025DC4F /* GameWorld.cpp */,
+				4281AEBC1C14356F0025DC4F /* GameWorld.h */,
+				4281AEBD1C14356F0025DC4F /* GravityField.cpp */,
+				4281AEBE1C14356F0025DC4F /* GravityField.h */,
+				4281AEBF1C14356F0025DC4F /* ObstacleField.cpp */,
+				4281AEC01C14356F0025DC4F /* ObstacleField.h */,
+				4281AEC11C14356F0025DC4F /* Particle.cpp */,
+				4281AEC21C14356F0025DC4F /* Particle.h */,
+				4281AEC31C14356F0025DC4F /* ParticleEmitter.cpp */,
+				4281AEC41C14356F0025DC4F /* ParticleEmitter.h */,
+				4281AEC51C14356F0025DC4F /* Rectangle.cpp */,
+				4281AEC61C14356F0025DC4F /* Rectangle.h */,
+				4281AEC71C14356F0025DC4F /* Vector.cpp */,
+				4281AEC81C14356F0025DC4F /* Vector.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		4281AEC91C14356F0025DC4F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				4281AECA1C14356F0025DC4F /* CP2DGameView.h */,
+				4281AECB1C14356F0025DC4F /* CP2DGameView.mm */,
+				4281AECC1C14356F0025DC4F /* CP2DGameViewController.h */,
+				4281AECD1C14356F0025DC4F /* CP2DGameViewController.mm */,
+				4281AECE1C14356F0025DC4F /* CP2DGameWorldRenderer.h */,
+				4281AECF1C14356F0025DC4F /* CP2DGameWorldRenderer.mm */,
+				4281AED01C14356F0025DC4F /* CP2DParticleRenderer.h */,
+				4281AED11C14356F0025DC4F /* CP2DParticleRenderer.mm */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for CoolPhysics2D */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				6BDFC2B5B9730F3539966D44 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* CoolPhysics2D_Example.app */,
+				6003F5AE195388D20070C39A /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				260B89AB8AC43B87FA9733F5 /* Pods_CoolPhysics2D_Example.framework */,
+				8AD1612219FC5A735A9123B5 /* Pods_CoolPhysics2D_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for CoolPhysics2D */ = {
+			isa = PBXGroup;
+			children = (
+				4281AEAA1C14356F0025DC4F /* CoolPhysics2D */,
+				4281AE9C1C1431F40025DC4F /* BouncingBall */,
+				4281AEA11C1431F40025DC4F /* Fire */,
+				6003F59C195388D20070C39A /* CP2DAppDelegate.h */,
+				6003F59D195388D20070C39A /* CP2DAppDelegate.mm */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				4281AEE61C1439210025DC4F /* LaunchScreen.xib */,
+				6003F5A5195388D20070C39A /* CP2DViewController.h */,
+				6003F5A6195388D20070C39A /* CP2DViewController.mm */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for CoolPhysics2D";
+			path = CoolPhysics2D;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* CoolPhysics2D-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* CoolPhysics2D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				E70F6808D480B2AA09B3D405 /* CoolPhysics2D.podspec */,
+				0CFCF5F867875C1044D5419F /* README.md */,
+				A4BE657987DB91FF7A98FC60 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6BDFC2B5B9730F3539966D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A2D97ED00E3F2F90ADF98EC /* Pods-CoolPhysics2D_Example.debug.xcconfig */,
+				5B1B5F312A8FDCB7727535A1 /* Pods-CoolPhysics2D_Example.release.xcconfig */,
+				3F82B954216934BD31E6A939 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */,
+				9037251B999ABE98F18126FE /* Pods-CoolPhysics2D_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* CoolPhysics2D_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CoolPhysics2D_Example" */;
+			buildPhases = (
+				6C272FAE69A78A45916E69A0 /* Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				0E91757F8F0B9B7555F23023 /* Embed Pods Frameworks */,
+				BEC9C2BF4DB38E0F5B04477A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolPhysics2D_Example;
+			productName = CoolPhysics2D;
+			productReference = 6003F58A195388D20070C39A /* CoolPhysics2D_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* CoolPhysics2D_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CoolPhysics2D_Tests" */;
+			buildPhases = (
+				2529687872690B713EBFA922 /* Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				375EADA3AAAAA6C57A327427 /* Embed Pods Frameworks */,
+				B6D4B83326A31F708649B38B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = CoolPhysics2D_Tests;
+			productName = CoolPhysics2DTests;
+			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP2D;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = luqyluqe;
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CoolPhysics2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* CoolPhysics2D_Example */,
+				6003F5AD195388D20070C39A /* CoolPhysics2D_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				4281AEE71C1439210025DC4F /* LaunchScreen.xib in Resources */,
+				4281AED21C14356F0025DC4F /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E91757F8F0B9B7555F23023 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2529687872690B713EBFA922 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		375EADA3AAAAA6C57A327427 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C272FAE69A78A45916E69A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D4B83326A31F708649B38B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC9C2BF4DB38E0F5B04477A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4281AED31C14356F0025DC4F /* BuoyancyField.cpp in Sources */,
+				4281AED51C14356F0025DC4F /* Circle.cpp in Sources */,
+				4281AEDF1C14356F0025DC4F /* Vector.cpp in Sources */,
+				4281AED81C14356F0025DC4F /* Field.cpp in Sources */,
+				4281AEDB1C14356F0025DC4F /* ObstacleField.cpp in Sources */,
+				6003F59E195388D20070C39A /* CP2DAppDelegate.mm in Sources */,
+				4281AEDA1C14356F0025DC4F /* GravityField.cpp in Sources */,
+				4281AED41C14356F0025DC4F /* CentripetalGravityField.cpp in Sources */,
+				4281AEA91C1431F40025DC4F /* FireViewController.mm in Sources */,
+				4281AED71C14356F0025DC4F /* DampingField.cpp in Sources */,
+				4281AEE01C14356F0025DC4F /* CP2DGameView.mm in Sources */,
+				4281AED61C14356F0025DC4F /* Color.cpp in Sources */,
+				4281AEA71C1431F40025DC4F /* BouncingBallViewController.mm in Sources */,
+				4281AEDE1C14356F0025DC4F /* Rectangle.cpp in Sources */,
+				6003F5A7195388D20070C39A /* CP2DViewController.mm in Sources */,
+				4281AEE21C14356F0025DC4F /* CP2DGameWorldRenderer.mm in Sources */,
+				4281AEE11C14356F0025DC4F /* CP2DGameViewController.mm in Sources */,
+				4281AEA61C1431F40025DC4F /* BouncingBallView.mm in Sources */,
+				4281AEDC1C14356F0025DC4F /* Particle.cpp in Sources */,
+				4281AEE31C14356F0025DC4F /* CP2DParticleRenderer.mm in Sources */,
+				4281AEA81C1431F40025DC4F /* FireView.mm in Sources */,
+				4281AED91C14356F0025DC4F /* GameWorld.cpp in Sources */,
+				4281AEDD1C14356F0025DC4F /* ParticleEmitter.cpp in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* CoolPhysics2D_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2D97ED00E3F2F90ADF98EC /* Pods-CoolPhysics2D_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolPhysics2D/CoolPhysics2D-Prefix.pch";
+				INFOPLIST_FILE = "CoolPhysics2D/CoolPhysics2D-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1B5F312A8FDCB7727535A1 /* Pods-CoolPhysics2D_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolPhysics2D/CoolPhysics2D-Prefix.pch";
+				INFOPLIST_FILE = "CoolPhysics2D/CoolPhysics2D-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F82B954216934BD31E6A939 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolPhysics2D_Example.app/CoolPhysics2D_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9037251B999ABE98F18126FE /* Pods-CoolPhysics2D_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolPhysics2D_Example.app/CoolPhysics2D_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "CoolPhysics2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CoolPhysics2D_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CoolPhysics2D_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

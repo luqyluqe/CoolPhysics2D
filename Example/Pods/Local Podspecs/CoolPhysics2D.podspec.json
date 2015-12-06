@@ -1,0 +1,25 @@
+{
+  "name": "CoolPhysics2D",
+  "version": "0.1.0",
+  "summary": "A short description of CoolPhysics2D.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CoolPhysics2D",
+  "license": "MIT",
+  "authors": {
+    "luqyluqe": "luqy.luqe@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CoolPhysics2D.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CoolPhysics2D": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
