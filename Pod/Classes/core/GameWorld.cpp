@@ -28,14 +28,25 @@ const std::vector<Particle*> GameWorld::particles()const
 void GameWorld::addParticle(Particle* particle)
 {
 	_particles.push_back(particle);
+    if (particle->overlappable()) {
+        _overlappableParticles.push_back(particle);
+    }else{
+        _unoverlappableParticles.push_back(particle);
+    }
 }
 void GameWorld::removeParticle(Particle *particle)
 {
-    for (std::vector<Particle*>::iterator it=_particles.begin(); it!=_particles.end(); it++) {
-        if (*it==particle) {
-            _particles.erase(it);
-            break;
+    std::vector<Particle*>::iterator it=std::find(_particles.begin(), _particles.end(), particle);
+    if (it!=_particles.end()) {
+        _particles.erase(it);
+        if (particle->overlappable()) {
+            it=std::find(_overlappableParticles.begin(), _overlappableParticles.end(), particle);
+            _overlappableParticles.erase(it);
+        }else{
+            it=std::find(_unoverlappableParticles.begin(), _unoverlappableParticles.end(), particle);
+            _unoverlappableParticles.erase(it);
         }
+        delete particle;
     }
 }
 void GameWorld::addField(Field *field)
@@ -78,21 +89,24 @@ void GameWorld::update(double timeInterval)
         Particle* pi=_particles[i];
         if (pi->lifeTime()<0) {
             removeParticle(pi);
-            delete pi;
         }
         bounce(pi);
         pi->update(timeInterval);
-        for (int j=i+1; j<_particles.size(); j++) {
-            Particle* pj=_particles[j];
-            if (Particle::collide(*_particles[i],*_particles[j])) {
-                Particle::handleCollision(*pi,*pj);
-            }
-        }
         
         for (int j=0; j<_fields.size(); j++) {
             Field* f=_fields[j];
             if (f->enabled()) {
                 f->actOn(*_particles[i]);
+            }
+        }
+    }
+    
+    for (int i=0; i<_unoverlappableParticles.size(); i++) {
+        for (int j=i+1; j<_unoverlappableParticles.size(); j++) {
+            Particle* pi=_unoverlappableParticles[i];
+            Particle* pj=_unoverlappableParticles[j];
+            if (Particle::collide(*pi,*pj)) {
+                Particle::handleCollision(*pi,*pj);
             }
         }
     }

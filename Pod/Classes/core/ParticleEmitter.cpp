@@ -8,12 +8,17 @@
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-ParticleEmitter::ParticleEmitter(GameWorld& gameWorld,const Vector& position,double frequency,double minLifeTime,double maxLifeTime,const Color& minColor,const Color& maxColor,double minRadius,double maxRadius,double minDensity,double maxDensity,double minElasticity,double maxElasticity,double minSpeed,double maxSpeed,double minRadian,double maxRadian):_gameWorld(gameWorld),_position(position),_frequency(frequency),_minColor(minColor),_maxColor(maxColor),_minLifeTime(minLifeTime),_maxLifeTime(maxLifeTime),_minRadius(minRadius),_maxRadius(maxRadius),_minDensity(minDensity),_maxDensity(maxDensity),_minElasticity(minElasticity),_maxElasticity(maxElasticity),_minSpeed(minSpeed),_maxSpeed(maxSpeed),_minRadian(minSpeed),_maxRadian(maxSpeed),_time(0),_particleCount(0)
+ParticleEmitter::ParticleEmitter(GameWorld& gameWorld,const Vector& position,double frequency,double minLifeTime,double maxLifeTime,const Color& minColor,const Color& maxColor,double minRadius,double maxRadius,double minDensity,double maxDensity,double minElasticity,double maxElasticity,double minSpeed,double maxSpeed,double minRadian,double maxRadian):_gameWorld(gameWorld),_position(position),_frequency(frequency),_minColor(minColor),_maxColor(maxColor),_minLifeTime(minLifeTime),_maxLifeTime(maxLifeTime),_minRadius(minRadius),_maxRadius(maxRadius),_minDensity(minDensity),_maxDensity(maxDensity),_minElasticity(minElasticity),_maxElasticity(maxElasticity),_minSpeed(minSpeed),_maxSpeed(maxSpeed),_minRadian(minSpeed),_maxRadian(maxSpeed),_time(0),_particleCount(0),_overlappable(true)
 {
     disable();
 }
 
 ParticleEmitter::~ParticleEmitter(){}
+
+void ParticleEmitter::overlappable(bool overlappable)
+{
+    _overlappable=overlappable;
+}
 
 void ParticleEmitter::enable()
 {
@@ -49,7 +54,7 @@ void ParticleEmitter::emit(double interval)
         double alpha=RAND(_minColor.ALPHA, _maxColor.ALPHA);
         Color color(red,green,blue,alpha);
         
-        Particle* particle=new Particle(true,radius,mass,elasticity,_position,Vector::vectorMake(speed, radian),Vector::zeroVector(),lifeTime,color);
+        Particle* particle=new Particle(_overlappable,radius,mass,elasticity,_position,Vector::vectorMake(speed, radian),Vector::zeroVector(),lifeTime,color);
         _gameWorld.addParticle(particle);
     }
 }

@@ -50,8 +50,8 @@ public:
     void setVelocity(const Vector&);
 	const Vector& acceleration()const;
     const Color& color()const;
-    
     Circle range()const;
+    bool overlappable()const;
     
 protected:
     

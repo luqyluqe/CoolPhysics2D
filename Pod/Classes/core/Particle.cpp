@@ -115,10 +115,13 @@ const Color& Particle::color()const
 {
     return _color;
 }
-
 Circle Particle::range()const
 {
     return Circle(_position,_radius);
+}
+bool Particle::overlappable()const
+{
+    return _overlappable;
 }
 
 END_NAMESPACE_COOLPHYSICS2D

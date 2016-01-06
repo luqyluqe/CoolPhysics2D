@@ -18,6 +18,8 @@ public:
     //Destructor
     ~ParticleEmitter();
     
+    void overlappable(bool overlappable);
+    
     //Behavior
     void emit(double interval);
     void enable();
@@ -25,6 +27,7 @@ public:
     bool enabled()const;
 private:
     bool _enabled;
+    bool _overlappable;
     
     GameWorld& _gameWorld;
     Vector _position;

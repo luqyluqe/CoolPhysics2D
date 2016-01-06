@@ -40,6 +40,8 @@ private:
 	void bounce(Particle* Particle)const;
 	Rectangle _range;
 	std::vector<Particle*> _particles;
+    std::vector<Particle*> _overlappableParticles;
+    std::vector<Particle*> _unoverlappableParticles;
     std::vector<ParticleEmitter*> _particleEmitters;
     std::vector<Field*> _fields;
 };
