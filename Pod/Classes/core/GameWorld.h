@@ -6,6 +6,7 @@
 #include "Particle.h"
 #include "Field.h"
 #include "Rectangle.h"
+#include "ThreadPool.h"
 
 #include <vector>
 
@@ -34,9 +35,11 @@ public:
     void addParticleEmitter(ParticleEmitter* emitter);
     void removeParticleEmitter(ParticleEmitter* emitter);
 
-	void update(double timeInterval);
+    void update(double timeInterval);
 
 private:
+    ThreadPool threadPool;
+    void update(Particle* particle,double timeInterval);
 	void bounce(Particle* Particle)const;
 	Rectangle _range;
 	std::vector<Particle*> _particles;

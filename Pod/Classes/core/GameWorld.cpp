@@ -4,7 +4,7 @@
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-GameWorld::GameWorld(Rectangle range):_range(range){}
+GameWorld::GameWorld(Rectangle range):_range(range),threadPool(4){}
 GameWorld::~GameWorld()
 {
     for (int i=0; i<_particles.size(); i++) {
@@ -55,21 +55,18 @@ void GameWorld::addField(Field *field)
 }
 void GameWorld::removeField(CoolPhysics2D::Field *field)
 {
-    for (std::vector<Field*>::iterator it=_fields.begin(); it!=_fields.end(); it++) {
-        if (*it==field) {
-            _fields.erase(it);
-            break;
-        }
+    std::vector<Field*>::iterator it=std::find(_fields.begin(), _fields.end(), field);
+    if (it!=_fields.end()) {
+        _fields.erase(it);
     }
 }
 void GameWorld::removeParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 {
-    for (std::vector<ParticleEmitter*>::iterator it=_particleEmitters.begin(); it!=_particleEmitters.end(); it++) {
-        if (*it==emitter) {
-            _particleEmitters.erase(it);
-            break;
-        }
+    std::vector<ParticleEmitter*>::iterator it=std::find(_particleEmitters.begin(), _particleEmitters.end(), emitter);
+    if (it!=_particleEmitters.end()) {
+        _particleEmitters.erase(it);
     }
+    
 }
 void GameWorld::addParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 {
@@ -90,14 +87,7 @@ void GameWorld::update(double timeInterval)
         if (pi->lifeTime()<0) {
             removeParticle(pi);
         }
-        pi->update(timeInterval);
-        
-        for (int j=0; j<_fields.size(); j++) {
-            Field* f=_fields[j];
-            if (f->enabled()) {
-                f->actOn(*_particles[i]);
-            }
-        }
+        update(pi, timeInterval);
     }
     
     for (int i=0; i<_unoverlappableParticles.size(); i++) {
@@ -108,6 +98,18 @@ void GameWorld::update(double timeInterval)
             if (Particle::collide(*pi,*pj)) {
                 Particle::handleCollision(*pi,*pj);
             }
+        }
+    }
+}
+
+void GameWorld::update(Particle* particle,double timeInterval)
+{
+    particle->update(timeInterval);
+    
+    for (int j=0; j<_fields.size(); j++) {
+        Field* f=_fields[j];
+        if (f->enabled()) {
+            f->actOn(*particle);
         }
     }
 }
