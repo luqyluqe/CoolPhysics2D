@@ -1,5 +1,4 @@
 #include "ParticleEmitter.h"
-#include "Particle.h"
 #include "GameWorld.h"
 
 #include <math.h>
@@ -14,6 +13,16 @@ ParticleEmitter::ParticleEmitter(GameWorld& gameWorld,const Vector& position,dou
 }
 
 ParticleEmitter::~ParticleEmitter(){}
+
+std::vector<Particle*> const& ParticleEmitter::particles()const
+{
+    return _particles;
+}
+
+bool ParticleEmitter::phantom()const
+{
+    return _overlappable;
+}
 
 void ParticleEmitter::overlappable(bool overlappable)
 {
@@ -31,6 +40,36 @@ void ParticleEmitter::disable()
 bool ParticleEmitter::enabled()const
 {
     return _enabled;
+}
+
+void ParticleEmitter::update(double timeInterval)
+{
+    for (int i=0; i<_particles.size(); i++) {
+        update(_particles[i], timeInterval);
+    }
+}
+
+void ParticleEmitter::update(Particle* particle,double timeInterval)
+{
+    if (particle->lifeTime()<0) {
+        remove(particle);
+    }
+    particle->update(timeInterval);
+    for (int j=0; j<_gameWorld.fields().size(); j++) {
+        Field* f=_gameWorld.fields()[j];
+        if (f->enabled()) {
+            f->actOn(*particle);
+        }
+    }
+}
+
+void ParticleEmitter::remove(Particle* particle)
+{
+    std::vector<Particle*>::iterator it=std::find(_particles.begin(), _particles.end(), particle);
+    if (it!=_particles.end()) {
+        _particles.erase(it);
+        delete particle;
+    }
 }
 
 void ParticleEmitter::emit(double interval)
@@ -55,7 +94,11 @@ void ParticleEmitter::emit(double interval)
         Color color(red,green,blue,alpha);
         
         Particle* particle=new Particle(_overlappable,radius,mass,elasticity,_position,Vector::vectorMake(speed, radian),Vector::zeroVector(),lifeTime,color);
-        _gameWorld.addParticle(particle);
+        if (_overlappable) {
+            _particles.push_back(particle);
+        }else{
+            _gameWorld.addMaterialParticle(particle);
+        }
     }
 }
 

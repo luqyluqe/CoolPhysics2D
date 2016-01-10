@@ -17,6 +17,7 @@ class ParticleEmitter;
 
 class GameWorld
 {
+    friend class ParticleEmitter;
 public:
 	//Constructor
 	GameWorld(Rectangle range);
@@ -29,6 +30,9 @@ public:
 
     //Behavior
 	void addParticle(Particle* particle);
+    void addParticles(std::vector<Particle*> const& particles,bool phantom);
+    void addMaterialParticle(Particle* particle);
+    void addPhantomParticle(Particle* particle);
     void removeParticle(Particle* particle);
     void addField(Field* field);
     void removeField(Field* field);
@@ -36,7 +40,8 @@ public:
     void removeParticleEmitter(ParticleEmitter* emitter);
 
     void update(double timeInterval);
-
+protected:
+    std::vector<Field*> fields()const;
 private:
     ThreadPool threadPool;
     void update(Particle* particle,double timeInterval);

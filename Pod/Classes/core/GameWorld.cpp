@@ -22,7 +22,12 @@ const Rectangle& GameWorld::range()const
 
 const std::vector<Particle*> GameWorld::particles()const
 {
-    return _particles;
+    std::vector<Particle*> particles=_particles;
+    for (int i=0; i<_particleEmitters.size(); i++) {
+        std::vector<Particle*> const& ps=_particleEmitters[i]->_particles;
+        particles.insert(particles.begin(), ps.begin(),ps.end());
+    }
+    return particles;
 }
 
 void GameWorld::addParticle(Particle* particle)
@@ -32,6 +37,25 @@ void GameWorld::addParticle(Particle* particle)
         _overlappableParticles.push_back(particle);
     }else{
         _unoverlappableParticles.push_back(particle);
+    }
+}
+void GameWorld::addMaterialParticle(Particle* particle)
+{
+    _particles.push_back(particle);
+    _unoverlappableParticles.push_back(particle);
+}
+void GameWorld::addPhantomParticle(Particle* particle)
+{
+    _particles.push_back(particle);
+    _overlappableParticles.push_back(particle);
+}
+void GameWorld::addParticles(std::vector<Particle*> const& particles,bool phantom)
+{
+    _particles.insert(_particles.end(), particles.begin(),particles.end());
+    if(phantom){
+        _overlappableParticles.insert(_overlappableParticles.end(), particles.begin(),particles.end());
+    }else{
+        _unoverlappableParticles.insert(_unoverlappableParticles.end(), _unoverlappableParticles.begin(),_unoverlappableParticles.end());
     }
 }
 void GameWorld::removeParticle(Particle *particle)
@@ -64,6 +88,8 @@ void GameWorld::removeParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 {
     std::vector<ParticleEmitter*>::iterator it=std::find(_particleEmitters.begin(), _particleEmitters.end(), emitter);
     if (it!=_particleEmitters.end()) {
+        std::vector<Particle*> const& ps=(*it)->particles();
+        addParticles(ps, true);
         _particleEmitters.erase(it);
     }
     
@@ -81,12 +107,12 @@ void GameWorld::update(double timeInterval)
         if (pe->enabled()) {
             pe->emit(timeInterval);
         }
+        if (pe->phantom()) {
+            pe->update(timeInterval);
+        }
     }
     for (int i=0; i<_particles.size(); i++) {
         Particle* pi=_particles[i];
-        if (pi->lifeTime()<0) {
-            removeParticle(pi);
-        }
         update(pi, timeInterval);
     }
     
@@ -104,14 +130,21 @@ void GameWorld::update(double timeInterval)
 
 void GameWorld::update(Particle* particle,double timeInterval)
 {
+    if (particle->lifeTime()<0) {
+        removeParticle(particle);
+    }
     particle->update(timeInterval);
-    
     for (int j=0; j<_fields.size(); j++) {
         Field* f=_fields[j];
         if (f->enabled()) {
             f->actOn(*particle);
         }
     }
+}
+
+std::vector<Field*> GameWorld::fields()const
+{
+    return _fields;
 }
 
 void GameWorld::bounce(Particle* particle)const
