@@ -3,7 +3,6 @@
 
 #include "config.h"
 #include "Vector.h"
-#include "Particle.h"
 #include "Field.h"
 #include "Rectangle.h"
 #include "ThreadPool.h"
@@ -12,7 +11,7 @@
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-class Particle;
+//class Particle;
 class ParticleEmitter;
 
 class GameWorld
@@ -26,7 +25,9 @@ public:
 
 	//Accessor
 	const Rectangle& range()const;
-    const std::vector<Particle*> particles()const;
+    std::vector<Particle*> const& particles()const;
+//    std::vector<Particle*> const& retainParticles();
+//    void releaseParticles();
 
     //Behavior
 	void addParticle(Particle* particle);
@@ -41,9 +42,10 @@ public:
 
     void update(double timeInterval);
 protected:
+    ThreadPool& threadPool();
     std::vector<Field*> fields()const;
 private:
-    ThreadPool threadPool;
+    ThreadPool _threadPool;
     void update(Particle* particle,double timeInterval);
 	void bounce(Particle* Particle)const;
 	Rectangle _range;

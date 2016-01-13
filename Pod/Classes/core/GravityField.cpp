@@ -9,7 +9,7 @@ GravityField::~GravityField(){}
 void GravityField::actOn(Particle& particle)const
 {
     if (_range.overlap(particle.range())) {
-        particle._acceleration+=_gravity;
+        particle.acceleration()+=_gravity;
     }
 }
 

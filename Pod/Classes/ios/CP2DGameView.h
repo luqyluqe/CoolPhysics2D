@@ -1,6 +1,4 @@
 #import <UIKit/UIKit.h>
-#import "Particle.h"
-#import "GameWorld.h"
 #import "CP2DGameWorldRenderer.h"
 
 using namespace CoolPhysics2D;

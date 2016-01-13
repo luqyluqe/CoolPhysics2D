@@ -1,127 +1,95 @@
-#include "Particle.h"
-#include "GameWorld.h"
+#include "Particle.hpp"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-Particle::Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime,Color color):_overlappable(overlappable),_radius(radius),_mass(mass),_position(position),_velocity(velocity),_acceleration(acceleration),_elasticity(elasticity),_lifeTime(lifeTime),_color(color){}
-
-void Particle::update(double timeInterval)
+Particle::Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime,Color color)
 {
-    _lifeTime-=timeInterval;
-    
-    _lastAcceleration=_acceleration;
-    _lastVelocity=_velocity;
-    
-    _position+=_lastVelocity*timeInterval;
-	_velocity+=_lastAcceleration*timeInterval;
-	
-    _acceleration=Vector::zeroVector();
+    _particle=new OpaqueParticle(overlappable,radius,mass,elasticity,position,velocity,
+                                 acceleration,lifeTime,color);
 }
 
-void Particle::reflectAbout(const Vector& axis)
+Particle::~Particle()
 {
-    if (!_overlappable) {
-        _velocity.symmetrizeAbout(axis);
-        Vector n=axis.rotate(M_PI/2);
-        double nComp=_velocity.componentAlongAxis(n);
-        _velocity+=n*nComp*(_elasticity*_elasticity-1);
+    if (retainCount.only()) {
+        delete _particle;
     }
-}
-
-double Particle::distanceTo(const Particle &e)const
-{
-    const Vector& p0=this->position();
-    const Vector& p1=e.position();
-    Vector v=p1-p0;
-    return v.modulus();
-}
-
-bool Particle::collide(const Particle& p1,const Particle& p2)
-{
-    if (p1._overlappable||p2._overlappable) {
-        return false;
-    }
-    double distance=p1.distanceTo(p2);
-    if (distance<p1._radius+p2._radius) {
-        Vector collisionAxis=p2.position()-p1.position();
-        double v1=p1.velocity().componentAlongAxis(collisionAxis);
-        double v2=p2.velocity().componentAlongAxis(collisionAxis);
-        if ((v1-v2)>0) {
-            return true;
-        }
-    }
-    return false;
-}
-
-void Particle::handleCollision(Particle& Particle1,Particle& Particle2)
-{
-    double m1=Particle1._mass;
-    double m2=Particle2._mass;
-    Vector collisionAxis=(Particle2.position()-Particle1.position()).unitVector();
-    double v1=Particle1.velocity().componentAlongAxis(collisionAxis);
-    double v2=Particle2.velocity().componentAlongAxis(collisionAxis);
-    double V1=Particle1._elasticity*((m1-m2)*v1+2*m2*v2)/(m1+m2);
-    double V2=Particle2._elasticity*((m2-m1)*v2+2*m1*v1)/(m2+m1);
-    double e=Particle1._elasticity*Particle2._elasticity;
-    double v=v1-v2>=0?v1-v2:v2-v1;
-    double dv=v*(1-e);
-    double dv1=dv*m2/(m1+m2);
-    double dv2=dv*m1/(m1+m2);
-    V1+=dv1;
-    V2+=dv2;
-    Particle1._velocity+=collisionAxis*(V1-v1);
-    Particle2._velocity+=collisionAxis*(V2-v2);
 }
 
 std::string Particle::description()const
 {
-	std::stringstream ss;
-	ss<<"position: "<<_position.description()<<"\n";
-	ss<<"velocity: "<<_velocity.description()<<"\n";
-	ss<<"acceleration: "<<_acceleration.description()<<"\n";
-	ss<<"\n";
-	return ss.str();
+    return _particle->description();
+}
+
+void Particle::update(double timeInterval)
+{
+    _particle->update(timeInterval);
+}
+
+void Particle::reflectAbout(const Vector& axis)
+{
+    _particle->reflectAbout(axis);
+}
+
+double Particle::distanceTo(const Particle& p)const
+{
+    return _particle->distanceTo(*p._particle);
+}
+
+bool Particle::collide(const Particle& p1,const Particle& p2)
+{
+    return OpaqueParticle::collide(*p1._particle, *p2._particle);
+}
+
+void Particle::handleCollision(Particle& e1,Particle& e2)
+{
+    OpaqueParticle::handleCollision(*e1._particle, *e2._particle);
 }
 
 double Particle::lifeTime()const
 {
-    return _lifeTime;
+    return _particle->lifeTime();
 }
+
 double Particle::radius()const
 {
-    return _radius;
+    return _particle->radius();
 }
+
 const Vector& Particle::position()const
 {
-	return _position;
+    return _particle->position();
 }
-void Particle::setPosition(const Vector &position)
+void Particle::setPosition(const Vector& position)
 {
-    _position=position;
+    _particle->setPosition(position);
 }
 const Vector& Particle::velocity()const
 {
-	return _velocity;
+    return _particle->velocity();
 }
-void Particle::setVelocity(const Vector &velocity)
+void Particle::setVelocity(const Vector& velocity)
 {
-    _velocity=velocity;
+    _particle->setVelocity(velocity);
 }
-const Vector& Particle::acceleration()const
+Vector& Particle::acceleration()const
 {
-	return _acceleration;
+    return _particle->acceleration();
 }
 const Color& Particle::color()const
 {
-    return _color;
+    return _particle->color();
 }
 Circle Particle::range()const
 {
-    return Circle(_position,_radius);
+    return _particle->range();
+}
+double Particle::mass()const
+{
+    return _particle->mass();
 }
 bool Particle::overlappable()const
 {
-    return _overlappable;
+    return _particle->overlappable();
 }
 
 END_NAMESPACE_COOLPHYSICS2D

@@ -1,16 +1,16 @@
 {
   "name": "CoolPhysics2D",
-  "version": "0.1.0",
-  "summary": "A short description of CoolPhysics2D.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CoolPhysics2D",
+  "version": "0.2.0",
+  "summary": "2D particle physics engine",
+  "description": "2D particle physics engine.\n",
+  "homepage": "https://github.com/luqyluqe/CoolPhysics2D",
   "license": "MIT",
   "authors": {
     "luqyluqe": "luqy.luqe@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CoolPhysics2D.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/luqyluqe/CoolPhysics2D.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "7.0"
@@ -21,5 +21,6 @@
     "CoolPhysics2D": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }

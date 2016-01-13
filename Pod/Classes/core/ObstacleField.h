@@ -4,7 +4,7 @@
 #include "config.h"
 #include "Field.h"
 #include "Rectangle.h"
-#include "Particle.h"
+#include "Particle.hpp"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 

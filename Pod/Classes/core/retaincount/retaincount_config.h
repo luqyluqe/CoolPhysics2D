@@ -1,0 +1,7 @@
+#ifndef COOLPHYSICS2D_RETAINCOUNT_CONFIG_H
+#define COOLPHYSICS2D_RETAINCOUNT_CONFIG_H
+
+#define BEGIN_NAMESPACE_RETAINCOUNT namespace retaincount{
+#define END_NAMESPACE_RETAINCOUNT }
+
+#endif /* handle_config_h */

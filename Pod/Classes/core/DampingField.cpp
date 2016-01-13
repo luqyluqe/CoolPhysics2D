@@ -9,7 +9,7 @@ DampingField::~DampingField(){}
 void DampingField::actOn(Particle& particle)const
 {
     if (_range.overlap(particle.range())){
-        particle._acceleration+=particle._velocity*_damping/particle._mass;
+        particle.acceleration()+=particle.velocity()*_damping/particle.mass();
     }
 }
 

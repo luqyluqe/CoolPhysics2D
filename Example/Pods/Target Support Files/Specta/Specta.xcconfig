@@ -1,3 +1,0 @@
-SPECTA_ENABLE_BITCODE = NO
-SPECTA_FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-SPECTA_OTHER_LDFLAGS = -framework "Foundation" -framework "XCTest"

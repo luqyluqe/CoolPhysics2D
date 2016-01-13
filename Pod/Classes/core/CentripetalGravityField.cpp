@@ -9,7 +9,7 @@ CentripetalGravityField::~CentripetalGravityField(){}
 void CentripetalGravityField::actOn(Particle &particle)const
 {
     Vector v=_position-particle.position();
-    particle._acceleration+=(v.unitVector()/v.modulus())*_gravity*particle._mass;
+    particle.acceleration()+=(v.unitVector()/v.modulus())*_gravity*particle.mass();
 }
 
 END_NAMESPACE_COOLPHYSICS2D

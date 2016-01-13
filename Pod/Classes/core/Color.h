@@ -9,7 +9,7 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 class Color
 {
 public:
-    Color(float r,double g,double b,double a):RED(r),GREEN(g),BLUE(b),ALPHA(a){}
+    Color(float r,float g,float b,float a):RED(r),GREEN(g),BLUE(b),ALPHA(a){}
     
     static Color redColor;
     static Color greenColor;

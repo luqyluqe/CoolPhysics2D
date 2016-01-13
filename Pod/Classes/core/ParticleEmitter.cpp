@@ -7,17 +7,17 @@
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-ParticleEmitter::ParticleEmitter(GameWorld& gameWorld,const Vector& position,double frequency,double minLifeTime,double maxLifeTime,const Color& minColor,const Color& maxColor,double minRadius,double maxRadius,double minDensity,double maxDensity,double minElasticity,double maxElasticity,double minSpeed,double maxSpeed,double minRadian,double maxRadian):_gameWorld(gameWorld),_position(position),_frequency(frequency),_minColor(minColor),_maxColor(maxColor),_minLifeTime(minLifeTime),_maxLifeTime(maxLifeTime),_minRadius(minRadius),_maxRadius(maxRadius),_minDensity(minDensity),_maxDensity(maxDensity),_minElasticity(minElasticity),_maxElasticity(maxElasticity),_minSpeed(minSpeed),_maxSpeed(maxSpeed),_minRadian(minSpeed),_maxRadian(maxSpeed),_time(0),_particleCount(0),_overlappable(true)
+ParticleEmitter::ParticleEmitter(GameWorld& gameWorld,const Vector& position,double frequency,double minLifeTime,double maxLifeTime,const Color& minColor,const Color& maxColor,double minRadius,double maxRadius,double minDensity,double maxDensity,double minElasticity,double maxElasticity,double minSpeed,double maxSpeed,double minRadian,double maxRadian):_gameWorld(gameWorld),_position(position),_frequency(frequency),_minColor(minColor),_maxColor(maxColor),_minLifeTime(minLifeTime),_maxLifeTime(maxLifeTime),_minRadius(minRadius),_maxRadius(maxRadius),_minDensity(minDensity),_maxDensity(maxDensity),_minElasticity(minElasticity),_maxElasticity(maxElasticity),_minSpeed(minSpeed),_maxSpeed(maxSpeed),_minRadian(minRadian),_maxRadian(maxRadian),_time(0),_particleCount(0),_overlappable(true)
 {
     disable();
 }
 
 ParticleEmitter::~ParticleEmitter(){}
 
-std::vector<Particle*> const& ParticleEmitter::particles()const
-{
-    return _particles;
-}
+//std::vector<Particle*> const& ParticleEmitter::particles()const
+//{
+//    return _particles;
+//}
 
 bool ParticleEmitter::phantom()const
 {
@@ -42,35 +42,39 @@ bool ParticleEmitter::enabled()const
     return _enabled;
 }
 
-void ParticleEmitter::update(double timeInterval)
-{
-    for (int i=0; i<_particles.size(); i++) {
-        update(_particles[i], timeInterval);
-    }
-}
+//void ParticleEmitter::update(double timeInterval)
+//{
+//    _gameWorld.threadPool().enqueue([this,timeInterval]{
+//        retain();
+//        for (int i=0; i<_particles.size(); i++) {
+//            update(_particles[i], timeInterval);
+//        }
+//        release();
+//    });
+//}
+//
+//void ParticleEmitter::update(Particle* particle,double timeInterval)
+//{
+//    if (particle->lifeTime()<0) {
+//        remove(particle);
+//    }
+//    particle->update(timeInterval);
+//    for (int j=0; j<_gameWorld.fields().size(); j++) {
+//        Field* f=_gameWorld.fields()[j];
+//        if (f->enabled()) {
+//            f->actOn(*particle);
+//        }
+//    }
+//}
 
-void ParticleEmitter::update(Particle* particle,double timeInterval)
-{
-    if (particle->lifeTime()<0) {
-        remove(particle);
-    }
-    particle->update(timeInterval);
-    for (int j=0; j<_gameWorld.fields().size(); j++) {
-        Field* f=_gameWorld.fields()[j];
-        if (f->enabled()) {
-            f->actOn(*particle);
-        }
-    }
-}
-
-void ParticleEmitter::remove(Particle* particle)
-{
-    std::vector<Particle*>::iterator it=std::find(_particles.begin(), _particles.end(), particle);
-    if (it!=_particles.end()) {
-        _particles.erase(it);
-        delete particle;
-    }
-}
+//void ParticleEmitter::remove(Particle* particle)
+//{
+//    std::vector<Particle*>::iterator it=std::find(_particles.begin(), _particles.end(), particle);
+//    if (it!=_particles.end()) {
+//        _particles.erase(it);
+//        delete particle;
+//    }
+//}
 
 void ParticleEmitter::emit(double interval)
 {
@@ -91,14 +95,15 @@ void ParticleEmitter::emit(double interval)
         double green=RAND(_minColor.GREEN, _maxColor.GREEN);
         double blue=RAND(_minColor.BLUE, _maxColor.BLUE);
         double alpha=RAND(_minColor.ALPHA, _maxColor.ALPHA);
-        Color color(red,green,blue,alpha);
+        Color color((float)red,(float)green,(float)blue,(float)alpha);
         
         Particle* particle=new Particle(_overlappable,radius,mass,elasticity,_position,Vector::vectorMake(speed, radian),Vector::zeroVector(),lifeTime,color);
-        if (_overlappable) {
-            _particles.push_back(particle);
-        }else{
-            _gameWorld.addMaterialParticle(particle);
-        }
+//        if (_overlappable) {
+//            _particles.push_back(particle);
+//        }else{
+//            _gameWorld.addMaterialParticle(particle);
+//        }
+        _gameWorld.addParticle(particle);
     }
 }
 

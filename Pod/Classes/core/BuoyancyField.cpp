@@ -10,8 +10,8 @@ void BuoyancyField::actOn(Particle &particle)const
         return;
     }
     double area=_range.overlapArea(particle.range());
-    Vector buoyancy=_gravity*(-1)*_density*area/particle._mass;
-    particle._acceleration+=buoyancy;
+    Vector buoyancy=_gravity*(-1)*_density*area/particle.mass();
+    particle.acceleration()+=buoyancy;
 }
 
 END_NAMESPACE_COOLPHYSICS2D

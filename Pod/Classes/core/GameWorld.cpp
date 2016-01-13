@@ -1,18 +1,26 @@
 #include "GameWorld.h"
-#include "Particle.h"
+#include "Particle.hpp"
 #include "ParticleEmitter.h"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-GameWorld::GameWorld(Rectangle range):_range(range),threadPool(4){}
+GameWorld::GameWorld(Rectangle range):_range(range),_threadPool(4){}
 GameWorld::~GameWorld()
 {
-    for (int i=0; i<_particles.size(); i++) {
+    for (size_t i=0; i<_particles.size(); i++) {
         delete _particles[i];
     }
-    for (int i=0; i<_fields.size(); i++) {
+    for (size_t i=0; i<_fields.size(); i++) {
         delete _fields[i];
     }
+    for (size_t i=0; i<_particleEmitters.size(); i++) {
+        delete _particleEmitters[i];
+    }
+}
+
+ThreadPool& GameWorld::threadPool()
+{
+    return _threadPool;
 }
 
 const Rectangle& GameWorld::range()const
@@ -20,15 +28,30 @@ const Rectangle& GameWorld::range()const
 	return _range;
 }
 
-const std::vector<Particle*> GameWorld::particles()const
+std::vector<Particle*> const& GameWorld::particles()const
 {
-    std::vector<Particle*> particles=_particles;
-    for (int i=0; i<_particleEmitters.size(); i++) {
-        std::vector<Particle*> const& ps=_particleEmitters[i]->_particles;
-        particles.insert(particles.begin(), ps.begin(),ps.end());
-    }
-    return particles;
+    return _particles;
 }
+
+//std::vector<Particle*> const& GameWorld::retainParticles()
+//{
+////    std::vector<Particle*> particles=_particles;
+////    for (int i=0; i<_particleEmitters.size(); i++) {
+////        std::vector<Particle*> const& ps=_particleEmitters[i]->_particles;
+////        particles.insert(particles.begin(), ps.begin(),ps.end());
+////    }
+////    return particles;
+//    for (int i=0; i<_particles.size(); i++) {
+//        _particles[i]->retain();
+//    }
+//    return _particles;
+//}
+//void GameWorld::releaseParticles()
+//{
+//    for (int i=0; i<_particles.size(); i++) {
+//        _particles[i]->release();
+//    }
+//}
 
 void GameWorld::addParticle(Particle* particle)
 {
@@ -60,17 +83,34 @@ void GameWorld::addParticles(std::vector<Particle*> const& particles,bool phanto
 }
 void GameWorld::removeParticle(Particle *particle)
 {
-    std::vector<Particle*>::iterator it=std::find(_particles.begin(), _particles.end(), particle);
-    if (it!=_particles.end()) {
-        _particles.erase(it);
-        if (particle->overlappable()) {
-            it=std::find(_overlappableParticles.begin(), _overlappableParticles.end(), particle);
-            _overlappableParticles.erase(it);
-        }else{
-            it=std::find(_unoverlappableParticles.begin(), _unoverlappableParticles.end(), particle);
-            _unoverlappableParticles.erase(it);
+    if (particle==NULL) {
+        return;
+    }
+    std::vector<Particle*>::iterator it;
+    for(it=_particles.begin();it!=_particles.end();it++)
+    {
+        if (*it==particle) {
+            _particles.erase(it);
+            break;
         }
-        delete particle;
+    }
+    if (it!=_particles.end()) {
+        for (it=_overlappableParticles.begin(); it!=_overlappableParticles.end(); it++) {
+            if (*it==particle) {
+                _overlappableParticles.erase(it);
+                delete particle;
+                break;
+            }
+        }
+        if (it==_overlappableParticles.end()) {
+            for (it=_unoverlappableParticles.begin(); it!=_unoverlappableParticles.end(); it++) {
+                if (*it==particle) {
+                    _unoverlappableParticles.erase(it);
+                    delete particle;
+                    break;
+                }
+            }
+        }
     }
 }
 void GameWorld::addField(Field *field)
@@ -86,13 +126,13 @@ void GameWorld::removeField(CoolPhysics2D::Field *field)
 }
 void GameWorld::removeParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 {
-    std::vector<ParticleEmitter*>::iterator it=std::find(_particleEmitters.begin(), _particleEmitters.end(), emitter);
-    if (it!=_particleEmitters.end()) {
-        std::vector<Particle*> const& ps=(*it)->particles();
-        addParticles(ps, true);
-        _particleEmitters.erase(it);
+    for (std::vector<ParticleEmitter*>::iterator it=_particleEmitters.begin(); it!=_particleEmitters.end(); it++) {
+        if (*it==emitter) {
+            _particleEmitters.erase(it);
+            delete emitter;
+            break;
+        }
     }
-    
 }
 void GameWorld::addParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 {
@@ -102,24 +142,38 @@ void GameWorld::addParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
 
 void GameWorld::update(double timeInterval)
 {
-    for (int i=0; i<_particleEmitters.size(); i++) {
+    for (size_t i=0; i<_particleEmitters.size(); i++) {
         ParticleEmitter* pe=_particleEmitters[i];
         if (pe->enabled()) {
             pe->emit(timeInterval);
         }
-        if (pe->phantom()) {
-            pe->update(timeInterval);
+    }
+    size_t size=_particles.size();
+    if (size<100) {
+        for (size_t i=0; i<size; i++) {
+            Particle* pi=_particles[i];
+            update(pi, timeInterval);
+        }
+    }else{
+        size_t section=size/4;
+        for (size_t i=0; i<3; i++) {
+            _threadPool.enqueue([section,i,this,timeInterval]{
+                for (size_t j=0; j<section; j++) {
+                    Particle* p=_particles[i*section+j];
+                    update(p, timeInterval);
+                }
+            });
+        }
+        for (size_t k=3*section; k<size; k++) {
+            Particle* p=_particles[k];
+            update(p, timeInterval);
         }
     }
-    for (int i=0; i<_particles.size(); i++) {
-        Particle* pi=_particles[i];
-        update(pi, timeInterval);
-    }
-    
-    for (int i=0; i<_unoverlappableParticles.size(); i++) {
+
+    for (size_t i=0; i<_unoverlappableParticles.size(); i++) {
         Particle* pi=_unoverlappableParticles[i];
         bounce(pi);
-        for (int j=i+1; j<_unoverlappableParticles.size(); j++) {
+        for (size_t j=i+1; j<_unoverlappableParticles.size(); j++) {
             Particle* pj=_unoverlappableParticles[j];
             if (Particle::collide(*pi,*pj)) {
                 Particle::handleCollision(*pi,*pj);
@@ -132,9 +186,10 @@ void GameWorld::update(Particle* particle,double timeInterval)
 {
     if (particle->lifeTime()<0) {
         removeParticle(particle);
+        return;
     }
     particle->update(timeInterval);
-    for (int j=0; j<_fields.size(); j++) {
+    for (size_t j=0; j<_fields.size(); j++) {
         Field* f=_fields[j];
         if (f->enabled()) {
             f->actOn(*particle);

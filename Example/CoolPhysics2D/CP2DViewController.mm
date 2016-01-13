@@ -8,7 +8,7 @@
 
 #import "CP2DViewController.h"
 #import "BouncingBallViewController.h"
-#import "FireViewController.h"
+#import "HaloViewController.h"
 
 @interface CP2DViewController ()
 

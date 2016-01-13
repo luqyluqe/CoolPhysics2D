@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Particle.h"
+#import "Particle.hpp"
 #import "GameWorld.h"
 #import "CP2DGameWorldRenderer.h"
 #import "CP2DGameView.h"

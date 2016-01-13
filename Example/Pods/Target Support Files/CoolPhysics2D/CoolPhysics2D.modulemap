@@ -1,6 +1,0 @@
-framework module CoolPhysics2D {
-  umbrella header "CoolPhysics2D-umbrella.h"
-
-  export *
-  module * { export * }
-}

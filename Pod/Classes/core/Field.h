@@ -2,7 +2,7 @@
 #define COOLPHYSICS2D_FIELD_H
 
 #include "config.h"
-#include "Particle.h"
+#include "Particle.hpp"
 #include "Rectangle.h"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D

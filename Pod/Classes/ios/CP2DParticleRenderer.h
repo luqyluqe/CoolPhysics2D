@@ -1,12 +1,4 @@
-//
-//  CP2DParticleRenderer.h
-//  BouncingBall
-//
-//  Created by JIRENTIANXIANG on 11/28/14.
-//  Copyright (c) 2014 JIRENTIANXIANG. All rights reserved.
-//
-
-#include "Particle.h"
+#include "Particle.hpp"
 
 #import <Foundation/Foundation.h>
 #include <UIKit/UIKit.h>
