@@ -149,7 +149,7 @@ void GameWorld::update(double timeInterval)
         }
     }
     size_t size=_particles.size();
-    if (size<100) {
+    if (size<100000000) {
         for (size_t i=0; i<size; i++) {
             Particle* pi=_particles[i];
             update(pi, timeInterval);

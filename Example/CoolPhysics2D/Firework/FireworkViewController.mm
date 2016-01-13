@@ -1,18 +1,10 @@
-//
-//  FireViewController.m
-//  CoolPhysics2DDemo
-//
-//  Created by luqyluqe on 12/1/14.
-//  Copyright (c) 2014 luqyluqe. All rights reserved.
-//
+#import "FireworkViewController.h"
+#import "FireworkView.h"
 
-#import "HaloViewController.h"
-#import "HaloView.h"
-
-@implementation HaloViewController
+@implementation FireworkViewController
 
 - (void)viewDidLoad {
-    _gameView=[[HaloView alloc] initWithFrame:self.view.frame];
+    _gameView=[[FireworkView alloc] initWithFrame:self.view.frame];
     _updateInterval=0.01;
     [super viewDidLoad];
 }
@@ -25,7 +17,7 @@
 
 -(void)tapAction:(UITapGestureRecognizer*)recognizer;
 {
-    [(HaloView*)_gameView fire:recognizer];
+    [(FireworkView*)_gameView fire:recognizer];
 }
 
 - (void)didReceiveMemoryWarning {

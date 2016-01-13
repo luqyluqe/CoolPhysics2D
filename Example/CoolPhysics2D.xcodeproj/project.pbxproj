@@ -24,6 +24,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A9A9E5DD1C466D0800FAA29F /* FireworkView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A9E5DC1C466D0800FAA29F /* FireworkView.mm */; };
+		A9A9E5EA1C466DCF00FAA29F /* FireworkViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */; };
 		A9B521D21C4524B300B20721 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A9B5219C1C4524B300B20721 /* .gitkeep */; };
 		A9B521D31C4524B300B20721 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A9B5219E1C4524B300B20721 /* .gitkeep */; };
 		A9B521D41C4524B300B20721 /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B521A21C4524B300B20721 /* BuoyancyField.cpp */; };
@@ -168,6 +170,10 @@
 		9037251B999ABE98F18126FE /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4BE657987DB91FF7A98FC60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A96174671C44F32200F32DCA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		A9A9E5DB1C466D0800FAA29F /* FireworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworkView.h; sourceTree = "<group>"; };
+		A9A9E5DC1C466D0800FAA29F /* FireworkView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FireworkView.mm; sourceTree = "<group>"; };
+		A9A9E5E81C466DCF00FAA29F /* FireworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworkViewController.h; sourceTree = "<group>"; };
+		A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FireworkViewController.mm; sourceTree = "<group>"; };
 		A9B5219C1C4524B300B20721 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		A9B5219E1C4524B300B20721 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		A9B521A01C4524B300B20721 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -296,6 +302,7 @@
 		6003F593195388D20070C39A /* Example for CoolPhysics2D */ = {
 			isa = PBXGroup;
 			children = (
+				A9E84CC01C466B4A00BA0FEB /* Firework */,
 				A9E84CB91C465F0900BA0FEB /* halo */,
 				A9B5219A1C4524B300B20721 /* Pod */,
 				4281AE9C1C1431F40025DC4F /* BouncingBall */,
@@ -508,6 +515,17 @@
 				A9E84CBD1C465F0900BA0FEB /* HaloViewController.mm */,
 			);
 			path = halo;
+			sourceTree = "<group>";
+		};
+		A9E84CC01C466B4A00BA0FEB /* Firework */ = {
+			isa = PBXGroup;
+			children = (
+				A9A9E5DB1C466D0800FAA29F /* FireworkView.h */,
+				A9A9E5DC1C466D0800FAA29F /* FireworkView.mm */,
+				A9A9E5E81C466DCF00FAA29F /* FireworkViewController.h */,
+				A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */,
+			);
+			path = Firework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -753,6 +771,7 @@
 				A9B521D91C4524B300B20721 /* Field.cpp in Sources */,
 				A9B521DC1C4524B300B20721 /* ObstacleField.cpp in Sources */,
 				A9E84CBE1C465F0900BA0FEB /* HaloView.mm in Sources */,
+				A9A9E5DD1C466D0800FAA29F /* FireworkView.mm in Sources */,
 				A9B521E91C4524B300B20721 /* README.md in Sources */,
 				6003F59E195388D20070C39A /* CP2DAppDelegate.mm in Sources */,
 				A9B521DB1C4524B300B20721 /* GravityField.cpp in Sources */,
@@ -761,6 +780,7 @@
 				A9B521E51C4524B300B20721 /* CP2DGameWorldRenderer.mm in Sources */,
 				A9E84CB81C46458D00BA0FEB /* RetainCount.cpp in Sources */,
 				A9B521DD1C4524B300B20721 /* OpaqueParticle.cpp in Sources */,
+				A9A9E5EA1C466DCF00FAA29F /* FireworkViewController.mm in Sources */,
 				A9B521D81C4524B300B20721 /* DampingField.cpp in Sources */,
 				A9B521E61C4524B300B20721 /* CP2DParticleRenderer.mm in Sources */,
 				A9B521D71C4524B300B20721 /* Color.cpp in Sources */,

@@ -9,6 +9,7 @@
 #import "CP2DViewController.h"
 #import "BouncingBallViewController.h"
 #import "HaloViewController.h"
+#import "FireworkViewController.h"
 
 @interface CP2DViewController ()
 
@@ -33,7 +34,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return 3;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -48,9 +49,11 @@
             cell.textLabel.text=@"Bouncing Balls";
             break;
         case 1:
-            cell.textLabel.text=@"Fire";
+            cell.textLabel.text=@"Halo";
             break;
-            
+        case 2:
+            cell.textLabel.text=@"Firework";
+            break;
         default:
             break;
     }
@@ -68,8 +71,16 @@
         }
         case 1:
         {
-            FireViewController* viewController=[[FireViewController alloc] init];
+            HaloViewController* viewController=[[HaloViewController alloc] init];
             [self.navigationController pushViewController:viewController animated:YES];
+            break;
+        }
+            
+        case 2:
+        {
+            FireworkViewController* viewController=[[FireworkViewController alloc] init];
+            [self.navigationController pushViewController:viewController animated:YES];
+            break;
         }
             
         default:

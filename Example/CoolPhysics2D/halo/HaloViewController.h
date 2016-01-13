@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "CP2DGameViewController.h"
 
-@interface FireViewController : CP2DGameViewController
+@interface HaloViewController : CP2DGameViewController
 
 @end
