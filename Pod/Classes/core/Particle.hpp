@@ -20,6 +20,7 @@ class Particle
 {
 public:
     Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime,Color color=Color::whiteColor);
+    Particle(Particle const& particle);
     ~Particle();
     
     std::string description()const;
@@ -49,7 +50,7 @@ public:
     bool overlappable()const;
 private:
     OpaqueParticle* _particle;
-    RetainCount retainCount;
+    RetainCount _retainCount;
 };
 
 END_NAMESPACE_COOLPHYSICS2D
