@@ -17,7 +17,7 @@
 
 -(void)renderInContext:(CGContextRef)ctx
 {
-    const std::vector<Particle*>& ps=_gameWorld->particles();
+    std::vector<Particle*> ps=_gameWorld->particles();
     if (ps.size()==0) {
         return;
     }

@@ -8,9 +8,11 @@ Particle::Particle(bool overlappable,double radius,double mass,double elasticity
                                  acceleration,lifeTime,color);
 }
 
+Particle::Particle(Particle const& particle):_particle(particle._particle),_retainCount(particle._retainCount){}
+
 Particle::~Particle()
 {
-    if (retainCount.only()) {
+    if (_retainCount.only()) {
         delete _particle;
     }
 }
