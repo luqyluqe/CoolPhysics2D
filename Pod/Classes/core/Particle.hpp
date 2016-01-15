@@ -5,8 +5,8 @@
 #include "Vector.h"
 #include "Circle.h"
 #include "Color.h"
-#include "opaque/OpaqueParticle.h"
-#include "retaincount/RetainCount.hpp"
+#include "OpaqueParticle.h"
+#include "RetainCount.hpp"
 
 #include <string>
 #include <sstream>
