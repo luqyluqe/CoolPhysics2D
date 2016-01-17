@@ -29,7 +29,6 @@ public:
 //    std::vector<Particle*> const& retainParticles();
 //    void releaseParticles();
 
-    //Behavior
 	void addParticle(Particle* particle);
     void addParticles(std::vector<Particle*> const& particles,bool phantom);
     void addMaterialParticle(Particle* particle);

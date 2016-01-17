@@ -3,7 +3,12 @@
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
-Wave::Wave(Vector position,float velocity,float attenuation,Color color):_position(position),_velocity(velocity),_attenuation(attenuation),_color(color){}
+Wave Wave::pulse(Vector position, float power)
+{
+    return Wave(position,power);
+}
+
+Wave::Wave(Vector position,float power,float velocity,float attenuation,Color color):_position(position),_power(power),_velocity(velocity),_attenuation(attenuation),_color(color){}
 
 void Wave::update(float timeInterval)
 {
