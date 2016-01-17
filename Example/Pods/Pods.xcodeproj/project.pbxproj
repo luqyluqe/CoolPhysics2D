@@ -155,6 +155,9 @@
 		A6FA07272C0A2C3618A6E276 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F01EA6A7C6E90F9527116B8 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A969E2A51C4B52890090DAD4 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A969E2A31C4B52890090DAD4 /* Wave.cpp */; };
 		A969E2A61C4B52890090DAD4 /* Wave.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A969E2A41C4B52890090DAD4 /* Wave.hpp */; };
+		A973C5A81C4B880100F8F1D3 /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A973C5A51C4B880100F8F1D3 /* CP2DRenderer.h */; };
+		A973C5A91C4B880100F8F1D3 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A973C5A61C4B880100F8F1D3 /* CP2DWaveRenderer.h */; };
+		A973C5AA1C4B880100F8F1D3 /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A973C5A71C4B880100F8F1D3 /* CP2DWaveRenderer.mm */; };
 		A9BDBCF61C49F0AD00D2044B /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9BDBCF31C49F0AD00D2044B /* RetainCount.cpp */; };
 		A9BDBCF71C49F0AD00D2044B /* RetainCount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A9BDBCF41C49F0AD00D2044B /* RetainCount.hpp */; };
 		A9BDBCF81C49F0AD00D2044B /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BDBCF51C49F0AD00D2044B /* retaincount_config.h */; };
@@ -470,6 +473,9 @@
 		A6CCBD86784FB74C124F73CC /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		A969E2A31C4B52890090DAD4 /* Wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
 		A969E2A41C4B52890090DAD4 /* Wave.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Wave.hpp; sourceTree = "<group>"; };
+		A973C5A51C4B880100F8F1D3 /* CP2DRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
+		A973C5A61C4B880100F8F1D3 /* CP2DWaveRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DWaveRenderer.h; sourceTree = "<group>"; };
+		A973C5A71C4B880100F8F1D3 /* CP2DWaveRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DWaveRenderer.mm; sourceTree = "<group>"; };
 		A9BDBCF31C49F0AD00D2044B /* RetainCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RetainCount.cpp; sourceTree = "<group>"; };
 		A9BDBCF41C49F0AD00D2044B /* RetainCount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RetainCount.hpp; sourceTree = "<group>"; };
 		A9BDBCF51C49F0AD00D2044B /* retaincount_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retaincount_config.h; sourceTree = "<group>"; };
@@ -842,6 +848,9 @@
 				18C5AD9A2AD6B208D4775B1E /* CP2DGameWorldRenderer.mm */,
 				44811653A40AACC49106B226 /* CP2DParticleRenderer.h */,
 				747E942F4948CCA3A0871169 /* CP2DParticleRenderer.mm */,
+				A973C5A51C4B880100F8F1D3 /* CP2DRenderer.h */,
+				A973C5A61C4B880100F8F1D3 /* CP2DWaveRenderer.h */,
+				A973C5A71C4B880100F8F1D3 /* CP2DWaveRenderer.mm */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -1105,8 +1114,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A973C5A81C4B880100F8F1D3 /* CP2DRenderer.h in Headers */,
 				C5C077BDF0FF3645264E383C /* Pods-CoolPhysics2D_Example-umbrella.h in Headers */,
 				A969E2A61C4B52890090DAD4 /* Wave.hpp in Headers */,
+				A973C5A91C4B880100F8F1D3 /* CP2DWaveRenderer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1535,6 +1546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A973C5AA1C4B880100F8F1D3 /* CP2DWaveRenderer.mm in Sources */,
 				A969E2A51C4B52890090DAD4 /* Wave.cpp in Sources */,
 				A5E36F8C19E8AE10A8999FE3 /* Pods-CoolPhysics2D_Example-dummy.m in Sources */,
 			);

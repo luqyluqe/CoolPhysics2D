@@ -1,4 +1,5 @@
 #import "CP2DParticleRenderer.h"
+#import <UIKit/UIKit.h>
 
 @implementation CP2DParticleRenderer
 
