@@ -15,4 +15,14 @@ Color Wave::color()const
     return _color*log(1+_radius);
 }
 
+Vector const& Wave::position()const
+{
+    return _position;
+}
+
+float Wave::radius()const
+{
+    return _radius;
+}
+
 END_NAMESPACE_COOLPHYSICS2D

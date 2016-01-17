@@ -14,6 +14,8 @@ public:
     
     void update(float timeInterval);
     Color color()const;
+    Vector const& position()const;
+    float radius()const;
 private:
     const Vector _position;
     const float _velocity;
