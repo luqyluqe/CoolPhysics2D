@@ -12,11 +12,11 @@ class RetainCount
 public:
     RetainCount();
     RetainCount(RetainCount const& retainCount);
-    RetainCount& operator=(RetainCount const& retainCount);
+//    RetainCount& operator=(RetainCount const& retainCount);
     ~RetainCount();
     bool only()const;
 private:
-    int* count;
+    int* _count;
 };
 
 END_NAMESPACE_RETAINCOUNT

@@ -11,6 +11,9 @@ class Color
 public:
     Color(float r,float g,float b,float a):RED(r),GREEN(g),BLUE(b),ALPHA(a){}
     
+    Color operator*(float number)const;
+    void operator*=(float number);
+    
     static Color redColor;
     static Color greenColor;
     static Color blueColor;

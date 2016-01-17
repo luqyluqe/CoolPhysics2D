@@ -10,6 +10,7 @@
 
 #include <string>
 #include <sstream>
+#include <mutex>
 
 using CoolPhysics2D::opaque::OpaqueParticle;
 using CoolPhysics2D::retaincount::RetainCount;
@@ -51,6 +52,7 @@ public:
 private:
     OpaqueParticle* _particle;
     RetainCount _retainCount;
+    std::mutex _destructorMutex;
 };
 
 END_NAMESPACE_COOLPHYSICS2D

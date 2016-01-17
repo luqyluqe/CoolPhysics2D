@@ -33,26 +33,6 @@ std::vector<Particle*> const& GameWorld::particles()const
     return _particles;
 }
 
-//std::vector<Particle*> const& GameWorld::retainParticles()
-//{
-////    std::vector<Particle*> particles=_particles;
-////    for (int i=0; i<_particleEmitters.size(); i++) {
-////        std::vector<Particle*> const& ps=_particleEmitters[i]->_particles;
-////        particles.insert(particles.begin(), ps.begin(),ps.end());
-////    }
-////    return particles;
-//    for (int i=0; i<_particles.size(); i++) {
-//        _particles[i]->retain();
-//    }
-//    return _particles;
-//}
-//void GameWorld::releaseParticles()
-//{
-//    for (int i=0; i<_particles.size(); i++) {
-//        _particles[i]->release();
-//    }
-//}
-
 void GameWorld::addParticle(Particle* particle)
 {
 	_particles.push_back(particle);

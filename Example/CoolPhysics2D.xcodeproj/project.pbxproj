@@ -24,6 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A969E2A91C4B52930090DAD4 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A969E2A71C4B52930090DAD4 /* Wave.cpp */; };
 		A9A9E5DD1C466D0800FAA29F /* FireworkView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A9E5DC1C466D0800FAA29F /* FireworkView.mm */; };
 		A9A9E5EA1C466DCF00FAA29F /* FireworkViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */; };
 		A9B521D21C4524B300B20721 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A9B5219C1C4524B300B20721 /* .gitkeep */; };
@@ -170,6 +171,8 @@
 		9037251B999ABE98F18126FE /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4BE657987DB91FF7A98FC60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A96174671C44F32200F32DCA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		A969E2A71C4B52930090DAD4 /* Wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
+		A969E2A81C4B52930090DAD4 /* Wave.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Wave.hpp; sourceTree = "<group>"; };
 		A9A9E5DB1C466D0800FAA29F /* FireworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworkView.h; sourceTree = "<group>"; };
 		A9A9E5DC1C466D0800FAA29F /* FireworkView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FireworkView.mm; sourceTree = "<group>"; };
 		A9A9E5E81C466DCF00FAA29F /* FireworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworkViewController.h; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 		A9B521A11C4524B300B20721 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				A969E2A71C4B52930090DAD4 /* Wave.cpp */,
+				A969E2A81C4B52930090DAD4 /* Wave.hpp */,
 				A9B521A21C4524B300B20721 /* BuoyancyField.cpp */,
 				A9B521A31C4524B300B20721 /* BuoyancyField.h */,
 				A9B521A41C4524B300B20721 /* CentripetalGravityField.cpp */,
@@ -774,6 +779,7 @@
 				A9A9E5DD1C466D0800FAA29F /* FireworkView.mm in Sources */,
 				A9B521E91C4524B300B20721 /* README.md in Sources */,
 				6003F59E195388D20070C39A /* CP2DAppDelegate.mm in Sources */,
+				A969E2A91C4B52930090DAD4 /* Wave.cpp in Sources */,
 				A9B521DB1C4524B300B20721 /* GravityField.cpp in Sources */,
 				A9B521E41C4524B300B20721 /* CP2DGameViewController.mm in Sources */,
 				A9B521D51C4524B300B20721 /* CentripetalGravityField.cpp in Sources */,

@@ -3,13 +3,16 @@
 BEGIN_NAMESPACE_COOLPHYSICS2D
 BEGIN_NAMESPACE_RETAINCOUNT
 
-RetainCount::RetainCount():count(new int(1)){}
-RetainCount::RetainCount(RetainCount const& retainCount):count(retainCount.count){++*count;}
+RetainCount::RetainCount():_count(new int(1)){}
+RetainCount::RetainCount(RetainCount const& retainCount):_count(retainCount._count)
+{
+    ++*_count;
+}
 RetainCount::~RetainCount()
 {
-    if(--*count==0) delete count;
+    if(--*_count==0) delete _count;
 }
-bool RetainCount::only()const{return *count==1;}
+bool RetainCount::only()const{return *_count==1;}
 
 END_NAMESPACE_RETAINCOUNT
 END_NAMESPACE_COOLPHYSICS2D

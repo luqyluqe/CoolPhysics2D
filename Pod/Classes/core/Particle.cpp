@@ -8,13 +8,15 @@ Particle::Particle(bool overlappable,double radius,double mass,double elasticity
                                  acceleration,lifeTime,color);
 }
 
-Particle::Particle(Particle const& particle):_particle(particle._particle),_retainCount(particle._retainCount){}
+Particle::Particle(Particle const& particle):_retainCount(particle._retainCount),_particle(particle._particle){}
 
 Particle::~Particle()
 {
+    _destructorMutex.lock();
     if (_retainCount.only()) {
         delete _particle;
     }
+    _destructorMutex.unlock();
 }
 
 std::string Particle::description()const
