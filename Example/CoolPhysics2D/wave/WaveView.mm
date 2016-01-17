@@ -6,6 +6,21 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+    [self pulse:touches];
+}
+
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self pulse:touches];
+}
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self pulse:touches];
+}
+
+-(void)pulse:(NSSet<UITouch *> *)touches
+{
     UITouch* touch=touches.anyObject;
     CGPoint location=[touch locationInView:self];
     Wave* wave=new Wave(Vector(location.x,location.y),1);
