@@ -33,6 +33,11 @@ std::vector<Particle*> const& GameWorld::particles()const
     return _particles;
 }
 
+std::vector<Wave*> const& GameWorld::waves()const
+{
+    return _waves;
+}
+
 void GameWorld::addParticle(Particle* particle)
 {
 	_particles.push_back(particle);
@@ -119,8 +124,20 @@ void GameWorld::addParticleEmitter(CoolPhysics2D::ParticleEmitter *emitter)
     _particleEmitters.push_back(emitter);
 }
 
+void GameWorld::addWave(Wave* wave)
+{
+    _waves.push_back(wave);
+}
 
-void GameWorld::update(double timeInterval)
+void GameWorld::removeWave(Wave* wave)
+{
+    std::vector<Wave*>::iterator it=std::find(_waves.begin(), _waves.end(), wave);
+    if (it!=_waves.end()) {
+        _waves.erase(it);
+    }
+}
+
+void GameWorld::update(float timeInterval)
 {
     for (size_t i=0; i<_particleEmitters.size(); i++) {
         ParticleEmitter* pe=_particleEmitters[i];
@@ -158,6 +175,15 @@ void GameWorld::update(double timeInterval)
             if (Particle::collide(*pi,*pj)) {
                 Particle::handleCollision(*pi,*pj);
             }
+        }
+    }
+    
+    for (size_t i=0; i<_waves.size(); i++) {
+        Wave* wave=_waves[i];
+        if (wave->lifetime()<0) {
+            removeWave(wave);
+        }else{
+            wave->update(timeInterval);
         }
     }
 }

@@ -10,4 +10,6 @@ using namespace CoolPhysics2D;
 
 @property GameWorld* gameWorld;
 
+-(UIColor*)getClearColor;
+
 @end

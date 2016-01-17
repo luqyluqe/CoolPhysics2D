@@ -10,14 +10,15 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 class Wave
 {
 public:
-    static Wave pulse(Vector position,float power);
+    static Wave* pulse(Vector position,float power);
     
-    Wave(Vector position,float power,float velocity=10,float attenuation=0,Color color=Color::whiteColor);
+    Wave(Vector position,float power,float velocity=10,float attenuation=0,Color color=Color::whiteColor,float lifetime=1);
     
     void update(float timeInterval);
     Color color()const;
     Vector const& position()const;
     float radius()const;
+    float lifetime()const;
 private:
     const Vector _position;
     const float _power;

@@ -4,7 +4,10 @@
 @interface CP2DGameViewController : UIViewController
 {
     CP2DGameView* _gameView;
-    double _updateInterval;
+    float _updateInterval;
 }
+
+-(CP2DGameView*)getGameView;
+-(float)getUpdateInterval;
 
 @end

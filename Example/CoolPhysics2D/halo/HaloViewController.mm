@@ -11,10 +11,14 @@
 
 @implementation HaloViewController
 
-- (void)viewDidLoad {
-    _gameView=[[HaloView alloc] initWithFrame:self.view.frame];
-    _updateInterval=0.01;
-    [super viewDidLoad];
+-(CP2DGameView*)getGameView
+{
+    return [[HaloView alloc] initWithFrame:self.view.frame];
+}
+
+-(float)getUpdateInterval
+{
+    return 0.01f;
 }
 
 -(void)viewWillAppear:(BOOL)animated

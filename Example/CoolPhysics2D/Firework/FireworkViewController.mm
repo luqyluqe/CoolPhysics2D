@@ -3,10 +3,14 @@
 
 @implementation FireworkViewController
 
-- (void)viewDidLoad {
-    _gameView=[[FireworkView alloc] initWithFrame:self.view.frame];
-    _updateInterval=0.01;
-    [super viewDidLoad];
+-(CP2DGameView*)getGameView
+{
+    return [[FireworkView alloc] initWithFrame:self.view.frame];
+}
+
+-(float)getUpdateInterval
+{
+    return 0.01f;
 }
 
 -(void)viewWillAppear:(BOOL)animated

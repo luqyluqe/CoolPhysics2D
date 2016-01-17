@@ -1,5 +1,5 @@
 #import "CP2DGameWorldRenderer.h"
-
+#import "CP2DWaveRenderer.h"
 #import "CP2DParticleRenderer.h"
 
 @implementation CP2DGameWorldRenderer
@@ -18,12 +18,15 @@
 -(void)renderInContext:(CGContextRef)ctx
 {
     std::vector<Particle*> ps=_gameWorld->particles();
-    if (ps.size()==0) {
-        return;
-    }
     for (size_t i=0; i<ps.size(); i++) {
         CP2DParticleRenderer* particleRenderer=[[CP2DParticleRenderer alloc] initWithParticle:ps[i]];
         [particleRenderer renderInContext:ctx];
+    }
+    
+    std::vector<Wave*> const& waves=_gameWorld->waves();
+    for (size_t i=0; i<waves.size(); i++) {
+        CP2DWaveRenderer* waveRenderer=[[CP2DWaveRenderer alloc] initWithWave:waves[i]];
+        [waveRenderer renderInContext:ctx];
     }
 }
 

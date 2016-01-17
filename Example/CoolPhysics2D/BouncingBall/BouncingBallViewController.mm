@@ -11,11 +11,14 @@
 
 @implementation BouncingBallViewController
 
-- (void)viewDidLoad {
-    _gameView=[[BouncingBallView alloc] initWithFrame:self.view.frame];
-    _updateInterval=0.01;
-    [super viewDidLoad];
-    
+-(CP2DGameView*)getGameView
+{
+    return [[BouncingBallView alloc] initWithFrame:self.view.frame];
+}
+
+-(float)getUpdateInterval
+{
+    return 0.01f;
 }
 
 - (void)didReceiveMemoryWarning {

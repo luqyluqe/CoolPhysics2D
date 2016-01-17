@@ -10,6 +10,7 @@
 #import "BouncingBallViewController.h"
 #import "HaloViewController.h"
 #import "FireworkViewController.h"
+#import "WaveViewController.h"
 
 @interface CP2DViewController ()
 
@@ -34,7 +35,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -53,6 +54,9 @@
             break;
         case 2:
             cell.textLabel.text=@"Firework";
+            break;
+        case 3:
+            cell.textLabel.text=@"Wave";
             break;
         default:
             break;
@@ -79,6 +83,13 @@
         case 2:
         {
             FireworkViewController* viewController=[[FireworkViewController alloc] init];
+            [self.navigationController pushViewController:viewController animated:YES];
+            break;
+        }
+            
+        case 3:
+        {
+            WaveViewController* viewController=[[WaveViewController alloc] init];
             [self.navigationController pushViewController:viewController animated:YES];
             break;
         }

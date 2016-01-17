@@ -6,6 +6,7 @@
 #include "Field.h"
 #include "Rectangle.h"
 #include "ThreadPool.h"
+#include "Wave.hpp"
 
 #include <vector>
 
@@ -26,6 +27,7 @@ public:
 	//Accessor
 	const Rectangle& range()const;
     std::vector<Particle*> const& particles()const;
+    std::vector<Wave*> const& waves()const;
 //    std::vector<Particle*> const& retainParticles();
 //    void releaseParticles();
 
@@ -38,8 +40,10 @@ public:
     void removeField(Field* field);
     void addParticleEmitter(ParticleEmitter* emitter);
     void removeParticleEmitter(ParticleEmitter* emitter);
+    void addWave(Wave* wave);
+    void removeWave(Wave* wave);
 
-    void update(double timeInterval);
+    void update(float timeInterval);
 protected:
     ThreadPool& threadPool();
     std::vector<Field*> fields()const;
@@ -53,6 +57,7 @@ private:
     std::vector<Particle*> _unoverlappableParticles;
     std::vector<ParticleEmitter*> _particleEmitters;
     std::vector<Field*> _fields;
+    std::vector<Wave*> _waves;
 };
 
 END_NAMESPACE_COOLPHYSICS2D
