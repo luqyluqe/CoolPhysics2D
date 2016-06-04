@@ -16,12 +16,12 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     UITapGestureRecognizer* recognizer=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
-    [_gameView addGestureRecognizer:recognizer];
+    [self.gameView addGestureRecognizer:recognizer];
 }
 
 -(void)tapAction:(UITapGestureRecognizer*)recognizer;
 {
-    [(FireworkView*)_gameView fire:recognizer];
+    [(FireworkView*)self.gameView fire:recognizer];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -24,12 +24,12 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     UITapGestureRecognizer* recognizer=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
-    [_gameView addGestureRecognizer:recognizer];
+    [self.gameView addGestureRecognizer:recognizer];
 }
 
 -(void)tapAction:(UITapGestureRecognizer*)recognizer;
 {
-    [(HaloView*)_gameView fire:recognizer];
+    [(HaloView*)self.gameView fire:recognizer];
 }
 
 - (void)didReceiveMemoryWarning {
