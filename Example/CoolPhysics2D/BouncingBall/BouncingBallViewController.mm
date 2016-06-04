@@ -18,7 +18,7 @@
 
 -(float)getUpdateInterval
 {
-    return 0.01f;
+    return 1.0f/60;
 }
 
 - (void)didReceiveMemoryWarning {

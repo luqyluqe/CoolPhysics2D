@@ -25,7 +25,7 @@
         Rectangle water(0,400,self.frame.size.width,self.frame.size.height-400);
         Field* dampingField=new DampingField(water,-1.5);
         self.gameWorld->addField(dampingField);
-        GravityField* gravityField=new GravityField(Rectangle(0,0,self.frame.size.width,self.frame.size.height),Vector(0, 1000));
+        GravityField* gravityField=new GravityField(Rectangle(0,0,self.frame.size.width,self.frame.size.height),Vector(0, 500));
         self.gameWorld->addField(gravityField);
         Field* buoyancyField=new BuoyancyField(water,*gravityField,0.0002);
         self.gameWorld->addField(buoyancyField);

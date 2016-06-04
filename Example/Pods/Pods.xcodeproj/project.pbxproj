@@ -471,6 +471,7 @@
 		A5FB50D7D220473A2A675137 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		A66073ED01015055BF1393BA /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		A6CCBD86784FB74C124F73CC /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
+		A91D78781CE22BB500AE682C /* timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		A969E2A31C4B52890090DAD4 /* Wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
 		A969E2A41C4B52890090DAD4 /* Wave.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Wave.hpp; sourceTree = "<group>"; };
 		A973C5A51C4B880100F8F1D3 /* CP2DRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
@@ -851,6 +852,7 @@
 				A973C5A51C4B880100F8F1D3 /* CP2DRenderer.h */,
 				A973C5A61C4B880100F8F1D3 /* CP2DWaveRenderer.h */,
 				A973C5A71C4B880100F8F1D3 /* CP2DWaveRenderer.mm */,
+				A91D78781CE22BB500AE682C /* timer.h */,
 			);
 			path = ios;
 			sourceTree = "<group>";
