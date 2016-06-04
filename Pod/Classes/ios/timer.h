@@ -20,7 +20,6 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval,
     {
         dispatch_source_set_timer(timer, dispatch_time(0, 0), interval, leeway);
         dispatch_source_set_event_handler(timer, block);
-        dispatch_resume(timer);
     }
     return timer;
 }
