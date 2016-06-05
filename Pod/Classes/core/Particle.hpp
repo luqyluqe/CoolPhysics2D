@@ -20,6 +20,8 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 class Particle
 {
 public:
+    std::mutex _destructorMutex;
+    
     Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime,Color color=Color::whiteColor);
     Particle(Particle const& particle);
     ~Particle();
@@ -52,7 +54,6 @@ public:
 private:
     OpaqueParticle* _particle;
     RetainCount _retainCount;
-    std::mutex _destructorMutex;
 };
 
 END_NAMESPACE_COOLPHYSICS2D
