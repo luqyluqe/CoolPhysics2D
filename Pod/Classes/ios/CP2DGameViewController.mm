@@ -12,6 +12,7 @@
 @implementation CP2DGameViewController
 {
     dispatch_source_t _updateTimer;
+    dispatch_queue_t _serial_queue;
 }
 
 
@@ -22,8 +23,10 @@
     self.updateInterval=[self getUpdateInterval];
     [self.view addSubview:self.gameView];
     uint64_t intervalinNSec=(uint64_t)(_updateInterval*NSEC_PER_SEC);
+    _serial_queue=dispatch_queue_create("", DISPATCH_QUEUE_SERIAL);
+    self.gameView.serial_queue=_serial_queue;
     __weak typeof(self) wself=self;
-    _updateTimer=CreateDispatchTimer(intervalinNSec, 0, dispatch_queue_create("", DISPATCH_QUEUE_SERIAL), ^{
+    _updateTimer=CreateDispatchTimer(intervalinNSec, 0, _serial_queue, ^{
         wself.gameView.gameWorld->update(wself.updateInterval);
     });
     dispatch_resume(_updateTimer);

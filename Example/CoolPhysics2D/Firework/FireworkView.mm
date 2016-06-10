@@ -49,7 +49,9 @@ using namespace CoolPhysics2D;
 
 -(void)removeEmitter:(ParticleEmitter*)emitter
 {
-    self.gameWorld->removeParticleEmitter(emitter);
+    dispatch_async(self.serial_queue, ^{
+        self.gameWorld->removeParticleEmitter(emitter);
+    });
 }
 
 @end
