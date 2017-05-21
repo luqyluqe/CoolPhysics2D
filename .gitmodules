@@ -1,0 +1,3 @@
+[submodule "Pod/Classes/core/Math"]
+	path = Pod/Classes/core/Math
+	url = https://github.com/luqyluqe/Math.git

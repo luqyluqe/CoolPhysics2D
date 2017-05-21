@@ -189,6 +189,9 @@
 		C33600913C8E34E56BDDCD32 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 673E287E2AD9909594EA41A7 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C379D9FED12FC1665B338E0D /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD46B52C8DEEFE3AD7783A1 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C5189747D7908FFF84E7F653 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C086C1967AACAC1D1B2988 /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C569254A1ED1D7A100757135 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C56925431ED1D77800757135 /* Circle.cpp */; };
+		C569254B1ED1D7A500757135 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C56925461ED1D77800757135 /* Rectangle.cpp */; };
+		C569254C1ED1D7AA00757135 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C56925481ED1D77800757135 /* Vector.cpp */; };
 		C5C077BDF0FF3645264E383C /* Pods-CoolPhysics2D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A149C9D1924717BDF28B7145 /* Pods-CoolPhysics2D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C67D39C0F2D1E5C40D9B696D /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = B20BC7C84A5731689DCCB02D /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CAEBF485C4541BA26640F31C /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F56C90153BC57440F0E9F1C /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -509,6 +512,16 @@
 		C243D5668C2EC4081E95B1E3 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
 		C360294CCADB9AE7BB195487 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C36C42370E809B9993A528AC /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
+		C569253F1ED1D77800757135 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C56925401ED1D77800757135 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		C56925411ED1D77800757135 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C56925431ED1D77800757135 /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		C56925441ED1D77800757135 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C56925451ED1D77800757135 /* MathDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathDefines.h; sourceTree = "<group>"; };
+		C56925461ED1D77800757135 /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		C56925471ED1D77800757135 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		C56925481ED1D77800757135 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		C56925491ED1D77800757135 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 		C5F8FAF364C55202FDE4F2FC /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		C632DB710880892D3FEC3892 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		C64818D94CE13E5764B6571D /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
@@ -1025,6 +1038,32 @@
 			path = "../Target Support Files/Pods-CoolPhysics2D_Tests-Specta";
 			sourceTree = "<group>";
 		};
+		C569253E1ED1D77800757135 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				C569253F1ED1D77800757135 /* .gitignore */,
+				C56925401ED1D77800757135 /* LICENSE.md */,
+				C56925411ED1D77800757135 /* Makefile */,
+				C56925421ED1D77800757135 /* src */,
+			);
+			name = Math;
+			path = core/Math;
+			sourceTree = "<group>";
+		};
+		C56925421ED1D77800757135 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C56925431ED1D77800757135 /* Circle.cpp */,
+				C56925441ED1D77800757135 /* Circle.h */,
+				C56925451ED1D77800757135 /* MathDefines.h */,
+				C56925461ED1D77800757135 /* Rectangle.cpp */,
+				C56925471ED1D77800757135 /* Rectangle.h */,
+				C56925481ED1D77800757135 /* Vector.cpp */,
+				C56925491ED1D77800757135 /* Vector.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		CA019F3AD00F8B7695EA2BAD /* Pods-CoolPhysics2D_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1065,6 +1104,7 @@
 		DCD22C4879C8FA9BB36900E0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C569253E1ED1D77800757135 /* Math */,
 				E26AFEE9E1F13C582F1DF1E4 /* ThreadPool */,
 				D1563EA429A5F3D072376324 /* config */,
 				B97CD93542B92B40C79F3664 /* core */,
@@ -1549,7 +1589,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A973C5AA1C4B880100F8F1D3 /* CP2DWaveRenderer.mm in Sources */,
+				C569254A1ED1D7A100757135 /* Circle.cpp in Sources */,
+				C569254C1ED1D7AA00757135 /* Vector.cpp in Sources */,
 				A969E2A51C4B52890090DAD4 /* Wave.cpp in Sources */,
+				C569254B1ED1D7A500757135 /* Rectangle.cpp in Sources */,
 				A5E36F8C19E8AE10A8999FE3 /* Pods-CoolPhysics2D_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

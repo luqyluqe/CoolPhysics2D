@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4C876F08B4CA113460B010DDC67DF4A8A0F05782",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4C876F08B4CA113460B010DDC67DF4A8A0F05782" : 9223372036854775807,
+    "D9A18C47761874EE5E63A083FFDB874BC2E60EC8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9B94830-92AA-4692-9E05-D60E78E9D137",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4C876F08B4CA113460B010DDC67DF4A8A0F05782" : "CoolPhysics2D\/",
+    "D9A18C47761874EE5E63A083FFDB874BC2E60EC8" : "CoolPhysics2D\/Pod\/Classes\/core\/Math\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoolPhysics2D",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/CoolPhysics2D.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luqyluqe\/CoolPhysics2D",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C876F08B4CA113460B010DDC67DF4A8A0F05782"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luqyluqe\/Math.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D9A18C47761874EE5E63A083FFDB874BC2E60EC8"
+    }
+  ]
+}
