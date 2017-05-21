@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'CoolPhysics2D_Example', :exclusive => true do
+target 'CoolPhysics2D_Example' do
   pod "CoolPhysics2D", :path => "../"
 end
 
-target 'CoolPhysics2D_Tests', :exclusive => true do
+target 'CoolPhysics2D_Tests' do
   pod "CoolPhysics2D", :path => "../"
 
   pod 'Specta'
