@@ -10,6 +10,8 @@
 #include <string>
 #include <sstream>
 
+using namespace Math;
+
 BEGIN_NAMESPACE_COOLPHYSICS2D
 BEGIN_NAMESPACE_OPAQUE
 

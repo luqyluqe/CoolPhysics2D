@@ -14,6 +14,7 @@
 
 using CoolPhysics2D::opaque::OpaqueParticle;
 using CoolPhysics2D::retaincount::RetainCount;
+using namespace Math;
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 

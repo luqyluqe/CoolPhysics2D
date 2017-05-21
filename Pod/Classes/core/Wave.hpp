@@ -5,6 +5,8 @@
 #include "Vector.h"
 #include "Color.h"
 
+using namespace Math;
+
 BEGIN_NAMESPACE_COOLPHYSICS2D
 
 class Wave
