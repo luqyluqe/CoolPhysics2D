@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CoolPhysics2D"
-  s.version          = "0.7.0"
+  s.version          = "0.7.0.a"
   s.summary          = "2D particle physics engine"
 
 # This description is used to generate tags and improve search results.
