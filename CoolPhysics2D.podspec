@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CoolPhysics2D"
-  s.version          = "0.7.0.c"
+  s.version          = "0.7.1"
   s.summary          = "2D particle physics engine"
 
 # This description is used to generate tags and improve search results.
@@ -38,4 +38,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.library    = 'stdc++'
 end
