@@ -9,241 +9,259 @@
 /* Begin PBXBuildFile section */
 		018A80395B19D72EE8DE43CCE1F6E98C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3957DBAE0C45EB13A9C9047F2C52B7 /* XCTest.framework */; };
 		01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		020B292CC448778878EFBB203EB20CE3 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D701D2E4F46B817390804AB3A128D3 /* CP2DParticleRenderer.mm */; };
-		024097F3A43531DA02719B57AB98A971 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D919BD85B1712B55198410F7606BDB93 /* CP2DGameWorldRenderer.mm */; };
-		06C618B5D86CC172E1A1649C8857DFAC /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D67FC134130D367E7FCC0AC6F0AE3C0B /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0747006CFD781AD1EABEEDE21FD13D2A /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2435F32136E2AF55179B8E28EA9E3D0F /* GravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02231FF7EB0AAFEE23217FD5A05E18CC /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B11D9A5D28C871E5518F7F7DA2F8FC /* MathDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		023F612876CE12EFB44DA1BACFCFD621 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F732C1E0C8EC4CA56169A423453A893 /* Rectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0768485EDAAD2727509755D6540271F3 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = A509487768BC5B73495CB834F3496A76 /* Makefile */; };
 		089FF16451F179DAFB31AECD689E79DB /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
+		0ACEC86BA478ACA50EEDE70AC074CE47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */; };
 		0B335E2D67E6C735E67160FE335ED15C /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */; };
-		0CC34C26005700A8E6763E46FE03EFBD /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B06B9AB387BB0272FDA25DE7D7A85C37 /* Particle.cpp */; };
+		0C03EF12DE1192750A28540B0DF89939 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2282F5175040A357862C06FE386DC9A6 /* GameWorld.cpp */; };
+		0D58C82BD72AEA0C3C73D1DF97378BE1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = A509487768BC5B73495CB834F3496A76 /* Makefile */; };
 		0D7F3D18242AC4FC1E7CD5C275E9B536 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DF4DCC1F6EB57AF2E36A13C85FF995C /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EE4AF9F9772250012A14240A22AEF14 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
-		0F25A8D83801D8482532F8E49C78C0D0 /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92FEC1ECF2F2A135ADF88529936F752F /* BuoyancyField.cpp */; };
 		1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11634E6990C6B6F2E365F7F11E03EC0B /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F73FB65573650FBF686E5CC6E5466895 /* example.cpp */; };
 		11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3957DBAE0C45EB13A9C9047F2C52B7 /* XCTest.framework */; };
 		11D231EEACCA2D68C44CEB25132F06E4 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */; };
-		14278F85DA306B83416FBFCEA0275BDA /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C22581B8238A6DB6C6470B97FD0662 /* DampingField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		149F121B68E9E815FE39B83A833736D5 /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CADAE9F064E592144E18C8B589A439 /* CentripetalGravityField.cpp */; };
+		13DA3B44F073A1D6E0B1475C6377C270 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F8F2E7F36AFB6F559F58CBCDBDC45 /* Rectangle.cpp */; };
 		150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		16AF4C2BB08300297D7436DD48D134CD /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */; };
 		176B4E0CF4D613DB06B289BE66144BEC /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */; };
-		19C4BA9D4CF5B08D51FA536F9BBC83CD /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C22581B8238A6DB6C6470B97FD0662 /* DampingField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17912C51EF91E91797CA566C237B2E00 /* CoolPhysics2D-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF5280BA978EBFD2B874BAF286E32F4 /* CoolPhysics2D-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC4864B354F38F070B69BA42517C967 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DC3DDD539D6FC2F09B734ADB2CB9BB /* ThreadPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2AF27E54FD529C58EA4577C2DA2BA3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7AA26473D90A312DC3BE1D322CE88D8C /* README.md */; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1D9C21656DF7D7E3AEC39CC51DFDEC28 /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = C352850843D4B88FD700C22BD50006CC /* CP2DGameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E850CBE8148274932BD2D93CE902669 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = CFF31D694C5BB116990A2B06E61744EC /* LICENSE.md */; };
+		1EC9831A1D610B22AD96ECFF692FA2CC /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 422E33E096329761C8397F14146153B3 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EEDF26B115D4AD679C04C9AC1F3EC1D /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */; };
 		1F033E67AF71FD0E68525E81F3C4A843 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FD9FFDE7CCE884BB4CC9958AA9271E8 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0D6A47393B29719A2BF4340A993CE /* FBSnapshotTestCase.m */; };
+		1FDE2EF8A4A06A0E5F8876F74476273B /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E668BD2288E9D79F59FB52075ADA7A20 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		209CFF7E4573C6B78CD274E811F03183 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 928CB47DE4B1596A4A342DD651619A9F /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254802ECF1717B05821C79E3383FE60C /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A058C544A6FD6C0CED8D3EF8B32C8477 /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219D832DFFA5A257DB1BC8D1CF366B7A /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 097A9A885860D414A586BB197672CD5E /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222359F7A1E570AD3DEB8A1D5C5F1270 /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8683742965F33DA6941DF13051C3FEA /* GravityField.cpp */; };
+		22DE1B1C4AC7514FCD3D028B893E4FB8 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF0EE6505679BC880E4DADBD709F90 /* ParticleEmitter.cpp */; };
+		23CF6F1A8148235527A4ECA83FA9AF6B /* CoolPhysics2D-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C44A9887AFFAE43936C7E1D321AAA02 /* CoolPhysics2D-iOS7.1-dummy.m */; };
+		2401267B4FFBD88585D59FC3CE4844F1 /* RetainCount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 83E8EC4278962480FD158D47F0D86FDD /* RetainCount.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		275BACC0F5E3E998696629EE7B2E58A9 /* Wave.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2AEB5BD805AEDACCE97D9F1C59E70524 /* Wave.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2ADFD50797B65F9BACCFB994382AAA3D /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E3E19492045E7FF1679C354077EE /* example.cpp */; };
-		2C7EB038332E9F22B69F04721F6AB071 /* CoolPhysics2D-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB351F7A45C3CA5A5C8384F537A488E /* CoolPhysics2D-iOS8.0-dummy.m */; };
+		293C59935760D662644C5367F9161C2B /* Wave.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2AEB5BD805AEDACCE97D9F1C59E70524 /* Wave.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A628F689E95ED902E027B6A9CC451E9 /* OpaqueParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C14F8CA1C0C6C06EC84DE163FDB2E0 /* OpaqueParticle.cpp */; };
+		2BBDF64513276DDF14B0B87A0ECA6B71 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C00EF0C301930F5BD7EA800908110BED /* CP2DGameWorldRenderer.mm */; };
 		2D2E6489CD69AFEAC6B0604D04E8FE14 /* Pods-CoolPhysics2D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2992521818E55C566A758BE830E8029B /* Pods-CoolPhysics2D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DC623462119F2E25817A7578B631E8B /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C181E29E59B1AE35CAF8DAFD9B9FF3B /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E78E2AA4383A35208898119D92D4A01 /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C5BEEE28C9DCDF4C7F904C8A064721 /* GravityField.cpp */; };
+		2D5BDD62929FCC31B47FEB6F9123F01D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E962CDB426101890B60C917AB7D39A2 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E7DE8253A5840581D37F9F8C4B3B15D /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3056F9F2F704FF770996290295376C68 /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A697ED9945716C275EDE16442B72E35 /* ObstacleField.cpp */; };
-		332434FF70F2337222E679FE5BF089AD /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92FEC1ECF2F2A135ADF88529936F752F /* BuoyancyField.cpp */; };
+		316F3CFAF266DDCA30427BCB576F68DD /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC0BE0FA87D4D89FCE64F144FA95A /* Color.cpp */; };
+		35002B78A514387E6827800B77A877D0 /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE14099E7E6A40F01DA303EC40F9629 /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		361C805AEE10D3D3AB9FF8A2FCDC7476 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 76926C159501C4E15FDF16659D6E6C81 /* ObstacleField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		374F2BE308455FCCF3D64160F2D9506D /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
-		37F2575914C7F59B4166420D3A5C36EC /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5F3177F81379B2BBB8E20CC090E363 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38313046CC7A6C3BA7E4A7DCD5DF382F /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C00EF0C301930F5BD7EA800908110BED /* CP2DGameWorldRenderer.mm */; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5BFBC554D401660D13A9AE874077F1 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F8F2E7F36AFB6F559F58CBCDBDC45 /* Rectangle.cpp */; };
 		3BD0326FB8D86B8BF83977B420424618 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C58156FE22CBA144F51BCE37C1110DE /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE86B8BEFB6CD3A25D3E59877D837D4 /* CP2DWaveRenderer.mm */; };
-		3E567AF5260B5A1486FF4DC2388EE56F /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D1057166A2447EA2819CEF2CD7B37F12 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4E642BD621386223F2AD1B1A7EEAC4 /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F8774541143969B11E1BE0F80BD405 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6FFA4C7063BDAD27964000F60E7362 /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDDD6E5888FCEBC28E5944B0523AC5F /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE737D4CAF658F18E2F616E92B802DB /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 551809FFF7E826D7EAAE17AA4E26F3B3 /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF90D5E63F0B42BA9D254F34BBB17A4 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F3612CDD362630A61B5666E4F95122 /* Particle.cpp */; };
+		3FCFCBD92786458E836A8B3FEC605C9A /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FB016B284FE58273164675E7BB1FFB /* Wave.cpp */; };
+		4040C5AFCD6C4DD6054CD28266A13A7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42473D3B3EFD72E8F3CD30947DA1AADF /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42543F6A1674428BAB299B018776F1B5 /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AAC6F61AFBDC423B17FD92426C7E5 /* RetainCount.cpp */; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43500B4B34076917889C5269059E145D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E1EDDA8A4867913953E0CBF82097C2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		45192E95C8CA7E99F14549C0F3C0D1A7 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */; };
-		45E4C975F237247777AEC354D6BFA465 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F67C52A9DE68A63F28322120A5C90E4 /* DampingField.cpp */; };
+		4695E16A5D4C75B15E8608E5FAB847D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		47F59860A47FD044C64A9DDB36225DD7 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9075248C77581BD5230031BD8E5BA45 /* UIImage+Diff.m */; };
 		4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B844CC2B6223FB11ECA73B88F28FEF /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF8B4FC0D782E62419397C278CFDEB9 /* RetainCount.cpp */; };
 		48F108D631EA16507EF446B1B5BE6588 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3957DBAE0C45EB13A9C9047F2C52B7 /* XCTest.framework */; };
-		4B01EF315FCC99EC142661936360BEFD /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB72551B3EFFEC85683D8C62E8E61B2 /* Color.cpp */; };
 		4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D47CFA59D5C40E1E90D030A5852F64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		4DAC113A975F09931AA17740BC9A2BE4 /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */; };
+		4E09FE095815D7EB090EF6503C2D7F42 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3494BB283738830E25DF5EAB838A3D2 /* DampingField.cpp */; };
+		4EAACED7AFEE7EAA49D1E8FCA4B701A0 /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF8B4FC0D782E62419397C278CFDEB9 /* RetainCount.cpp */; };
 		5003869C96AA7849881D7CA7989ADD35 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5161E6B94996E030B686A94BA4C688C8 /* Pods-CoolPhysics2D_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA470021C125CFF8CB52B44136E8B00 /* Pods-CoolPhysics2D_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5347AF32C947CFA9D10BE017513CCB2D /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A058C544A6FD6C0CED8D3EF8B32C8477 /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53DFA631CFF9DA0D73C717A262A03225 /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2435F32136E2AF55179B8E28EA9E3D0F /* GravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54D01DEAE64E628AD2BF178ACC024C6D /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA7191286948B58C7C88940BA6DD10 /* Field.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551830CA163C51C852323BED35CC3411 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0209FBAF5837DFEB5C2C07EFB158194 /* Field.cpp */; };
 		555145FADB11ACE859C3CAF759DB9D93 /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
 		55DD7613FFC7A4C0AEA612E920C11511 /* Pods-CoolPhysics2D_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C41087170D21F3FA4B2F4CD82439A2A /* Pods-CoolPhysics2D_Example-dummy.m */; };
-		575F94C04C4D804E6156C029DAB63357 /* OpaqueParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE6CF04B5845B8E8AD16CF25A15207D /* OpaqueParticle.cpp */; };
-		5771AD998852F0E35076931E6129667B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
+		561AE57EAC87F5112644EDF35165383E /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = CFF31D694C5BB116990A2B06E61744EC /* LICENSE.md */; };
+		56F968519E6FF4565ED37827A2E4684B /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F3612CDD362630A61B5666E4F95122 /* Particle.cpp */; };
+		5710679CC8274B17D36E6D5378A821EF /* RetainCount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 83E8EC4278962480FD158D47F0D86FDD /* RetainCount.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		5791A4953CC58DFE0C46A12824D32EF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A0CE26FEC641CBF3DE63780FFFF11A /* QuartzCore.framework */; };
-		57C3E9E85A094DEF4FF641C445F07CC4 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F99837698B7A9BABA04AD79B2D079B80 /* CP2DGameViewController.mm */; };
 		5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5976E4FEEAC0978FB4927C9DF57A2EA6 /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CBD4C8F95301EB3D5D2D8B6B891E31 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5939C43C2FE8C4275A971C8BB5FD9924 /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEDD49D072F8F0B9B4A74D68C29A87 /* CP2DGameView.mm */; };
 		597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE2B5965862EF9C73D85511919B04A6 /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1937946F0899F5EB176022CF312398 /* GravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C4999B85707AB15283226A94329686B /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5339ADB677716137FBDF87271EDD0A /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 901471503E334CAB9094E5CCEC89C696 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F7AB32C8F15288C086A4FD6DDE9C1CD /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1DC4090977DF00013F0F9F1BBEA5E9F /* Wave.cpp */; };
+		5F44ED8BA3732445154214FA7A367A34 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E6C9AAE61EBA7539825F6CEE453FC /* Circle.cpp */; };
 		60050ED4657AC20CBE6DD834A1B9F733 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */; };
 		60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FFED28A986243897963CC76291D735 /* OpaqueParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C14F8CA1C0C6C06EC84DE163FDB2E0 /* OpaqueParticle.cpp */; };
 		619C99D38A10B4533047BA20B0CAC070 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3957DBAE0C45EB13A9C9047F2C52B7 /* XCTest.framework */; };
-		61CB66EDCA543E71FF00A78D7B6C7B2E /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5EDC793A0A13997C7F26E1CE2FCBF42 /* CP2DGameView.mm */; };
+		61E50846F8CC19902407153E770220A4 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 634145507CDD89CB2E0C000FF91E4091 /* CP2DGameViewController.mm */; };
+		62F99F78D34942272D44170D1E3EA306 /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E668BD2288E9D79F59FB52075ADA7A20 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660DBF21856DCEC9F54C5F36FE96CD30 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6593AB6ABAA557B449B6BA6BC66481 /* Field.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		680C418655A07D2DFF86A55CF0132405 /* Particle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AAC0A78A1683B128EF878068F4865ABA /* Particle.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		66828440DA8FD155C30669EBAA1AA650 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3494BB283738830E25DF5EAB838A3D2 /* DampingField.cpp */; };
+		66A87227FCAAD6FF3EEC4A744A439975 /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F8774541143969B11E1BE0F80BD405 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6929B83D2248678B61ED0519186F1631 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757732CABCCD0D3A3DECF0188321177D /* Specta-dummy.m */; };
-		693C7538B616BB13E47BE7A0530F0CDA /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D67FC134130D367E7FCC0AC6F0AE3C0B /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A99D71665A633F11709D14FD289EC2E /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF9832E18EA2DD92EF90607376ADF09 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FB016B284FE58273164675E7BB1FFB /* Wave.cpp */; };
+		6CF604F6D480831016227C4B34650C6D /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F73FB65573650FBF686E5CC6E5466895 /* example.cpp */; };
 		6D2688BA95947E2CCF97248CD20BE132 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D53119FBA2B20421A143AEF69E57A4A /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8189F1953973F827C6ACE2BD32FCC7 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F67C52A9DE68A63F28322120A5C90E4 /* DampingField.cpp */; };
-		70BC7386894B769A6E00B6867C9BA434 /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD9B936F87F0A3833191CEAB9657BAA /* BuoyancyField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7116E9D809A9CB4C861F5799DE4445B2 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F732C1E0C8EC4CA56169A423453A893 /* Rectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728686FB02C6A290378BCA86356299EF /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C252C8242BCB48A12FC58D52F8489DC /* Vector.cpp */; };
 		73D7B5884FF190E5373F9A1ECEDF7820 /* Pods-CoolPhysics2D_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F322F676AE865D1321D3152D921EEA67 /* Pods-CoolPhysics2D_Tests-dummy.m */; };
-		7581BF35F066DAEDEED9ED1132F9A429 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E3E19492045E7FF1679C354077EE /* example.cpp */; };
-		760F1F97BD5446779EAF4BCC292C0BDA /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B44D655DAAA9F90434240114AF60C9 /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7498E24E8C2D79E65C040802606C9FCB /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0F74252BF6B367DC1F14B2AE06E6F /* COPYING */; };
 		76A52F1F2761DF7119A4BF8884F91712 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */; };
+		76F66C364BED2C318CCE0C928C98CF6F /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDDD6E5888FCEBC28E5944B0523AC5F /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774BA0916AA83C6F813CE737A551DBD3 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1746AB6C0CA21CD85DE78921FEC5F57 /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		78E2CBA21105811B6E93570988B0C496 /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CBD4C8F95301EB3D5D2D8B6B891E31 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A0B6C007228F1C63B7783B60732D4D2 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C41CE3814394451A2934795F20F1A0 /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B436402076FB4B791A9A044B8BAFECE /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B5B015DE03BC9621DD58603E092465 /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B566662DA538B16ED9BBAF49BE1A170 /* CoolPhysics2D-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAB127BE37F9AAE7DC9826882C16A3F /* CoolPhysics2D-iOS7.1-dummy.m */; };
-		7CB420CD7887D55F869D30919C6C0068 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3A5A23D2FDF4F83D6ACFF150584F52 /* GameWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D5236067CBB59F44E9F87541C5D7A8E /* OpaqueParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE6CF04B5845B8E8AD16CF25A15207D /* OpaqueParticle.cpp */; };
+		79D56F7475CA552815639682B3CD32E7 /* CoolPhysics2D-iOS7.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B3CBB53A130806E5A9C9DFB740C78 /* CoolPhysics2D-iOS7.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAAE200610972691EEEAC4EE9F3CF56 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DC3DDD539D6FC2F09B734ADB2CB9BB /* ThreadPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9C8237916797DF2B3B5C41ECBE83E7 /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8096D5FE73AD8C22212C733E7203DF /* ObstacleField.cpp */; };
+		7DE4CC5349407920BF94A1647C60486A /* CoolPhysics2D-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7861B720F24FA51F78A173665DD785A3 /* CoolPhysics2D-iOS8.0-dummy.m */; };
 		7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E9FB1F9247AF7987A0BCF13E1F6FB67 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D919BD85B1712B55198410F7606BDB93 /* CP2DGameWorldRenderer.mm */; };
+		80DFA8BB2DC9D07A0DF1077A7B73A82E /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 316A8B5513029BCD60666481BDE8F015 /* Circle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		84C92135CB3C8B8F330088096352FAA1 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 291533F38B4CB6D0A00768A7D7EDF6F1 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84EB36B30741958C90AF1084AA589185 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C208752E77DFA06CBC28AD496B28B835 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		87076AC876C895ED0F06DFF72A7B5E13 /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D1057166A2447EA2819CEF2CD7B37F12 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		895524D7491F500BFCF7A705A0FCDEAA /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B06B9AB387BB0272FDA25DE7D7A85C37 /* Particle.cpp */; };
-		89BBDEC90F62978D609A9EFCBF59EEC5 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0670305EF4972E0946A5057776DCD43B /* ObstacleField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A3F421B96B7DF16A30729F4F7D4F3BF /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A697ED9945716C275EDE16442B72E35 /* ObstacleField.cpp */; };
+		8A61EC43EBAF148FE1F374FEA5182064 /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0F74252BF6B367DC1F14B2AE06E6F /* COPYING */; };
 		8A8E20D30886B208B42A7E3A18049EC5 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */; };
 		8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D24C93A44A823E785EE91D78394D63B9 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BCBDE3B1CFF9ED00187D13123CC2C97 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 634145507CDD89CB2E0C000FF91E4091 /* CP2DGameViewController.mm */; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = D182CF13D4DB728DAAD9786E7E8143B2 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D5638479B4BC0F0AF8CF9AE3B1DB1CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */; };
+		8E2D96CE7FA18285F258A00916B51AA5 /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 901471503E334CAB9094E5CCEC89C696 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		907F6024572D596778DCFB05F7056308 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E6C9AAE61EBA7539825F6CEE453FC /* Circle.cpp */; };
+		921E9D493E7C9B0592097F89A66C9432 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1746AB6C0CA21CD85DE78921FEC5F57 /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945ED940B506AA581E1FE3B8ECD96D52 /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CF06BF6795414B688F26E91ABCD6F /* CentripetalGravityField.cpp */; };
+		958F00167F83048CF3DF39BD93CAF0C2 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA7191286948B58C7C88940BA6DD10 /* Field.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95FDCB29A3623EF73C181EC1EFAB9CFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */; };
+		9833ADF0E8F934F73E4B0CDBD8DA305B /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE14099E7E6A40F01DA303EC40F9629 /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98CD3AD9372D041CF7C2CA8669EECC8E /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23C44D1ACE4B8849BB9C8542383DB26C /* BuoyancyField.cpp */; };
+		993ED700C20C1F8A9694BD6B355AE288 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 76926C159501C4E15FDF16659D6E6C81 /* ObstacleField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9976459CB837AD676926C32E8ADC062D /* Particle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D2C9660F77B122DDD6BE094D88B53D5F /* Particle.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9A51F353BBE064468D0B576997ED8696 /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AAC6F61AFBDC423B17FD92426C7E5 /* RetainCount.cpp */; };
-		9ABFE261A4F502CD5F43B9672DA4782B /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1DC4090977DF00013F0F9F1BBEA5E9F /* Wave.cpp */; };
+		9BCC176623BC8DA5CE4E4003A92A859D /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8683742965F33DA6941DF13051C3FEA /* GravityField.cpp */; };
 		9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = D23BC3A3A95CE0E0D9D4237760C716E8 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3F6842DB79061032590F7E3FD9341B /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C41CE3814394451A2934795F20F1A0 /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DEDF935C9C4B8FBD172DB3E8655DFC0 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F99837698B7A9BABA04AD79B2D079B80 /* CP2DGameViewController.mm */; };
+		9D030AC196C69904C09B0EA4E13EC9B9 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF0EE6505679BC880E4DADBD709F90 /* ParticleEmitter.cpp */; };
+		9DDCDAF4520EF5CCD3D02DFAFF8FEE0A /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23C44D1ACE4B8849BB9C8542383DB26C /* BuoyancyField.cpp */; };
 		9E385BE4CC2EAF59FE6E95108EE48197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9EA076D25036A0F4765FF3FB57CF4A6A /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9F108BEC5BE800B19E4F765B4B3DEDB3 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0670305EF4972E0946A5057776DCD43B /* ObstacleField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9FC74A373045F5EC81B5AD690294C859 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4BF434C4FB0488A150B0603FAE15F1 /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8760F1D54BA49D9E6E732BDF6947CC /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2282F5175040A357862C06FE386DC9A6 /* GameWorld.cpp */; };
+		A01609F0B1DA1226E72FB92B4866C7AD /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7308AAF17D48C3CADF920062307F7390 /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = D148E142A756A0CD8BA055B657862814 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A27C862785EDF353258C9DDB41A091A0 /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B11D9A5D28C871E5518F7F7DA2F8FC /* MathDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3D7787D73E0CC2AAC5E5F2E08AA2689 /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 474D8E1BAFC24DE682DFD8AB7F35414B /* COPYING */; };
-		A44B57F6C0AA74CF32B960056D9C93CA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 73FE4776AAECC6DFB6D69DA03550AE43 /* README.md */; };
+		A4294727FB4A1B7CC34F44BE0EC494EC /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCF7E0D5562414AFC896DB3D6CB88F /* CP2DWaveRenderer.mm */; };
+		A54AB0793193244C689B5DFF4ABE43E5 /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8053FBC9A501873D9B32CB60F3DD49 /* retaincount_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A68815664B9A2EBED585AC095AA5864E /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCF7E0D5562414AFC896DB3D6CB88F /* CP2DWaveRenderer.mm */; };
 		A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A71FD7F091A2B651384AE96C9158E95C /* Wave.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 021B287ECD928FF4A84FDD9C2FCEE4BF /* Wave.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		A730BBCB867F88F8ECF3A1A18DC8C474 /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CF06BF6795414B688F26E91ABCD6F /* CentripetalGravityField.cpp */; };
+		A7ABBC42A881036CE254C676DD65D923 /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = A19972974B7D9F74CD51DEDF628F09D8 /* DampingField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8212009633913DAFDDD5F7B46832FBF /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 551809FFF7E826D7EAAE17AA4E26F3B3 /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82C50ED8569C8B00A02DAF8D8A358A0 /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1937946F0899F5EB176022CF312398 /* GravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F336ECC66909E2FC05C8E3D376CF12 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A855F402E33614F4DD89B4A52ECBF672 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2728E3DEB3A8AC0BC083B2C188862554 /* ParticleEmitter.cpp */; };
-		A8E8177D4493049158405B26E73B0E2A /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6593AB6ABAA557B449B6BA6BC66481 /* Field.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC0AB78F3A7629ED1C7F3F82BBB3F471 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AED6B84DF874D4A42AE97F0B75C54F5E /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CADAE9F064E592144E18C8B589A439 /* CentripetalGravityField.cpp */; };
+		AF0D91D3CFAA042340629D380EC5D75B /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8053FBC9A501873D9B32CB60F3DD49 /* retaincount_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1794808955881DABDFDFA3552EECD9B /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB72551B3EFFEC85683D8C62E8E61B2 /* Color.cpp */; };
+		B1714A2CB68A6CFB3042ACC14315478E /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEA107308091359BD74278BE9519B2 /* GameWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B32ED04E18670C4C5ADD6464C6696D53 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B442BF086460808511991F4D6405061E /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = ED56EBEF4C3AB3DDA46B39B49C64BE74 /* retaincount_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B462A3BA4C6D9583F28051F39F1E271C /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC0BE0FA87D4D89FCE64F144FA95A /* Color.cpp */; };
 		B46C9F0D7C3D5781F107D47DA7ACE972 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */; };
 		B4997840124F3806072ABE8506D3C648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
-		B5969A7207C1ACC902357D117AC49767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */; };
+		B5034AFDD1FEEDD171237C209CD0975F /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A885E3658A2C1AED17775E882F9662 /* opaque_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59EB3501CDD8D8AA7A56925764385AC /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4C7651D93EA7961A58155BBDF43CF /* FBSnapshotTestCasePlatform.m */; };
-		B6F82562DD9EB754229BCE6DD1DDA4C6 /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 330A18EDE1C1E9E58E539AFA352653B2 /* opaque_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B40CFA4C0A1401327E4D73BFB2725E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC325BA94973D694D5E94235EBACBC08 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FD9BAC0E67190BBE6C26335F2AFEAA /* Field.cpp */; };
+		BC26356FC407FF56189F337640DFBB28 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBC077D350847FE2F164F0C19E05C0FE /* CP2DParticleRenderer.mm */; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BCAB1E947205AE614D57AE520AD6EBB9 /* RetainCount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 32F3F8B29A117FA2A3289BC200C0F8E1 /* RetainCount.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEAE237A59E9B23A5B466035653E3EF6 /* Particle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AAC0A78A1683B128EF878068F4865ABA /* Particle.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD1EBDF9B3AB50CF215A5305D2EF3B75 /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7308AAF17D48C3CADF920062307F7390 /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C22AE6C6D6ED5FAE716F38977B9AA0B0 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FF8FCD7497595EEB9611E7438C1C78 /* UIImage+Compare.m */; };
+		C3EFD1DF9D2679297372827EA6496DCA /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8261D5A8C88D75E164058DE079E17F /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C611E2FCBCAFB016378E59917A7E6551 /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 316A8B5513029BCD60666481BDE8F015 /* Circle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C7C776243DB4BDBF1D5FB3E5BE59AE3B /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BE44D003BDB50EE46683503131B703 /* Vector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98AFAFF68F86D89D14034D5020440F3 /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A885E3658A2C1AED17775E882F9662 /* opaque_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA579A0423D91AA3A2EC635CA54C318C /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA8A57A9DDFFF1D2435AED26730A6642 /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B5B015DE03BC9621DD58603E092465 /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA204ABB3C21D6EAB806E522D658520 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E962CDB426101890B60C917AB7D39A2 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBB2A29C26005DDD29E1076A4394E14E /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBD6461CCAB653DB367D94F31C090902 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = D185CE6943CD76847FA958D3B77C57F9 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CC1695F7BDAE969F1F30F064B6158DFB /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D701D2E4F46B817390804AB3A128D3 /* CP2DParticleRenderer.mm */; };
-		CC25BD1ACE0D3CAB8ED7473AEB4A12C6 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC156D7509182732629CB7CB093CF85 /* ThreadPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2BFAF525205DEC34EA0B16EA89FFBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */; };
 		CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */; };
-		D22AEAB404035BA7F2FA3E113213965C /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3A5A23D2FDF4F83D6ACFF150584F52 /* GameWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5F8205B57F79A7414A83F8296DB1A41 /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C5BEEE28C9DCDF4C7F904C8A064721 /* GravityField.cpp */; };
-		DA68849416B37D396BD017A901E63337 /* CoolPhysics2D-iOS7.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 513B2E92C4288943A42008860BFFD38E /* CoolPhysics2D-iOS7.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2724C4F89FEE4C02D4C9BC6B60F5DC0 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0209FBAF5837DFEB5C2C07EFB158194 /* Field.cpp */; };
+		D787944E5CBD0F66542FABD1D5356A3A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7AA26473D90A312DC3BE1D322CE88D8C /* README.md */; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB2A99722096AC02838B0E65D5C3262 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8261D5A8C88D75E164058DE079E17F /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD374B5307D9366153DE2C74E3BB012E /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3D46D4A92BCEF5AE690D16A1F1F2B8 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEA107308091359BD74278BE9519B2 /* GameWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE9839E0B449C28F06DFB3B0E7B8B1C7 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEE1BBEE03C30BB9A20546C92DF7871F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
 		DEF8555682747BE5155B4735FDCC8864 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF87E4AB0FF10DBF39D73FB0F8931C54 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 08186BBB76D4CE07D88FBD9E82E9C892 /* UIImage+Snapshot.m */; };
 		DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFD57F014FDDA856908CB8530E61C387 /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 097A9A885860D414A586BB197672CD5E /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E170007F7547C155E0D5536FFC453EBC /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = A19972974B7D9F74CD51DEDF628F09D8 /* DampingField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1813C2FD868AD6AC75F818B4767815D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2B624117C8C20C3F41F94AC516548CE /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4D99B9F2C833767A796D9C232D26D5A /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C181E29E59B1AE35CAF8DAFD9B9FF3B /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67DD9C28C541E4A1BC8C3812A858F34 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C252C8242BCB48A12FC58D52F8489DC /* Vector.cpp */; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E71701794647A64B14A7B5C623FE51AA /* Wave.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 021B287ECD928FF4A84FDD9C2FCEE4BF /* Wave.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7DC8A71351AF76D8E56C02B82855FDA /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4BF434C4FB0488A150B0603FAE15F1 /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9FD309D0A486ECCC7791F5313B10027 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2728E3DEB3A8AC0BC083B2C188862554 /* ParticleEmitter.cpp */; };
-		EB9625E64BB3FE949C5E59E0A007F6E0 /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE86B8BEFB6CD3A25D3E59877D837D4 /* CP2DWaveRenderer.mm */; };
-		EDEA598C3A9E3C88CA0CF6982D724DD1 /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD9B936F87F0A3833191CEAB9657BAA /* BuoyancyField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2591649CE8C0AF60FEB532572C5633 /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F0125E9A272F9A1CCD8F0B3A339B29 /* BuoyancyField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE0B1C34C42A584E87D8EE88D3C7D297 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
-		EE13BCD831727C4C18C935305867D999 /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = ED56EBEF4C3AB3DDA46B39B49C64BE74 /* retaincount_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE6521339374E44B478D6FB1094FE7E0 /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5F3177F81379B2BBB8E20CC090E363 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F30D96007858BAE68508B46CD3A505E4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 291533F38B4CB6D0A00768A7D7EDF6F1 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F324021EE960D2E264E61EEAA9840334 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC156D7509182732629CB7CB093CF85 /* ThreadPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3E193ABC98562674BE6AED4874134D0 /* RetainCount.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 32F3F8B29A117FA2A3289BC200C0F8E1 /* RetainCount.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		F47448EBF573CF8365B0B550BB8EF1B8 /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = C352850843D4B88FD700C22BD50006CC /* CP2DGameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4BAD7716D0EBA14990870EFD866E5E9 /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 330A18EDE1C1E9E58E539AFA352653B2 /* opaque_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C8A3D70B15259C8EF86DEF7EB3CF9C /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44FF15F44D7EE8E2A2F6FCC8B102573 /* GameWorld.cpp */; };
-		F5100DDAA5EDD545D3E50F37A7CC6E8C /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FD9BAC0E67190BBE6C26335F2AFEAA /* Field.cpp */; };
-		F58E7A8D51497D4F9946B13917DE470B /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 474D8E1BAFC24DE682DFD8AB7F35414B /* COPYING */; };
+		F4E8D0DC0EE1BC1B77CE224BAAFBB86A /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BE44D003BDB50EE46683503131B703 /* Vector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5A0F0ECAFDDD4CB5AA095233FE3020B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */; };
-		F60B1DD1A17539DF650DB7D9EF346E00 /* CoolPhysics2D-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE222825120BA70F34A19F4C01598D07 /* CoolPhysics2D-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F97451CCC86651F41CF38DA8F7071094 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F98E609B1021D2654B03D04D0F77B753 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 73FE4776AAECC6DFB6D69DA03550AE43 /* README.md */; };
+		FA953750A4202F3A5025A3A8706EAC3E /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8096D5FE73AD8C22212C733E7203DF /* ObstacleField.cpp */; };
+		FC0B3C13583D5B1E671AF77A36ADEFB3 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBC077D350847FE2F164F0C19E05C0FE /* CP2DParticleRenderer.mm */; };
+		FC115F8F6FF0D37036140F708C9E79EC /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F0125E9A272F9A1CCD8F0B3A339B29 /* BuoyancyField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC8E6056C89158BFD057EEC0762B5A1B /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B44D655DAAA9F90434240114AF60C9 /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD19790794D99A9129469A4A7EE8806F /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44FF15F44D7EE8E2A2F6FCC8B102573 /* GameWorld.cpp */; };
+		FD04D9331B7D107049E4F2F2F1694E5D /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEDD49D072F8F0B9B4A74D68C29A87 /* CP2DGameView.mm */; };
 		FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD94A4C3A5E4265AC33C6308C96738C8 /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5EDC793A0A13997C7F26E1CE2FCBF42 /* CP2DGameView.mm */; };
+		FD7573D6A726687AD91C54AEECC78F20 /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 422E33E096329761C8397F14146153B3 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDB5D957432FCD9030159AD854F8CF6E /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */; };
 		FE73426ED9AF0269CDD415D21C489F51 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEF8025CC9A2BBEB0E240C03241F3E65 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF46F134970C91061B1E020DB0DACB7 /* SwiftSupport.swift */; };
+		FF1016EEE555AA96C6CB95BE7F24E163 /* Particle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D2C9660F77B122DDD6BE094D88B53D5F /* Particle.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
@@ -266,7 +284,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8545DF991C4BE0B4AA0CEFF7579D90B7;
+			remoteGlobalIDString = 51D450593309AE30CD51F20616F56C37;
 			remoteInfo = "CoolPhysics2D-iOS8.0";
 		};
 		983D5B31E2D074010B8442F3217980EE /* PBXContainerItemProxy */ = {
@@ -287,7 +305,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98FA2A277BE79992744BE5D424A7C906;
+			remoteGlobalIDString = F47A60AAD5FC7F6AF54ACDD49E90FD76;
 			remoteInfo = "CoolPhysics2D-iOS7.1";
 		};
 		E4FB71080B711B9BBD0C6455E34B5C71 /* PBXContainerItemProxy */ = {
@@ -308,16 +326,16 @@
 
 /* Begin PBXFileReference section */
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		021B287ECD928FF4A84FDD9C2FCEE4BF /* Wave.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Wave.hpp; sourceTree = "<group>"; };
+		01AA7191286948B58C7C88940BA6DD10 /* Field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
-		0670305EF4972E0946A5057776DCD43B /* ObstacleField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObstacleField.h; sourceTree = "<group>"; };
 		0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		07BC24DA84E3F15453DEC37314546A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08186BBB76D4CE07D88FBD9E82E9C892 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		097A9A885860D414A586BB197672CD5E /* CP2DParticleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DParticleRenderer.h; sourceTree = "<group>"; };
 		0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0AB50C1E64EA7A8EEF1DDE1CFF728838 /* CoolPhysics2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoolPhysics2D.framework; path = "CoolPhysics2D-iOS8.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BAB127BE37F9AAE7DC9826882C16A3F /* CoolPhysics2D-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolPhysics2D-iOS7.1-dummy.m"; sourceTree = "<group>"; };
+		0B1937946F0899F5EB176022CF312398 /* GravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityField.h; sourceTree = "<group>"; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		0F9D6112516E333FEF51B84B2A091ECC /* Pods-CoolPhysics2D_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Example-resources.sh"; sourceTree = "<group>"; };
 		0FD650CB4C0CA1E1180C2615E412460D /* Pods-CoolPhysics2D_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolPhysics2D_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -333,137 +351,151 @@
 		19DC80D554BEE6D26E8EDBBFFBEE756A /* Pods_CoolPhysics2D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoolPhysics2D_Tests.framework; path = "Pods-CoolPhysics2D_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		1BA9D2D1EA5803AA43910A232083D755 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD886B73DA12202267C47837A7CF47A /* CoolPhysics2D-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoolPhysics2D-iOS8.0-prefix.pch"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		1DCF0EE6505679BC880E4DADBD709F90 /* ParticleEmitter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ParticleEmitter.cpp; sourceTree = "<group>"; };
 		1E7BBDA96EB748B4566D121043C548C0 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
+		1EF8B4FC0D782E62419397C278CFDEB9 /* RetainCount.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RetainCount.cpp; sourceTree = "<group>"; };
+		20BE44D003BDB50EE46683503131B703 /* Vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 		2171A98C59D4B0D48D6DADFC6038CBCA /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
+		2282F5175040A357862C06FE386DC9A6 /* GameWorld.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GameWorld.cpp; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		236CBAB1090F816D21D9FA71838E76AA /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
-		23B44D655DAAA9F90434240114AF60C9 /* CP2DWaveRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DWaveRenderer.h; sourceTree = "<group>"; };
-		2435F32136E2AF55179B8E28EA9E3D0F /* GravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityField.h; sourceTree = "<group>"; };
+		23C44D1ACE4B8849BB9C8542383DB26C /* BuoyancyField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = BuoyancyField.cpp; sourceTree = "<group>"; };
 		26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
-		2728E3DEB3A8AC0BC083B2C188862554 /* ParticleEmitter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ParticleEmitter.cpp; sourceTree = "<group>"; };
 		2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
-		291533F38B4CB6D0A00768A7D7EDF6F1 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		2992521818E55C566A758BE830E8029B /* Pods-CoolPhysics2D_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolPhysics2D_Example-umbrella.h"; sourceTree = "<group>"; };
-		2E22C0B9B5B2EE949112AAE1721D4D7B /* CoolPhysics2D-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CoolPhysics2D-iOS8.0.modulemap"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		2AEB5BD805AEDACCE97D9F1C59E70524 /* Wave.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Wave.hpp; sourceTree = "<group>"; };
+		2B8096D5FE73AD8C22212C733E7203DF /* ObstacleField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ObstacleField.cpp; sourceTree = "<group>"; };
+		2C8CEA12271E56876A07E429D1FBE3E5 /* CoolPhysics2D-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoolPhysics2D-iOS8.0-prefix.pch"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		2CCEDD49D072F8F0B9B4A74D68C29A87 /* CP2DGameView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameView.mm; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		2F645EBA093F9FF47932FF1D5CE54764 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		311F63BAF4427F4DB2CB7235C2BC962D /* Pods-CoolPhysics2D_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		32F3F8B29A117FA2A3289BC200C0F8E1 /* RetainCount.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RetainCount.hpp; sourceTree = "<group>"; };
-		330A18EDE1C1E9E58E539AFA352653B2 /* opaque_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opaque_config.h; sourceTree = "<group>"; };
+		316A8B5513029BCD60666481BDE8F015 /* Circle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		339EDD5C71B2856B1EE90B199F88C03A /* Pods-CoolPhysics2D_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
 		3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
+		3C6F8F2E7F36AFB6F559F58CBCDBDC45 /* Rectangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Rectangle.cpp; sourceTree = "<group>"; };
 		3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		3F732C1E0C8EC4CA56169A423453A893 /* Rectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
 		3FF46F134970C91061B1E020DB0DACB7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		419377E544AC43AB5272D6BABBDFC7F4 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		422E33E096329761C8397F14146153B3 /* CP2DGameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameView.h; sourceTree = "<group>"; };
 		428F5AA64CB12DFC1C335C47914064E0 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
+		42C14F8CA1C0C6C06EC84DE163FDB2E0 /* OpaqueParticle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = OpaqueParticle.cpp; sourceTree = "<group>"; };
 		431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
+		4599A74344BD0957377F4B273FD400D2 /* CoolPhysics2D-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CoolPhysics2D-iOS8.0.modulemap"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap"; sourceTree = "<group>"; };
 		45EC0FC530CC769C449A2CC5C82BA946 /* Pods-CoolPhysics2D_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolPhysics2D_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		474D8E1BAFC24DE682DFD8AB7F35414B /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
-		49C4E3E19492045E7FF1679C354077EE /* example.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = example.cpp; sourceTree = "<group>"; };
+		47F0125E9A272F9A1CCD8F0B3A339B29 /* BuoyancyField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuoyancyField.h; sourceTree = "<group>"; };
 		4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
+		4A3E6C9AAE61EBA7539825F6CEE453FC /* Circle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Circle.cpp; sourceTree = "<group>"; };
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
-		4B6593AB6ABAA557B449B6BA6BC66481 /* Field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
-		4FE86B8BEFB6CD3A25D3E59877D837D4 /* CP2DWaveRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DWaveRenderer.mm; sourceTree = "<group>"; };
-		513B2E92C4288943A42008860BFFD38E /* CoolPhysics2D-iOS7.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-iOS7.1-umbrella.h"; sourceTree = "<group>"; };
+		4BD0F74252BF6B367DC1F14B2AE06E6F /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
+		4EF5280BA978EBFD2B874BAF286E32F4 /* CoolPhysics2D-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoolPhysics2D-iOS8.0-umbrella.h"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
 		51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		54CBD4C8F95301EB3D5D2D8B6B891E31 /* OpaqueParticle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpaqueParticle.h; sourceTree = "<group>"; };
+		52F8FD165367F94AEF3B1BB6E94A067E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
+		551809FFF7E826D7EAAE17AA4E26F3B3 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		581C5F5012EB4722B076757D7F522B51 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		5A697ED9945716C275EDE16442B72E35 /* ObstacleField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ObstacleField.cpp; sourceTree = "<group>"; };
+		5ABCF7E0D5562414AFC896DB3D6CB88F /* CP2DWaveRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DWaveRenderer.mm; sourceTree = "<group>"; };
 		5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
-		607D885005E6F46F8BBB74AA29A7B9A3 /* CoolPhysics2D-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CoolPhysics2D-iOS7.1.xcconfig"; sourceTree = "<group>"; };
+		5D4CF06BF6795414B688F26E91ABCD6F /* CentripetalGravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = CentripetalGravityField.cpp; sourceTree = "<group>"; };
+		5E962CDB426101890B60C917AB7D39A2 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		634145507CDD89CB2E0C000FF91E4091 /* CP2DGameViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameViewController.mm; sourceTree = "<group>"; };
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
-		6814F3E3030C336E3EB37F33A996CD30 /* CoolPhysics2D-iOS7.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "CoolPhysics2D-iOS7.1.modulemap"; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		69CF53BF17BFA358F99FBA7F958ABA26 /* Pods-CoolPhysics2D_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoolPhysics2D_Tests.modulemap"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B67404717313265E0BF5ABB1885DCF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		6BB0EE96C0133D3DBB52F2BBD11407F7 /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C25CF09C7F5010A52EB57558C554CD6 /* CoolPhysics2D-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CoolPhysics2D-iOS7.1.xcconfig"; sourceTree = "<group>"; };
+		6C44A9887AFFAE43936C7E1D321AAA02 /* CoolPhysics2D-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolPhysics2D-iOS7.1-dummy.m"; sourceTree = "<group>"; };
 		6F171023695E78011482097406A42BC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8261D5A8C88D75E164058DE079E17F /* Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
-		73FE4776AAECC6DFB6D69DA03550AE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7308AAF17D48C3CADF920062307F7390 /* CP2DGameWorldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameWorldRenderer.h; sourceTree = "<group>"; };
 		757732CABCCD0D3A3DECF0188321177D /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		76926C159501C4E15FDF16659D6E6C81 /* ObstacleField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObstacleField.h; sourceTree = "<group>"; };
+		7861B720F24FA51F78A173665DD785A3 /* CoolPhysics2D-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CoolPhysics2D-iOS8.0-dummy.m"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-dummy.m"; sourceTree = "<group>"; };
 		7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
-		79B5B015DE03BC9621DD58603E092465 /* CP2DParticleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DParticleRenderer.h; sourceTree = "<group>"; };
+		79A885E3658A2C1AED17775E882F9662 /* opaque_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opaque_config.h; sourceTree = "<group>"; };
 		7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
+		7AA26473D90A312DC3BE1D322CE88D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B8053FBC9A501873D9B32CB60F3DD49 /* retaincount_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = retaincount_config.h; sourceTree = "<group>"; };
 		7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
+		7C252C8242BCB48A12FC58D52F8489DC /* Vector.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Vector.cpp; sourceTree = "<group>"; };
 		7C41087170D21F3FA4B2F4CD82439A2A /* Pods-CoolPhysics2D_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolPhysics2D_Example-dummy.m"; sourceTree = "<group>"; };
 		7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
+		7E2B3CBB53A130806E5A9C9DFB740C78 /* CoolPhysics2D-iOS7.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-iOS7.1-umbrella.h"; sourceTree = "<group>"; };
 		7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
-		7F67C52A9DE68A63F28322120A5C90E4 /* DampingField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = DampingField.cpp; sourceTree = "<group>"; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		82FB016B284FE58273164675E7BB1FFB /* Wave.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Wave.cpp; sourceTree = "<group>"; };
+		83E8EC4278962480FD158D47F0D86FDD /* RetainCount.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RetainCount.hpp; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8BA470021C125CFF8CB52B44136E8B00 /* Pods-CoolPhysics2D_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolPhysics2D_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
+		901471503E334CAB9094E5CCEC89C696 /* OpaqueParticle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpaqueParticle.h; sourceTree = "<group>"; };
+		90B11D9A5D28C871E5518F7F7DA2F8FC /* MathDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MathDefines.h; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
+		91AEA107308091359BD74278BE9519B2 /* GameWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		921C86B70AE5EE1E10BD09948738EF96 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		928CB47DE4B1596A4A342DD651619A9F /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		92CADAE9F064E592144E18C8B589A439 /* CentripetalGravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = CentripetalGravityField.cpp; sourceTree = "<group>"; };
-		92FEC1ECF2F2A135ADF88529936F752F /* BuoyancyField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = BuoyancyField.cpp; sourceTree = "<group>"; };
+		931A57EE6259E46251723CC3C5821D3D /* CoolPhysics2D-iOS7.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "CoolPhysics2D-iOS7.1.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		966625C6F7503338894C6D04EC33DB15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		96D701D2E4F46B817390804AB3A128D3 /* CP2DParticleRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DParticleRenderer.mm; sourceTree = "<group>"; };
 		979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
-		9A4BF434C4FB0488A150B0603FAE15F1 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		9AAE358FB8158A0331F4AA409209488C /* Pods-CoolPhysics2D_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoolPhysics2D_Example.modulemap"; sourceTree = "<group>"; };
 		9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
-		9B81EFDC35A62C1A603F36F081788D70 /* CoolPhysics2D-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CoolPhysics2D-iOS8.0.xcconfig"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.xcconfig"; sourceTree = "<group>"; };
-		9C181E29E59B1AE35CAF8DAFD9B9FF3B /* CentripetalGravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CentripetalGravityField.h; sourceTree = "<group>"; };
 		9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
-		9E0AAC6F61AFBDC423B17FD92426C7E5 /* RetainCount.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RetainCount.cpp; sourceTree = "<group>"; };
-		A058C544A6FD6C0CED8D3EF8B32C8477 /* CP2DRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
 		A0E1EDDA8A4867913953E0CBF82097C2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		A0FF8FCD7497595EEB9611E7438C1C78 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
-		A1DC4090977DF00013F0F9F1BBEA5E9F /* Wave.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Wave.cpp; sourceTree = "<group>"; };
-		A44FF15F44D7EE8E2A2F6FCC8B102573 /* GameWorld.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GameWorld.cpp; sourceTree = "<group>"; };
+		A19972974B7D9F74CD51DEDF628F09D8 /* DampingField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DampingField.h; sourceTree = "<group>"; };
+		A1DC3DDD539D6FC2F09B734ADB2CB9BB /* ThreadPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
 		A45623F5FFFE8CF2B5BF03F7A6DF5754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A509487768BC5B73495CB834F3496A76 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; path = Makefile; sourceTree = "<group>"; };
 		A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		A5ED020B2B7E706F415F1BA027924320 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80D834C3FD8C62038BA87CB1D43F34E /* Pods-CoolPhysics2D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		A8683742965F33DA6941DF13051C3FEA /* GravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GravityField.cpp; sourceTree = "<group>"; };
 		A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
-		AAC0A78A1683B128EF878068F4865ABA /* Particle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Particle.hpp; sourceTree = "<group>"; };
 		AAF5F0A746C28891B476258BE36155C8 /* Pods_CoolPhysics2D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoolPhysics2D_Example.framework; path = "Pods-CoolPhysics2D_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
-		ABB351F7A45C3CA5A5C8384F537A488E /* CoolPhysics2D-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CoolPhysics2D-iOS8.0-dummy.m"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		ACDDD6E5888FCEBC28E5944B0523AC5F /* CentripetalGravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CentripetalGravityField.h; sourceTree = "<group>"; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
-		AF3F6406F119E0F4A9B7909154F5179E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CoolPhysics2D-iOS8.0/Info.plist"; sourceTree = "<group>"; };
-		B06B9AB387BB0272FDA25DE7D7A85C37 /* Particle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Particle.cpp; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		B3494BB283738830E25DF5EAB838A3D2 /* DampingField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = DampingField.cpp; sourceTree = "<group>"; };
 		B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
 		B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
@@ -471,69 +503,64 @@
 		B9075248C77581BD5230031BD8E5BA45 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BA3957DBAE0C45EB13A9C9047F2C52B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
-		BBB72551B3EFFEC85683D8C62E8E61B2 /* Color.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Color.cpp; sourceTree = "<group>"; };
-		BBD9B936F87F0A3833191CEAB9657BAA /* BuoyancyField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuoyancyField.h; sourceTree = "<group>"; };
-		BCC156D7509182732629CB7CB093CF85 /* ThreadPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
-		BE222825120BA70F34A19F4C01598D07 /* CoolPhysics2D-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoolPhysics2D-iOS8.0-umbrella.h"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		BBC077D350847FE2F164F0C19E05C0FE /* CP2DParticleRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DParticleRenderer.mm; sourceTree = "<group>"; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
+		C00EF0C301930F5BD7EA800908110BED /* CP2DGameWorldRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameWorldRenderer.mm; sourceTree = "<group>"; };
 		C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		C208752E77DFA06CBC28AD496B28B835 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
-		C352850843D4B88FD700C22BD50006CC /* CP2DGameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameView.h; sourceTree = "<group>"; };
+		C2F8774541143969B11E1BE0F80BD405 /* CP2DGameViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameViewController.h; sourceTree = "<group>"; };
 		C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
-		C5EDC793A0A13997C7F26E1CE2FCBF42 /* CP2DGameView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameView.mm; sourceTree = "<group>"; };
 		C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		C9C5BEEE28C9DCDF4C7F904C8A064721 /* GravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GravityField.cpp; sourceTree = "<group>"; };
 		CA64714149CA81D3CD908891F74B2E79 /* Pods-CoolPhysics2D_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		D1057166A2447EA2819CEF2CD7B37F12 /* ParticleEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
+		CFE14099E7E6A40F01DA303EC40F9629 /* CP2DRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
+		CFF31D694C5BB116990A2B06E61744EC /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
 		D148E142A756A0CD8BA055B657862814 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
+		D1746AB6C0CA21CD85DE78921FEC5F57 /* CP2DWaveRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DWaveRenderer.h; sourceTree = "<group>"; };
 		D182CF13D4DB728DAAD9786E7E8143B2 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		D185CE6943CD76847FA958D3B77C57F9 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		D23BC3A3A95CE0E0D9D4237760C716E8 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		D24C93A44A823E785EE91D78394D63B9 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
+		D2C9660F77B122DDD6BE094D88B53D5F /* Particle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Particle.hpp; sourceTree = "<group>"; };
 		D2F336ECC66909E2FC05C8E3D376CF12 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		D41D99FA9E9AAB2466DF45604137EF43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4C41CE3814394451A2934795F20F1A0 /* Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
-		D67FC134130D367E7FCC0AC6F0AE3C0B /* CP2DGameWorldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameWorldRenderer.h; sourceTree = "<group>"; };
-		D919BD85B1712B55198410F7606BDB93 /* CP2DGameWorldRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameWorldRenderer.mm; sourceTree = "<group>"; };
-		D9FD9BAC0E67190BBE6C26335F2AFEAA /* Field.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Field.cpp; sourceTree = "<group>"; };
 		DA759BBEDD87708FDD097E2435E8B90D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
-		DCB53C2444BEC3FCA2A9001D2CE14880 /* CoolPhysics2D-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
+		DEE847271215A0B3C29725479DB50644 /* CoolPhysics2D-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
-		DF5F3177F81379B2BBB8E20CC090E363 /* CP2DGameViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameViewController.h; sourceTree = "<group>"; };
 		E0EB09D40C5BAB2CC9F36E379A0CED1F /* Pods-CoolPhysics2D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
+		E4F3612CDD362630A61B5666E4F95122 /* Particle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Particle.cpp; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		E5F094ADB050CE63576D2C510C987052 /* Pods-CoolPhysics2D_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolPhysics2D_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E63082D5F4B69B9F43709C28E851F5CE /* Pods-CoolPhysics2D_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolPhysics2D_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E82F5C6A0AD8FD669E53AB261CF730B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668BD2288E9D79F59FB52075ADA7A20 /* ParticleEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
+		E7754F6E1F743C84ED612E5109D0C6E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CoolPhysics2D-iOS8.0/Info.plist"; sourceTree = "<group>"; };
 		ED4EA75219EB032B0FA995FC1A56AA0F /* Pods-CoolPhysics2D_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Tests-resources.sh"; sourceTree = "<group>"; };
-		ED56EBEF4C3AB3DDA46B39B49C64BE74 /* retaincount_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = retaincount_config.h; sourceTree = "<group>"; };
 		EDE0D6A47393B29719A2BF4340A993CE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		F0209FBAF5837DFEB5C2C07EFB158194 /* Field.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Field.cpp; sourceTree = "<group>"; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
-		F1C22581B8238A6DB6C6470B97FD0662 /* DampingField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DampingField.h; sourceTree = "<group>"; };
+		F17F6275D2A08C0D302146F4AF87467C /* CoolPhysics2D-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CoolPhysics2D-iOS8.0.xcconfig"; path = "../CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		F2AFC0BE0FA87D4D89FCE64F144FA95A /* Color.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Color.cpp; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F322F676AE865D1321D3152D921EEA67 /* Pods-CoolPhysics2D_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolPhysics2D_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		F99837698B7A9BABA04AD79B2D079B80 /* CP2DGameViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameViewController.mm; sourceTree = "<group>"; };
+		F73FB65573650FBF686E5CC6E5466895 /* example.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = example.cpp; sourceTree = "<group>"; };
 		F9F84FD169368C4A5FB21AAD7A5B4C99 /* CoolPhysics2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoolPhysics2D.framework; path = "CoolPhysics2D-iOS7.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3A5A23D2FDF4F83D6ACFF150584F52 /* GameWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
 		FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		FBE6CF04B5845B8E8AD16CF25A15207D /* OpaqueParticle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = OpaqueParticle.cpp; sourceTree = "<group>"; };
 		FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		FFCA6E23CE38D336A38AFCF29986180A /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Expecta.modulemap; sourceTree = "<group>"; };
@@ -570,6 +597,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5945A1CD48456A1426701908A8F24D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4695E16A5D4C75B15E8608E5FAB847D8 /* Foundation.framework in Frameworks */,
+				0ACEC86BA478ACA50EEDE70AC074CE47 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F98B6F7E83C3AE480EF5A9C1C756596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,21 +614,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4B730B5861F3AF1D671220D3BD58034 /* Frameworks */ = {
+		9B08C33CCF4C77592DDE098E179CE83B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D47CFA59D5C40E1E90D030A5852F64D /* Foundation.framework in Frameworks */,
-				B5969A7207C1ACC902357D117AC49767 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6C949C38B0B68326BBB74C1194BC979 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5771AD998852F0E35076931E6129667B /* Foundation.framework in Frameworks */,
-				8D5638479B4BC0F0AF8CF9AE3B1DB1CB /* UIKit.framework in Frameworks */,
+				4040C5AFCD6C4DD6054CD28266A13A7B /* Foundation.framework in Frameworks */,
+				CC2BFAF525205DEC34EA0B16EA89FFBE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +644,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02DD8A0DE83991EBCF91F52E8C700153 /* retaincount */ = {
+			isa = PBXGroup;
+			children = (
+				1EF8B4FC0D782E62419397C278CFDEB9 /* RetainCount.cpp */,
+				83E8EC4278962480FD158D47F0D86FDD /* RetainCount.hpp */,
+				7B8053FBC9A501873D9B32CB60F3DD49 /* retaincount_config.h */,
+			);
+			name = retaincount;
+			path = retaincount;
+			sourceTree = "<group>";
+		};
+		03ADE0BBD7D87BC7DC9F217E1062E9A7 /* opaque */ = {
+			isa = PBXGroup;
+			children = (
+				79A885E3658A2C1AED17775E882F9662 /* opaque_config.h */,
+				42C14F8CA1C0C6C06EC84DE163FDB2E0 /* OpaqueParticle.cpp */,
+				901471503E334CAB9094E5CCEC89C696 /* OpaqueParticle.h */,
+			);
+			name = opaque;
+			path = opaque;
+			sourceTree = "<group>";
+		};
 		08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -631,7 +680,7 @@
 		12E297F1C37F15D8F854C89958F840B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75465D9DEDA9192FCD859C2C7390701B /* CoolPhysics2D */,
+				D60CB1617A97343CB3F22B858E97530F /* CoolPhysics2D */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -663,13 +712,24 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		3B82EBCAE51D85E5A6BE62A89A68F09D /* config */ = {
+		3E4252E0E279357EF6DBFB402879AAAA /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				291533F38B4CB6D0A00768A7D7EDF6F1 /* config.h */,
+				422E33E096329761C8397F14146153B3 /* CP2DGameView.h */,
+				2CCEDD49D072F8F0B9B4A74D68C29A87 /* CP2DGameView.mm */,
+				C2F8774541143969B11E1BE0F80BD405 /* CP2DGameViewController.h */,
+				634145507CDD89CB2E0C000FF91E4091 /* CP2DGameViewController.mm */,
+				7308AAF17D48C3CADF920062307F7390 /* CP2DGameWorldRenderer.h */,
+				C00EF0C301930F5BD7EA800908110BED /* CP2DGameWorldRenderer.mm */,
+				097A9A885860D414A586BB197672CD5E /* CP2DParticleRenderer.h */,
+				BBC077D350847FE2F164F0C19E05C0FE /* CP2DParticleRenderer.mm */,
+				CFE14099E7E6A40F01DA303EC40F9629 /* CP2DRenderer.h */,
+				D1746AB6C0CA21CD85DE78921FEC5F57 /* CP2DWaveRenderer.h */,
+				5ABCF7E0D5562414AFC896DB3D6CB88F /* CP2DWaveRenderer.mm */,
+				551809FFF7E826D7EAAE17AA4E26F3B3 /* timer.h */,
 			);
-			name = config;
-			path = Pod/Classes/config;
+			name = ios;
+			path = Pod/Classes/ios;
 			sourceTree = "<group>";
 		};
 		4A417BF546501BAD90C023BA251254E3 /* FBSnapshotTestCase */ = {
@@ -681,6 +741,18 @@
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		577830804FF108F736A107FCDFCC4472 /* ThreadPool */ = {
+			isa = PBXGroup;
+			children = (
+				4BD0F74252BF6B367DC1F14B2AE06E6F /* COPYING */,
+				F73FB65573650FBF686E5CC6E5466895 /* example.cpp */,
+				7AA26473D90A312DC3BE1D322CE88D8C /* README.md */,
+				A1DC3DDD539D6FC2F09B734ADB2CB9BB /* ThreadPool.h */,
+			);
+			name = ThreadPool;
+			path = Pod/Classes/ThreadPool;
 			sourceTree = "<group>";
 		};
 		64453C79E04A0C729F92613F88CD972E /* Pods-CoolPhysics2D_Tests */ = {
@@ -701,25 +773,45 @@
 			path = "Target Support Files/Pods-CoolPhysics2D_Tests";
 			sourceTree = "<group>";
 		};
+		67A746790E9842A8180265CC19322DE6 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				23C44D1ACE4B8849BB9C8542383DB26C /* BuoyancyField.cpp */,
+				47F0125E9A272F9A1CCD8F0B3A339B29 /* BuoyancyField.h */,
+				5D4CF06BF6795414B688F26E91ABCD6F /* CentripetalGravityField.cpp */,
+				ACDDD6E5888FCEBC28E5944B0523AC5F /* CentripetalGravityField.h */,
+				F2AFC0BE0FA87D4D89FCE64F144FA95A /* Color.cpp */,
+				6F8261D5A8C88D75E164058DE079E17F /* Color.h */,
+				B3494BB283738830E25DF5EAB838A3D2 /* DampingField.cpp */,
+				A19972974B7D9F74CD51DEDF628F09D8 /* DampingField.h */,
+				F0209FBAF5837DFEB5C2C07EFB158194 /* Field.cpp */,
+				01AA7191286948B58C7C88940BA6DD10 /* Field.h */,
+				2282F5175040A357862C06FE386DC9A6 /* GameWorld.cpp */,
+				91AEA107308091359BD74278BE9519B2 /* GameWorld.h */,
+				A8683742965F33DA6941DF13051C3FEA /* GravityField.cpp */,
+				0B1937946F0899F5EB176022CF312398 /* GravityField.h */,
+				2B8096D5FE73AD8C22212C733E7203DF /* ObstacleField.cpp */,
+				76926C159501C4E15FDF16659D6E6C81 /* ObstacleField.h */,
+				E4F3612CDD362630A61B5666E4F95122 /* Particle.cpp */,
+				D2C9660F77B122DDD6BE094D88B53D5F /* Particle.hpp */,
+				1DCF0EE6505679BC880E4DADBD709F90 /* ParticleEmitter.cpp */,
+				E668BD2288E9D79F59FB52075ADA7A20 /* ParticleEmitter.h */,
+				82FB016B284FE58273164675E7BB1FFB /* Wave.cpp */,
+				2AEB5BD805AEDACCE97D9F1C59E70524 /* Wave.hpp */,
+				C31D424263499117FE927642059D1BA7 /* Math */,
+				03ADE0BBD7D87BC7DC9F217E1062E9A7 /* opaque */,
+				02DD8A0DE83991EBCF91F52E8C700153 /* retaincount */,
+			);
+			name = core;
+			path = Pod/Classes/core;
+			sourceTree = "<group>";
+		};
 		6823C1D63AF04872501E6D14802C3F02 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				3FF46F134970C91061B1E020DB0DACB7 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		75465D9DEDA9192FCD859C2C7390701B /* CoolPhysics2D */ = {
-			isa = PBXGroup;
-			children = (
-				3B82EBCAE51D85E5A6BE62A89A68F09D /* config */,
-				D6FC82C2CA48D716F6ED7711AB943809 /* core */,
-				A4D334FE75D12F9FE5B34BD5C510827E /* ios */,
-				F052A8FD5BA3EFB95AF4383F6C6CFC61 /* Support Files */,
-				C1FBBB02CB175642076235B0BE991983 /* ThreadPool */,
-			);
-			name = CoolPhysics2D;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		79484769BF08DC1D5243733A16B26307 /* Expecta */ = {
@@ -834,6 +926,21 @@
 			path = "Target Support Files/Pods-CoolPhysics2D_Example";
 			sourceTree = "<group>";
 		};
+		9438FAEFA8AB8A42A2718A72A646E140 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E6C9AAE61EBA7539825F6CEE453FC /* Circle.cpp */,
+				316A8B5513029BCD60666481BDE8F015 /* Circle.h */,
+				90B11D9A5D28C871E5518F7F7DA2F8FC /* MathDefines.h */,
+				3C6F8F2E7F36AFB6F559F58CBCDBDC45 /* Rectangle.cpp */,
+				3F732C1E0C8EC4CA56169A423453A893 /* Rectangle.h */,
+				7C252C8242BCB48A12FC58D52F8489DC /* Vector.cpp */,
+				20BE44D003BDB50EE46683503131B703 /* Vector.h */,
+			);
+			name = src;
+			path = src;
+			sourceTree = "<group>";
+		};
 		A0B180C1DB28B7AB2B86A555F9036BC5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -843,24 +950,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A4D334FE75D12F9FE5B34BD5C510827E /* ios */ = {
+		AC1C0B5CEE90B88E6140593BCF7011BA /* config */ = {
 			isa = PBXGroup;
 			children = (
-				C352850843D4B88FD700C22BD50006CC /* CP2DGameView.h */,
-				C5EDC793A0A13997C7F26E1CE2FCBF42 /* CP2DGameView.mm */,
-				DF5F3177F81379B2BBB8E20CC090E363 /* CP2DGameViewController.h */,
-				F99837698B7A9BABA04AD79B2D079B80 /* CP2DGameViewController.mm */,
-				D67FC134130D367E7FCC0AC6F0AE3C0B /* CP2DGameWorldRenderer.h */,
-				D919BD85B1712B55198410F7606BDB93 /* CP2DGameWorldRenderer.mm */,
-				79B5B015DE03BC9621DD58603E092465 /* CP2DParticleRenderer.h */,
-				96D701D2E4F46B817390804AB3A128D3 /* CP2DParticleRenderer.mm */,
-				A058C544A6FD6C0CED8D3EF8B32C8477 /* CP2DRenderer.h */,
-				23B44D655DAAA9F90434240114AF60C9 /* CP2DWaveRenderer.h */,
-				4FE86B8BEFB6CD3A25D3E59877D837D4 /* CP2DWaveRenderer.mm */,
-				9A4BF434C4FB0488A150B0603FAE15F1 /* timer.h */,
+				5E962CDB426101890B60C917AB7D39A2 /* config.h */,
 			);
-			name = ios;
-			path = Pod/Classes/ios;
+			name = config;
+			path = Pod/Classes/config;
 			sourceTree = "<group>";
 		};
 		AE3123D34DE03EFB050D766D61EAA620 /* Products */ = {
@@ -899,18 +995,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C1FBBB02CB175642076235B0BE991983 /* ThreadPool */ = {
-			isa = PBXGroup;
-			children = (
-				474D8E1BAFC24DE682DFD8AB7F35414B /* COPYING */,
-				49C4E3E19492045E7FF1679C354077EE /* example.cpp */,
-				73FE4776AAECC6DFB6D69DA03550AE43 /* README.md */,
-				BCC156D7509182732629CB7CB093CF85 /* ThreadPool.h */,
-			);
-			name = ThreadPool;
-			path = Pod/Classes/ThreadPool;
-			sourceTree = "<group>";
-		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
 			isa = PBXGroup;
 			children = (
@@ -945,6 +1029,17 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
+		C31D424263499117FE927642059D1BA7 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				CFF31D694C5BB116990A2B06E61744EC /* LICENSE.md */,
+				A509487768BC5B73495CB834F3496A76 /* Makefile */,
+				9438FAEFA8AB8A42A2718A72A646E140 /* src */,
+			);
+			name = Math;
+			path = Math;
+			sourceTree = "<group>";
+		};
 		C7BCF7299DC9665D060C391FA758D2C1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,36 +1072,17 @@
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		D6FC82C2CA48D716F6ED7711AB943809 /* core */ = {
+		D60CB1617A97343CB3F22B858E97530F /* CoolPhysics2D */ = {
 			isa = PBXGroup;
 			children = (
-				92FEC1ECF2F2A135ADF88529936F752F /* BuoyancyField.cpp */,
-				BBD9B936F87F0A3833191CEAB9657BAA /* BuoyancyField.h */,
-				92CADAE9F064E592144E18C8B589A439 /* CentripetalGravityField.cpp */,
-				9C181E29E59B1AE35CAF8DAFD9B9FF3B /* CentripetalGravityField.h */,
-				BBB72551B3EFFEC85683D8C62E8E61B2 /* Color.cpp */,
-				D4C41CE3814394451A2934795F20F1A0 /* Color.h */,
-				7F67C52A9DE68A63F28322120A5C90E4 /* DampingField.cpp */,
-				F1C22581B8238A6DB6C6470B97FD0662 /* DampingField.h */,
-				D9FD9BAC0E67190BBE6C26335F2AFEAA /* Field.cpp */,
-				4B6593AB6ABAA557B449B6BA6BC66481 /* Field.h */,
-				A44FF15F44D7EE8E2A2F6FCC8B102573 /* GameWorld.cpp */,
-				FA3A5A23D2FDF4F83D6ACFF150584F52 /* GameWorld.h */,
-				C9C5BEEE28C9DCDF4C7F904C8A064721 /* GravityField.cpp */,
-				2435F32136E2AF55179B8E28EA9E3D0F /* GravityField.h */,
-				5A697ED9945716C275EDE16442B72E35 /* ObstacleField.cpp */,
-				0670305EF4972E0946A5057776DCD43B /* ObstacleField.h */,
-				B06B9AB387BB0272FDA25DE7D7A85C37 /* Particle.cpp */,
-				AAC0A78A1683B128EF878068F4865ABA /* Particle.hpp */,
-				2728E3DEB3A8AC0BC083B2C188862554 /* ParticleEmitter.cpp */,
-				D1057166A2447EA2819CEF2CD7B37F12 /* ParticleEmitter.h */,
-				A1DC4090977DF00013F0F9F1BBEA5E9F /* Wave.cpp */,
-				021B287ECD928FF4A84FDD9C2FCEE4BF /* Wave.hpp */,
-				FE0085196D9AE9927FA6AA100C37A8E6 /* opaque */,
-				F90ADC1AF33954266FA55EDC8DAF6675 /* retaincount */,
+				AC1C0B5CEE90B88E6140593BCF7011BA /* config */,
+				67A746790E9842A8180265CC19322DE6 /* core */,
+				3E4252E0E279357EF6DBFB402879AAAA /* ios */,
+				FBE333264B75A7BB06060FEDC040DE38 /* Support Files */,
+				577830804FF108F736A107FCDFCC4472 /* ThreadPool */,
 			);
-			name = core;
-			path = Pod/Classes/core;
+			name = CoolPhysics2D;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EC13DDF6CA2C4CAAA835ABE5DA3A731F /* Support Files */ = {
@@ -1023,26 +1099,6 @@
 			path = "../Target Support Files/Specta";
 			sourceTree = "<group>";
 		};
-		F052A8FD5BA3EFB95AF4383F6C6CFC61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6814F3E3030C336E3EB37F33A996CD30 /* CoolPhysics2D-iOS7.1.modulemap */,
-				607D885005E6F46F8BBB74AA29A7B9A3 /* CoolPhysics2D-iOS7.1.xcconfig */,
-				0BAB127BE37F9AAE7DC9826882C16A3F /* CoolPhysics2D-iOS7.1-dummy.m */,
-				DCB53C2444BEC3FCA2A9001D2CE14880 /* CoolPhysics2D-iOS7.1-prefix.pch */,
-				513B2E92C4288943A42008860BFFD38E /* CoolPhysics2D-iOS7.1-umbrella.h */,
-				2E22C0B9B5B2EE949112AAE1721D4D7B /* CoolPhysics2D-iOS8.0.modulemap */,
-				9B81EFDC35A62C1A603F36F081788D70 /* CoolPhysics2D-iOS8.0.xcconfig */,
-				ABB351F7A45C3CA5A5C8384F537A488E /* CoolPhysics2D-iOS8.0-dummy.m */,
-				1CD886B73DA12202267C47837A7CF47A /* CoolPhysics2D-iOS8.0-prefix.pch */,
-				BE222825120BA70F34A19F4C01598D07 /* CoolPhysics2D-iOS8.0-umbrella.h */,
-				E82F5C6A0AD8FD669E53AB261CF730B1 /* Info.plist */,
-				AF3F6406F119E0F4A9B7909154F5179E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CoolPhysics2D-iOS7.1";
-			sourceTree = "<group>";
-		};
 		F4013618912B558D4DF190A95A39EFD4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1057,92 +1113,62 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		F90ADC1AF33954266FA55EDC8DAF6675 /* retaincount */ = {
+		FBE333264B75A7BB06060FEDC040DE38 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E0AAC6F61AFBDC423B17FD92426C7E5 /* RetainCount.cpp */,
-				32F3F8B29A117FA2A3289BC200C0F8E1 /* RetainCount.hpp */,
-				ED56EBEF4C3AB3DDA46B39B49C64BE74 /* retaincount_config.h */,
+				931A57EE6259E46251723CC3C5821D3D /* CoolPhysics2D-iOS7.1.modulemap */,
+				6C25CF09C7F5010A52EB57558C554CD6 /* CoolPhysics2D-iOS7.1.xcconfig */,
+				6C44A9887AFFAE43936C7E1D321AAA02 /* CoolPhysics2D-iOS7.1-dummy.m */,
+				DEE847271215A0B3C29725479DB50644 /* CoolPhysics2D-iOS7.1-prefix.pch */,
+				7E2B3CBB53A130806E5A9C9DFB740C78 /* CoolPhysics2D-iOS7.1-umbrella.h */,
+				4599A74344BD0957377F4B273FD400D2 /* CoolPhysics2D-iOS8.0.modulemap */,
+				F17F6275D2A08C0D302146F4AF87467C /* CoolPhysics2D-iOS8.0.xcconfig */,
+				7861B720F24FA51F78A173665DD785A3 /* CoolPhysics2D-iOS8.0-dummy.m */,
+				2C8CEA12271E56876A07E429D1FBE3E5 /* CoolPhysics2D-iOS8.0-prefix.pch */,
+				4EF5280BA978EBFD2B874BAF286E32F4 /* CoolPhysics2D-iOS8.0-umbrella.h */,
+				52F8FD165367F94AEF3B1BB6E94A067E /* Info.plist */,
+				E7754F6E1F743C84ED612E5109D0C6E4 /* Info.plist */,
 			);
-			name = retaincount;
-			path = retaincount;
-			sourceTree = "<group>";
-		};
-		FE0085196D9AE9927FA6AA100C37A8E6 /* opaque */ = {
-			isa = PBXGroup;
-			children = (
-				330A18EDE1C1E9E58E539AFA352653B2 /* opaque_config.h */,
-				FBE6CF04B5845B8E8AD16CF25A15207D /* OpaqueParticle.cpp */,
-				54CBD4C8F95301EB3D5D2D8B6B891E31 /* OpaqueParticle.h */,
-			);
-			name = opaque;
-			path = opaque;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CoolPhysics2D-iOS7.1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		153A5B00308714652A4850E3DF8DF221 /* Headers */ = {
+		125A8EF54F450E129987DA7E0274DDCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BC7386894B769A6E00B6867C9BA434 /* BuoyancyField.h in Headers */,
-				E4D99B9F2C833767A796D9C232D26D5A /* CentripetalGravityField.h in Headers */,
-				7A0B6C007228F1C63B7783B60732D4D2 /* Color.h in Headers */,
-				84C92135CB3C8B8F330088096352FAA1 /* config.h in Headers */,
-				DA68849416B37D396BD017A901E63337 /* CoolPhysics2D-iOS7.1-umbrella.h in Headers */,
-				1D9C21656DF7D7E3AEC39CC51DFDEC28 /* CP2DGameView.h in Headers */,
-				37F2575914C7F59B4166420D3A5C36EC /* CP2DGameViewController.h in Headers */,
-				06C618B5D86CC172E1A1649C8857DFAC /* CP2DGameWorldRenderer.h in Headers */,
-				CA8A57A9DDFFF1D2435AED26730A6642 /* CP2DParticleRenderer.h in Headers */,
-				5347AF32C947CFA9D10BE017513CCB2D /* CP2DRenderer.h in Headers */,
-				760F1F97BD5446779EAF4BCC292C0BDA /* CP2DWaveRenderer.h in Headers */,
-				14278F85DA306B83416FBFCEA0275BDA /* DampingField.h in Headers */,
-				660DBF21856DCEC9F54C5F36FE96CD30 /* Field.h in Headers */,
-				D22AEAB404035BA7F2FA3E113213965C /* GameWorld.h in Headers */,
-				0747006CFD781AD1EABEEDE21FD13D2A /* GravityField.h in Headers */,
-				89BBDEC90F62978D609A9EFCBF59EEC5 /* ObstacleField.h in Headers */,
-				B6F82562DD9EB754229BCE6DD1DDA4C6 /* opaque_config.h in Headers */,
-				5976E4FEEAC0978FB4927C9DF57A2EA6 /* OpaqueParticle.h in Headers */,
-				680C418655A07D2DFF86A55CF0132405 /* Particle.hpp in Headers */,
-				3E567AF5260B5A1486FF4DC2388EE56F /* ParticleEmitter.h in Headers */,
-				BCAB1E947205AE614D57AE520AD6EBB9 /* RetainCount.hpp in Headers */,
-				B442BF086460808511991F4D6405061E /* retaincount_config.h in Headers */,
-				F324021EE960D2E264E61EEAA9840334 /* ThreadPool.h in Headers */,
-				9FC74A373045F5EC81B5AD690294C859 /* timer.h in Headers */,
-				A71FD7F091A2B651384AE96C9158E95C /* Wave.hpp in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52456C8AD080716029119CA8732973BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDEA598C3A9E3C88CA0CF6982D724DD1 /* BuoyancyField.h in Headers */,
-				2DC623462119F2E25817A7578B631E8B /* CentripetalGravityField.h in Headers */,
-				9D3F6842DB79061032590F7E3FD9341B /* Color.h in Headers */,
-				F30D96007858BAE68508B46CD3A505E4 /* config.h in Headers */,
-				F60B1DD1A17539DF650DB7D9EF346E00 /* CoolPhysics2D-iOS8.0-umbrella.h in Headers */,
-				F47448EBF573CF8365B0B550BB8EF1B8 /* CP2DGameView.h in Headers */,
-				EE6521339374E44B478D6FB1094FE7E0 /* CP2DGameViewController.h in Headers */,
-				693C7538B616BB13E47BE7A0530F0CDA /* CP2DGameWorldRenderer.h in Headers */,
-				7B436402076FB4B791A9A044B8BAFECE /* CP2DParticleRenderer.h in Headers */,
-				254802ECF1717B05821C79E3383FE60C /* CP2DRenderer.h in Headers */,
-				FC8E6056C89158BFD057EEC0762B5A1B /* CP2DWaveRenderer.h in Headers */,
-				19C4BA9D4CF5B08D51FA536F9BBC83CD /* DampingField.h in Headers */,
-				A8E8177D4493049158405B26E73B0E2A /* Field.h in Headers */,
-				7CB420CD7887D55F869D30919C6C0068 /* GameWorld.h in Headers */,
-				53DFA631CFF9DA0D73C717A262A03225 /* GravityField.h in Headers */,
-				9F108BEC5BE800B19E4F765B4B3DEDB3 /* ObstacleField.h in Headers */,
-				F4BAD7716D0EBA14990870EFD866E5E9 /* opaque_config.h in Headers */,
-				78E2CBA21105811B6E93570988B0C496 /* OpaqueParticle.h in Headers */,
-				BEAE237A59E9B23A5B466035653E3EF6 /* Particle.hpp in Headers */,
-				87076AC876C895ED0F06DFF72A7B5E13 /* ParticleEmitter.h in Headers */,
-				F3E193ABC98562674BE6AED4874134D0 /* RetainCount.hpp in Headers */,
-				EE13BCD831727C4C18C935305867D999 /* retaincount_config.h in Headers */,
-				CC25BD1ACE0D3CAB8ED7473AEB4A12C6 /* ThreadPool.h in Headers */,
-				E7DC8A71351AF76D8E56C02B82855FDA /* timer.h in Headers */,
-				E71701794647A64B14A7B5C623FE51AA /* Wave.hpp in Headers */,
+				FC115F8F6FF0D37036140F708C9E79EC /* BuoyancyField.h in Headers */,
+				76F66C364BED2C318CCE0C928C98CF6F /* CentripetalGravityField.h in Headers */,
+				80DFA8BB2DC9D07A0DF1077A7B73A82E /* Circle.h in Headers */,
+				C3EFD1DF9D2679297372827EA6496DCA /* Color.h in Headers */,
+				CBA204ABB3C21D6EAB806E522D658520 /* config.h in Headers */,
+				79D56F7475CA552815639682B3CD32E7 /* CoolPhysics2D-iOS7.1-umbrella.h in Headers */,
+				FD7573D6A726687AD91C54AEECC78F20 /* CP2DGameView.h in Headers */,
+				66A87227FCAAD6FF3EEC4A744A439975 /* CP2DGameViewController.h in Headers */,
+				A01609F0B1DA1226E72FB92B4866C7AD /* CP2DGameWorldRenderer.h in Headers */,
+				219D832DFFA5A257DB1BC8D1CF366B7A /* CP2DParticleRenderer.h in Headers */,
+				9833ADF0E8F934F73E4B0CDBD8DA305B /* CP2DRenderer.h in Headers */,
+				774BA0916AA83C6F813CE737A551DBD3 /* CP2DWaveRenderer.h in Headers */,
+				A7ABBC42A881036CE254C676DD65D923 /* DampingField.h in Headers */,
+				958F00167F83048CF3DF39BD93CAF0C2 /* Field.h in Headers */,
+				B1714A2CB68A6CFB3042ACC14315478E /* GameWorld.h in Headers */,
+				5AE2B5965862EF9C73D85511919B04A6 /* GravityField.h in Headers */,
+				02231FF7EB0AAFEE23217FD5A05E18CC /* MathDefines.h in Headers */,
+				361C805AEE10D3D3AB9FF8A2FCDC7476 /* ObstacleField.h in Headers */,
+				C98AFAFF68F86D89D14034D5020440F3 /* opaque_config.h in Headers */,
+				8E2D96CE7FA18285F258A00916B51AA5 /* OpaqueParticle.h in Headers */,
+				FF1016EEE555AA96C6CB95BE7F24E163 /* Particle.hpp in Headers */,
+				1FDE2EF8A4A06A0E5F8876F74476273B /* ParticleEmitter.h in Headers */,
+				023F612876CE12EFB44DA1BACFCFD621 /* Rectangle.h in Headers */,
+				2401267B4FFBD88585D59FC3CE4844F1 /* RetainCount.hpp in Headers */,
+				A54AB0793193244C689B5DFF4ABE43E5 /* retaincount_config.h in Headers */,
+				7AAAE200610972691EEEAC4EE9F3CF56 /* ThreadPool.h in Headers */,
+				3DE737D4CAF658F18E2F616E92B802DB /* timer.h in Headers */,
+				F4E8D0DC0EE1BC1B77CE224BAAFBB86A /* Vector.h in Headers */,
+				275BACC0F5E3E998696629EE7B2E58A9 /* Wave.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,6 +1245,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EAFA4C4B36C6E0868821499256B18FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2591649CE8C0AF60FEB532572C5633 /* BuoyancyField.h in Headers */,
+				3C6FFA4C7063BDAD27964000F60E7362 /* CentripetalGravityField.h in Headers */,
+				C611E2FCBCAFB016378E59917A7E6551 /* Circle.h in Headers */,
+				DCB2A99722096AC02838B0E65D5C3262 /* Color.h in Headers */,
+				2D5BDD62929FCC31B47FEB6F9123F01D /* config.h in Headers */,
+				17912C51EF91E91797CA566C237B2E00 /* CoolPhysics2D-iOS8.0-umbrella.h in Headers */,
+				1EC9831A1D610B22AD96ECFF692FA2CC /* CP2DGameView.h in Headers */,
+				3C4E642BD621386223F2AD1B1A7EEAC4 /* CP2DGameViewController.h in Headers */,
+				BD1EBDF9B3AB50CF215A5305D2EF3B75 /* CP2DGameWorldRenderer.h in Headers */,
+				DFD57F014FDDA856908CB8530E61C387 /* CP2DParticleRenderer.h in Headers */,
+				35002B78A514387E6827800B77A877D0 /* CP2DRenderer.h in Headers */,
+				921E9D493E7C9B0592097F89A66C9432 /* CP2DWaveRenderer.h in Headers */,
+				E170007F7547C155E0D5536FFC453EBC /* DampingField.h in Headers */,
+				54D01DEAE64E628AD2BF178ACC024C6D /* Field.h in Headers */,
+				DD3D46D4A92BCEF5AE690D16A1F1F2B8 /* GameWorld.h in Headers */,
+				A82C50ED8569C8B00A02DAF8D8A358A0 /* GravityField.h in Headers */,
+				A27C862785EDF353258C9DDB41A091A0 /* MathDefines.h in Headers */,
+				993ED700C20C1F8A9694BD6B355AE288 /* ObstacleField.h in Headers */,
+				B5034AFDD1FEEDD171237C209CD0975F /* opaque_config.h in Headers */,
+				5C5339ADB677716137FBDF87271EDD0A /* OpaqueParticle.h in Headers */,
+				9976459CB837AD676926C32E8ADC062D /* Particle.hpp in Headers */,
+				62F99F78D34942272D44170D1E3EA306 /* ParticleEmitter.h in Headers */,
+				7116E9D809A9CB4C861F5799DE4445B2 /* Rectangle.h in Headers */,
+				5710679CC8274B17D36E6D5378A821EF /* RetainCount.hpp in Headers */,
+				AF0D91D3CFAA042340629D380EC5D75B /* retaincount_config.h in Headers */,
+				1AC4864B354F38F070B69BA42517C967 /* ThreadPool.h in Headers */,
+				A8212009633913DAFDDD5F7B46832FBF /* timer.h in Headers */,
+				C7C776243DB4BDBF1D5FB3E5BE59AE3B /* Vector.h in Headers */,
+				293C59935760D662644C5367F9161C2B /* Wave.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF9760538093FBEACE91285A0343113F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1275,6 +1337,23 @@
 			productReference = 1BA9D2D1EA5803AA43910A232083D755 /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		51D450593309AE30CD51F20616F56C37 /* CoolPhysics2D-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12213F025491A71B46C94710003F3B96 /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS8.0" */;
+			buildPhases = (
+				57F6835B0F34BE40BC821D690264D875 /* Sources */,
+				5945A1CD48456A1426701908A8F24D6A /* Frameworks */,
+				9EAFA4C4B36C6E0868821499256B18FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoolPhysics2D-iOS8.0";
+			productName = "CoolPhysics2D-iOS8.0";
+			productReference = 0AB50C1E64EA7A8EEF1DDE1CFF728838 /* CoolPhysics2D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5D161BA711701D7E41E02A5702FD024E /* Expecta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09381A9A84A0A8E73577B2BF10E583E5 /* Build configuration list for PBXNativeTarget "Expecta" */;
@@ -1312,40 +1391,6 @@
 			name = "Pods-CoolPhysics2D_Tests";
 			productName = "Pods-CoolPhysics2D_Tests";
 			productReference = 19DC80D554BEE6D26E8EDBBFFBEE756A /* Pods_CoolPhysics2D_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8545DF991C4BE0B4AA0CEFF7579D90B7 /* CoolPhysics2D-iOS8.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0B0F5ECA703BA0CAC4C0C66EAE4E23E /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS8.0" */;
-			buildPhases = (
-				2D343187E7DDDFAC9E1C87B9C46957F8 /* Sources */,
-				B6C949C38B0B68326BBB74C1194BC979 /* Frameworks */,
-				52456C8AD080716029119CA8732973BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CoolPhysics2D-iOS8.0";
-			productName = "CoolPhysics2D-iOS8.0";
-			productReference = 0AB50C1E64EA7A8EEF1DDE1CFF728838 /* CoolPhysics2D.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		98FA2A277BE79992744BE5D424A7C906 /* CoolPhysics2D-iOS7.1 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B846A2CA9D341DB129AF0B7CA1DBAEAF /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS7.1" */;
-			buildPhases = (
-				BF931470ED0058F641197C3D75230973 /* Sources */,
-				B4B730B5861F3AF1D671220D3BD58034 /* Frameworks */,
-				153A5B00308714652A4850E3DF8DF221 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CoolPhysics2D-iOS7.1";
-			productName = "CoolPhysics2D-iOS7.1";
-			productReference = F9F84FD169368C4A5FB21AAD7A5B4C99 /* CoolPhysics2D.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B3CE224A1D3481FC396D6138B309F607 /* FBSnapshotTestCase */ = {
@@ -1402,6 +1447,23 @@
 			productReference = AAF5F0A746C28891B476258BE36155C8 /* Pods_CoolPhysics2D_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F47A60AAD5FC7F6AF54ACDD49E90FD76 /* CoolPhysics2D-iOS7.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619DDEA5B9ED866A81D8BA0B68EF7849 /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS7.1" */;
+			buildPhases = (
+				E47DC2362E2A1E14F1520AF9D8ABF615 /* Sources */,
+				9B08C33CCF4C77592DDE098E179CE83B /* Frameworks */,
+				125A8EF54F450E129987DA7E0274DDCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoolPhysics2D-iOS7.1";
+			productName = "CoolPhysics2D-iOS7.1";
+			productReference = F9F84FD169368C4A5FB21AAD7A5B4C99 /* CoolPhysics2D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1423,8 +1485,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98FA2A277BE79992744BE5D424A7C906 /* CoolPhysics2D-iOS7.1 */,
-				8545DF991C4BE0B4AA0CEFF7579D90B7 /* CoolPhysics2D-iOS8.0 */,
+				F47A60AAD5FC7F6AF54ACDD49E90FD76 /* CoolPhysics2D-iOS7.1 */,
+				51D450593309AE30CD51F20616F56C37 /* CoolPhysics2D-iOS8.0 */,
 				5D161BA711701D7E41E02A5702FD024E /* Expecta */,
 				C1C346A3E0914D5A823C4DD92DFADDAF /* Expecta+Snapshots */,
 				B3CE224A1D3481FC396D6138B309F607 /* FBSnapshotTestCase */,
@@ -1462,32 +1524,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D343187E7DDDFAC9E1C87B9C46957F8 /* Sources */ = {
+		57F6835B0F34BE40BC821D690264D875 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F25A8D83801D8482532F8E49C78C0D0 /* BuoyancyField.cpp in Sources */,
-				149F121B68E9E815FE39B83A833736D5 /* CentripetalGravityField.cpp in Sources */,
-				B1794808955881DABDFDFA3552EECD9B /* Color.cpp in Sources */,
-				2C7EB038332E9F22B69F04721F6AB071 /* CoolPhysics2D-iOS8.0-dummy.m in Sources */,
-				F58E7A8D51497D4F9946B13917DE470B /* COPYING in Sources */,
-				FD94A4C3A5E4265AC33C6308C96738C8 /* CP2DGameView.mm in Sources */,
-				57C3E9E85A094DEF4FF641C445F07CC4 /* CP2DGameViewController.mm in Sources */,
-				7E9FB1F9247AF7987A0BCF13E1F6FB67 /* CP2DGameWorldRenderer.mm in Sources */,
-				020B292CC448778878EFBB203EB20CE3 /* CP2DParticleRenderer.mm in Sources */,
-				3C58156FE22CBA144F51BCE37C1110DE /* CP2DWaveRenderer.mm in Sources */,
-				45E4C975F237247777AEC354D6BFA465 /* DampingField.cpp in Sources */,
-				7581BF35F066DAEDEED9ED1132F9A429 /* example.cpp in Sources */,
-				F5100DDAA5EDD545D3E50F37A7CC6E8C /* Field.cpp in Sources */,
-				F4C8A3D70B15259C8EF86DEF7EB3CF9C /* GameWorld.cpp in Sources */,
-				D5F8205B57F79A7414A83F8296DB1A41 /* GravityField.cpp in Sources */,
-				8A3F421B96B7DF16A30729F4F7D4F3BF /* ObstacleField.cpp in Sources */,
-				575F94C04C4D804E6156C029DAB63357 /* OpaqueParticle.cpp in Sources */,
-				0CC34C26005700A8E6763E46FE03EFBD /* Particle.cpp in Sources */,
-				A855F402E33614F4DD89B4A52ECBF672 /* ParticleEmitter.cpp in Sources */,
-				F98E609B1021D2654B03D04D0F77B753 /* README.md in Sources */,
-				42543F6A1674428BAB299B018776F1B5 /* RetainCount.cpp in Sources */,
-				5F7AB32C8F15288C086A4FD6DDE9C1CD /* Wave.cpp in Sources */,
+				98CD3AD9372D041CF7C2CA8669EECC8E /* BuoyancyField.cpp in Sources */,
+				A730BBCB867F88F8ECF3A1A18DC8C474 /* CentripetalGravityField.cpp in Sources */,
+				907F6024572D596778DCFB05F7056308 /* Circle.cpp in Sources */,
+				B462A3BA4C6D9583F28051F39F1E271C /* Color.cpp in Sources */,
+				7DE4CC5349407920BF94A1647C60486A /* CoolPhysics2D-iOS8.0-dummy.m in Sources */,
+				7498E24E8C2D79E65C040802606C9FCB /* COPYING in Sources */,
+				FD04D9331B7D107049E4F2F2F1694E5D /* CP2DGameView.mm in Sources */,
+				61E50846F8CC19902407153E770220A4 /* CP2DGameViewController.mm in Sources */,
+				38313046CC7A6C3BA7E4A7DCD5DF382F /* CP2DGameWorldRenderer.mm in Sources */,
+				FC0B3C13583D5B1E671AF77A36ADEFB3 /* CP2DParticleRenderer.mm in Sources */,
+				A4294727FB4A1B7CC34F44BE0EC494EC /* CP2DWaveRenderer.mm in Sources */,
+				4E09FE095815D7EB090EF6503C2D7F42 /* DampingField.cpp in Sources */,
+				11634E6990C6B6F2E365F7F11E03EC0B /* example.cpp in Sources */,
+				D2724C4F89FEE4C02D4C9BC6B60F5DC0 /* Field.cpp in Sources */,
+				0C03EF12DE1192750A28540B0DF89939 /* GameWorld.cpp in Sources */,
+				9BCC176623BC8DA5CE4E4003A92A859D /* GravityField.cpp in Sources */,
+				1E850CBE8148274932BD2D93CE902669 /* LICENSE.md in Sources */,
+				0768485EDAAD2727509755D6540271F3 /* Makefile in Sources */,
+				7D9C8237916797DF2B3B5C41ECBE83E7 /* ObstacleField.cpp in Sources */,
+				60FFED28A986243897963CC76291D735 /* OpaqueParticle.cpp in Sources */,
+				3DF90D5E63F0B42BA9D254F34BBB17A4 /* Particle.cpp in Sources */,
+				22DE1B1C4AC7514FCD3D028B893E4FB8 /* ParticleEmitter.cpp in Sources */,
+				D787944E5CBD0F66542FABD1D5356A3A /* README.md in Sources */,
+				3A5BFBC554D401660D13A9AE874077F1 /* Rectangle.cpp in Sources */,
+				48B844CC2B6223FB11ECA73B88F28FEF /* RetainCount.cpp in Sources */,
+				728686FB02C6A290378BCA86356299EF /* Vector.cpp in Sources */,
+				3FCFCBD92786458E836A8B3FEC605C9A /* Wave.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1516,32 +1583,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF931470ED0058F641197C3D75230973 /* Sources */ = {
+		E47DC2362E2A1E14F1520AF9D8ABF615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				332434FF70F2337222E679FE5BF089AD /* BuoyancyField.cpp in Sources */,
-				AED6B84DF874D4A42AE97F0B75C54F5E /* CentripetalGravityField.cpp in Sources */,
-				4B01EF315FCC99EC142661936360BEFD /* Color.cpp in Sources */,
-				7B566662DA538B16ED9BBAF49BE1A170 /* CoolPhysics2D-iOS7.1-dummy.m in Sources */,
-				A3D7787D73E0CC2AAC5E5F2E08AA2689 /* COPYING in Sources */,
-				61CB66EDCA543E71FF00A78D7B6C7B2E /* CP2DGameView.mm in Sources */,
-				9DEDF935C9C4B8FBD172DB3E8655DFC0 /* CP2DGameViewController.mm in Sources */,
-				024097F3A43531DA02719B57AB98A971 /* CP2DGameWorldRenderer.mm in Sources */,
-				CC1695F7BDAE969F1F30F064B6158DFB /* CP2DParticleRenderer.mm in Sources */,
-				EB9625E64BB3FE949C5E59E0A007F6E0 /* CP2DWaveRenderer.mm in Sources */,
-				6F8189F1953973F827C6ACE2BD32FCC7 /* DampingField.cpp in Sources */,
-				2ADFD50797B65F9BACCFB994382AAA3D /* example.cpp in Sources */,
-				BC325BA94973D694D5E94235EBACBC08 /* Field.cpp in Sources */,
-				FD19790794D99A9129469A4A7EE8806F /* GameWorld.cpp in Sources */,
-				2E78E2AA4383A35208898119D92D4A01 /* GravityField.cpp in Sources */,
-				3056F9F2F704FF770996290295376C68 /* ObstacleField.cpp in Sources */,
-				7D5236067CBB59F44E9F87541C5D7A8E /* OpaqueParticle.cpp in Sources */,
-				895524D7491F500BFCF7A705A0FCDEAA /* Particle.cpp in Sources */,
-				E9FD309D0A486ECCC7791F5313B10027 /* ParticleEmitter.cpp in Sources */,
-				A44B57F6C0AA74CF32B960056D9C93CA /* README.md in Sources */,
-				9A51F353BBE064468D0B576997ED8696 /* RetainCount.cpp in Sources */,
-				9ABFE261A4F502CD5F43B9672DA4782B /* Wave.cpp in Sources */,
+				9DDCDAF4520EF5CCD3D02DFAFF8FEE0A /* BuoyancyField.cpp in Sources */,
+				945ED940B506AA581E1FE3B8ECD96D52 /* CentripetalGravityField.cpp in Sources */,
+				5F44ED8BA3732445154214FA7A367A34 /* Circle.cpp in Sources */,
+				316F3CFAF266DDCA30427BCB576F68DD /* Color.cpp in Sources */,
+				23CF6F1A8148235527A4ECA83FA9AF6B /* CoolPhysics2D-iOS7.1-dummy.m in Sources */,
+				8A61EC43EBAF148FE1F374FEA5182064 /* COPYING in Sources */,
+				5939C43C2FE8C4275A971C8BB5FD9924 /* CP2DGameView.mm in Sources */,
+				8BCBDE3B1CFF9ED00187D13123CC2C97 /* CP2DGameViewController.mm in Sources */,
+				2BBDF64513276DDF14B0B87A0ECA6B71 /* CP2DGameWorldRenderer.mm in Sources */,
+				BC26356FC407FF56189F337640DFBB28 /* CP2DParticleRenderer.mm in Sources */,
+				A68815664B9A2EBED585AC095AA5864E /* CP2DWaveRenderer.mm in Sources */,
+				66828440DA8FD155C30669EBAA1AA650 /* DampingField.cpp in Sources */,
+				6CF604F6D480831016227C4B34650C6D /* example.cpp in Sources */,
+				551830CA163C51C852323BED35CC3411 /* Field.cpp in Sources */,
+				9F8760F1D54BA49D9E6E732BDF6947CC /* GameWorld.cpp in Sources */,
+				222359F7A1E570AD3DEB8A1D5C5F1270 /* GravityField.cpp in Sources */,
+				561AE57EAC87F5112644EDF35165383E /* LICENSE.md in Sources */,
+				0D58C82BD72AEA0C3C73D1DF97378BE1 /* Makefile in Sources */,
+				FA953750A4202F3A5025A3A8706EAC3E /* ObstacleField.cpp in Sources */,
+				2A628F689E95ED902E027B6A9CC451E9 /* OpaqueParticle.cpp in Sources */,
+				56F968519E6FF4565ED37827A2E4684B /* Particle.cpp in Sources */,
+				9D030AC196C69904C09B0EA4E13EC9B9 /* ParticleEmitter.cpp in Sources */,
+				1C2AF27E54FD529C58EA4577C2DA2BA3 /* README.md in Sources */,
+				13DA3B44F073A1D6E0B1475C6377C270 /* Rectangle.cpp in Sources */,
+				4EAACED7AFEE7EAA49D1E8FCA4B701A0 /* RetainCount.cpp in Sources */,
+				E67DD9C28C541E4A1BC8C3812A858F34 /* Vector.cpp in Sources */,
+				6AF9832E18EA2DD92EF90607376ADF09 /* Wave.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1601,7 +1673,7 @@
 		2853CA1380E2801A7E57F13AF3BF501C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CoolPhysics2D-iOS8.0";
-			target = 8545DF991C4BE0B4AA0CEFF7579D90B7 /* CoolPhysics2D-iOS8.0 */;
+			target = 51D450593309AE30CD51F20616F56C37 /* CoolPhysics2D-iOS8.0 */;
 			targetProxy = 8F62CF2C91DB7EA7BC3E0F8193BA672C /* PBXContainerItemProxy */;
 		};
 		5E00C0AA76B46215BB80200ACFBA2C0B /* PBXTargetDependency */ = {
@@ -1643,45 +1715,12 @@
 		E530B2282789F4A5B40E13A6C847AE9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CoolPhysics2D-iOS7.1";
-			target = 98FA2A277BE79992744BE5D424A7C906 /* CoolPhysics2D-iOS7.1 */;
+			target = F47A60AAD5FC7F6AF54ACDD49E90FD76 /* CoolPhysics2D-iOS7.1 */;
 			targetProxy = D866F0FF865EE676D71CBD2E84B40A50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		040C8A55D7FEDF218047D1D50BC664DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B81EFDC35A62C1A603F36F081788D70 /* CoolPhysics2D-iOS8.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CoolPhysics2D;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		09E4E60778FABE7318A36281E57BF569 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */;
@@ -1855,39 +1894,6 @@
 			};
 			name = Release;
 		};
-		4A5002D34CEA6D2351AAA86E31D4BF89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B81EFDC35A62C1A603F36F081788D70 /* CoolPhysics2D-iOS8.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CoolPhysics2D;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5FB2E3D785455FE0947C1C7F3EF1DD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0EB09D40C5BAB2CC9F36E379A0CED1F /* Pods-CoolPhysics2D_Example.release.xcconfig */;
@@ -1956,6 +1962,72 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6DA075DD0DC162B7FC8C0C56B779E1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F6275D2A08C0D302146F4AF87467C /* CoolPhysics2D-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CoolPhysics2D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		758309F7BF02AC9C5ABFE030CE3AFEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C25CF09C7F5010A52EB57558C554CD6 /* CoolPhysics2D-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CoolPhysics2D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		988CE1394939275ADFACD3C817989B09 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2041,39 +2113,6 @@
 			};
 			name = Debug;
 		};
-		BB4A17F13EA8F9E4BEA1A4C5D6131DB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607D885005E6F46F8BBB74AA29A7B9A3 /* CoolPhysics2D-iOS7.1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CoolPhysics2D;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C56FED284F51D6CDA59AD20EFE97F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 311F63BAF4427F4DB2CB7235C2BC962D /* Pods-CoolPhysics2D_Example.debug.xcconfig */;
@@ -2110,39 +2149,6 @@
 			};
 			name = Debug;
 		};
-		D03369C592DCD6072C56BD1FFDFECB6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607D885005E6F46F8BBB74AA29A7B9A3 /* CoolPhysics2D-iOS7.1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CoolPhysics2D;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D35785CCA2420CECB0EE8B86F8E02F3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */;
@@ -2167,6 +2173,39 @@
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Expecta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF514E54D658D6CAD93F05821E1CC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F6275D2A08C0D302146F4AF87467C /* CoolPhysics2D-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS8.0/CoolPhysics2D-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CoolPhysics2D;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2208,6 +2247,39 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F268BB7F94C1A98335AB2A7EFB70B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C25CF09C7F5010A52EB57558C554CD6 /* CoolPhysics2D-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolPhysics2D-iOS7.1/CoolPhysics2D-iOS7.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CoolPhysics2D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2303,6 +2375,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		12213F025491A71B46C94710003F3B96 /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS8.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA075DD0DC162B7FC8C0C56B779E1AE /* Debug */,
+				DF514E54D658D6CAD93F05821E1CC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18821C3843EABFA8119A4E4869DA59EA /* Build configuration list for PBXNativeTarget "Expecta+Snapshots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2348,20 +2429,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B846A2CA9D341DB129AF0B7CA1DBAEAF /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS7.1" */ = {
+		619DDEA5B9ED866A81D8BA0B68EF7849 /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS7.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB4A17F13EA8F9E4BEA1A4C5D6131DB9 /* Debug */,
-				D03369C592DCD6072C56BD1FFDFECB6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0B0F5ECA703BA0CAC4C0C66EAE4E23E /* Build configuration list for PBXNativeTarget "CoolPhysics2D-iOS8.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				040C8A55D7FEDF218047D1D50BC664DA /* Debug */,
-				4A5002D34CEA6D2351AAA86E31D4BF89 /* Release */,
+				758309F7BF02AC9C5ABFE030CE3AFEF0 /* Debug */,
+				F268BB7F94C1A98335AB2A7EFB70B0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
