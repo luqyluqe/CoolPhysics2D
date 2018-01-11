@@ -1,0 +1,6 @@
+framework module CoolPhysics2D {
+  umbrella header "CoolPhysics2D-iOS8.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

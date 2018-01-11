@@ -1,6 +1,6 @@
 {
   "name": "CoolPhysics2D",
-  "version": "0.6.1",
+  "version": "0.7.1.b",
   "summary": "2D particle physics engine",
   "description": "2D particle physics engine.",
   "homepage": "https://github.com/luqyluqe/CoolPhysics2D",
@@ -10,17 +10,14 @@
   },
   "source": {
     "git": "https://github.com/luqyluqe/CoolPhysics2D.git",
-    "tag": "0.6.1"
+    "tag": "0.7.1.b",
+    "submodules": true
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "CoolPhysics2D": [
-      "Pod/Assets/*.png"
-    ]
-  },
-  "frameworks": "UIKit"
+  "frameworks": "UIKit",
+  "libraries": "stdc++"
 }
