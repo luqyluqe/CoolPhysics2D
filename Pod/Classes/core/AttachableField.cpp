@@ -11,16 +11,16 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 
 AttachableField::AttachableField(const Rectangle& range):Field(range){}
 
-AttachableField::AttachableField(const Rectangle& range,const Particle& particle):Field(range), _particle(&particle){}
+AttachableField::AttachableField(const Rectangle& range,const Particle& charge):Field(range), _charge(&charge){}
 
-void AttachableField::attachTo(const Particle& particle)
+void AttachableField::attachTo(const Particle& charge)
 {
-    _particle=&particle;
+    _charge=&charge;
 }
 
 void AttachableField::detach()
 {
-    _particle=nullptr;
+    _charge=nullptr;
 }
 
 END_NAMESPACE_COOLPHYSICS2D
