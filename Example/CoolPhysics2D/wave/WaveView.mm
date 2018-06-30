@@ -23,7 +23,7 @@
 {
     UITouch* touch=touches.anyObject;
     CGPoint location=[touch locationInView:self];
-    Wave* wave=new Wave(Vector(location.x,location.y),1);
+    Wave* wave=new Wave(Vector(location.x,location.y),1,10,0,Color::whiteColor);
     self.gameWorld->addWave(wave);
 }
 

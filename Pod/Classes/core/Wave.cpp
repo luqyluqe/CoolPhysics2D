@@ -18,7 +18,8 @@ void Wave::update(float timeInterval)
 
 Color Wave::color()const
 {
-    return _color*log(1+_radius/200);
+    Color color=_color*log(2+_radius/200);
+    return color;
 }
 
 Vector const& Wave::position()const
