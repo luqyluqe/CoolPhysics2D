@@ -11,6 +11,7 @@
 #import "HaloViewController.h"
 #import "FireworkViewController.h"
 #import "WaveViewController.h"
+#import "GravityViewController.h"
 
 @interface CP2DViewController ()
 
@@ -35,7 +36,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 5;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -57,6 +58,9 @@
             break;
         case 3:
             cell.textLabel.text=@"Wave";
+            break;
+        case 4:
+            cell.textLabel.text=@"Gravity";
             break;
         default:
             break;
@@ -90,6 +94,13 @@
         case 3:
         {
             WaveViewController* viewController=[[WaveViewController alloc] init];
+            [self.navigationController pushViewController:viewController animated:YES];
+            break;
+        }
+            
+        case 4:
+        {
+            GravityViewController *viewController=[[GravityViewController alloc] init];
             [self.navigationController pushViewController:viewController animated:YES];
             break;
         }

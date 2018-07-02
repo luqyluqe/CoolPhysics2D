@@ -17,7 +17,7 @@ class AttachableField:public Field
 {
 public:
     AttachableField(const Rectangle& range);
-    AttachableField(const Rectangle& range,const Particle& charge);
+    AttachableField(const Rectangle& range,const Particle* charge);
     virtual void attachTo(const Particle& charge);
     virtual void detach();
 protected:

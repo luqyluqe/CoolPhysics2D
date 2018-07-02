@@ -32,6 +32,8 @@
 		A9A9E5EA1C466DCF00FAA29F /* FireworkViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */; };
 		A9E84CBE1C465F0900BA0FEB /* HaloView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9E84CBB1C465F0900BA0FEB /* HaloView.mm */; };
 		A9E84CBF1C465F0900BA0FEB /* HaloViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9E84CBD1C465F0900BA0FEB /* HaloViewController.mm */; };
+		ADD9C2D320E8ACF80069C48A /* GravityViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADD9C2D220E8ACF80069C48A /* GravityViewController.mm */; };
+		ADD9C2D620E8AD100069C48A /* GravityView.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADD9C2D520E8AD100069C48A /* GravityView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,19 +58,12 @@
 			remoteGlobalIDString = B39AEB5C36D0D4A70E36FFA030603EF1;
 			remoteInfo = "Pods-CoolPhysics2D_Tests";
 		};
-		C56925571ED1D87500757135 /* PBXContainerItemProxy */ = {
+		ADD9C2DF20E8D4A30069C48A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A96174671C44F32200F32DCA /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = DB3CB4F6953775D0C1809447B542CEF7;
+			remoteGlobalIDString = C833ACD5A943A8DBA3470846C0D4532B;
 			remoteInfo = CoolPhysics2D;
-		};
-		C56925591ED1D87500757135 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A96174671C44F32200F32DCA /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B0A6F09BED204C50C0EF2FD213D22053;
-			remoteInfo = "CoolPhysics2D-CoolPhysics2D";
 		};
 		C569255B1ED1D87500757135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -145,6 +140,10 @@
 		A9E84CBB1C465F0900BA0FEB /* HaloView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HaloView.mm; sourceTree = "<group>"; };
 		A9E84CBC1C465F0900BA0FEB /* HaloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaloViewController.h; sourceTree = "<group>"; };
 		A9E84CBD1C465F0900BA0FEB /* HaloViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HaloViewController.mm; sourceTree = "<group>"; };
+		ADD9C2D120E8ACF80069C48A /* GravityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		ADD9C2D220E8ACF80069C48A /* GravityViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GravityViewController.mm; sourceTree = "<group>"; };
+		ADD9C2D420E8AD100069C48A /* GravityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityView.h; sourceTree = "<group>"; };
+		ADD9C2D520E8AD100069C48A /* GravityView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GravityView.mm; sourceTree = "<group>"; };
 		C9588F37EE518C3E3D83189C /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D61CCA23B030D0707A743914 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolPhysics2D_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E70F6808D480B2AA09B3D405 /* CoolPhysics2D.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoolPhysics2D.podspec; path = ../CoolPhysics2D.podspec; sourceTree = "<group>"; };
@@ -236,6 +235,7 @@
 		6003F593195388D20070C39A /* Example for CoolPhysics2D */ = {
 			isa = PBXGroup;
 			children = (
+				ADD9C2C420E8ACD50069C48A /* Gravity */,
 				A973C5AC1C4B90D300F8F1D3 /* wave */,
 				A9E84CC01C466B4A00BA0FEB /* Firework */,
 				A9E84CB91C465F0900BA0FEB /* halo */,
@@ -296,8 +296,7 @@
 		A96174681C44F32200F32DCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C56925581ED1D87500757135 /* CoolPhysics2D.framework */,
-				C569255A1ED1D87500757135 /* CoolPhysics2D.bundle */,
+				ADD9C2E020E8D4A30069C48A /* CoolPhysics2D.framework */,
 				C569255C1ED1D87500757135 /* Expecta.framework */,
 				C569255E1ED1D87500757135 /* Expecta_Snapshots.framework */,
 				C56925601ED1D87500757135 /* FBSnapshotTestCase.framework */,
@@ -339,6 +338,17 @@
 				A9A9E5E91C466DCF00FAA29F /* FireworkViewController.mm */,
 			);
 			path = Firework;
+			sourceTree = "<group>";
+		};
+		ADD9C2C420E8ACD50069C48A /* Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				ADD9C2D120E8ACF80069C48A /* GravityViewController.h */,
+				ADD9C2D220E8ACF80069C48A /* GravityViewController.mm */,
+				ADD9C2D420E8AD100069C48A /* GravityView.h */,
+				ADD9C2D520E8AD100069C48A /* GravityView.mm */,
+			);
+			path = Gravity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,18 +451,11 @@
 			remoteRef = A961747E1C44F32200F32DCA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C56925581ED1D87500757135 /* CoolPhysics2D.framework */ = {
+		ADD9C2E020E8D4A30069C48A /* CoolPhysics2D.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CoolPhysics2D.framework;
-			remoteRef = C56925571ED1D87500757135 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C569255A1ED1D87500757135 /* CoolPhysics2D.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CoolPhysics2D.bundle;
-			remoteRef = C56925591ED1D87500757135 /* PBXContainerItemProxy */;
+			remoteRef = ADD9C2DF20E8D4A30069C48A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		C569255C1ED1D87500757135 /* Expecta.framework */ = {
@@ -533,7 +536,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CoolPhysics2D-iOS7.1/CoolPhysics2D.framework",
+				"${BUILT_PRODUCTS_DIR}/CoolPhysics2D/CoolPhysics2D.framework",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
 				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
@@ -607,7 +610,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CoolPhysics2D-iOS8.0/CoolPhysics2D.framework",
+				"${BUILT_PRODUCTS_DIR}/CoolPhysics2D/CoolPhysics2D.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -635,7 +638,9 @@
 				A9E84CBF1C465F0900BA0FEB /* HaloViewController.mm in Sources */,
 				4281AEA61C1431F40025DC4F /* BouncingBallView.mm in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				ADD9C2D620E8AD100069C48A /* GravityView.mm in Sources */,
 				A973C5B21C4B91F900F8F1D3 /* WaveViewController.mm in Sources */,
+				ADD9C2D320E8ACF80069C48A /* GravityViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,6 +796,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoolPhysics2D/CoolPhysics2D-Prefix.pch";
@@ -810,6 +816,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoolPhysics2D/CoolPhysics2D-Prefix.pch";
@@ -827,6 +834,7 @@
 			baseConfigurationReference = D61CCA23B030D0707A743914 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -839,6 +847,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolPhysics2D_Example.app/CoolPhysics2D_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -850,6 +859,7 @@
 			baseConfigurationReference = C9588F37EE518C3E3D83189C /* Pods-CoolPhysics2D_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -858,6 +868,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolPhysics2D_Example.app/CoolPhysics2D_Example";
 				WRAPPER_EXTENSION = xctest;

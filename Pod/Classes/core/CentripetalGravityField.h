@@ -8,7 +8,7 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 class CentripetalGravityField:public AttachableField
 {
 public:
-    CentripetalGravityField(const Rectangle& range,const Particle& charge,double gravity);
+    CentripetalGravityField(const Rectangle& range,const Particle* charge,double gravity);
     virtual ~CentripetalGravityField();
     virtual void actOn(Particle& particle)const;
 private:

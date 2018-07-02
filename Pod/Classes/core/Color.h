@@ -19,6 +19,7 @@ public:
     static Color blueColor;
     static Color whiteColor;
     static Color blackColor;
+    static Color yellowColor;
     
     float RED;
     float GREEN;

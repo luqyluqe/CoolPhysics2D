@@ -11,6 +11,7 @@
 #endif
 
 #import "config.h"
+#import "AttachableField.hpp"
 #import "BuoyancyField.h"
 #import "CentripetalGravityField.h"
 #import "Color.h"

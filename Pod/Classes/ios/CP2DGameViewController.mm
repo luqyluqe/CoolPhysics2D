@@ -19,6 +19,7 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden=YES;
     self.gameView=[self getGameView];
     self.updateInterval=[self getUpdateInterval];
     [self.view addSubview:self.gameView];

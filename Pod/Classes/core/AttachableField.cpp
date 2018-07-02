@@ -11,7 +11,7 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 
 AttachableField::AttachableField(const Rectangle& range):Field(range){}
 
-AttachableField::AttachableField(const Rectangle& range,const Particle& charge):Field(range), _charge(&charge){}
+AttachableField::AttachableField(const Rectangle& range,const Particle* charge):Field(range), _charge(charge){}
 
 void AttachableField::attachTo(const Particle& charge)
 {
