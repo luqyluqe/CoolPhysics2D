@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018DBAF3B9577C301358B8823D75AB63 /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6582176B1FA2067AAFA2622AC4A250 /* Circle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		045ACF8250F7301F19900430A56A57AD /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F918FC505CF09EF34364A0B60716F1E /* timer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		06D5416F3B5EECE5CBAD8B73E7DD2CF5 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = B2850FA33400D19F8FA5A6C923173DF4 /* LICENSE.md */; };
-		0E35B7BD10AA47922E13EA29095009F3 /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D31565C25C929DD2E0EC28C325B953 /* GravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EA57B040985D43D4A8CBB785CDFC08B /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = F835C89AE1D54BAE5C8B491D86362471 /* BuoyancyField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C8FFCDE468D2A8ACD03091053CFC37 /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = F835C89AE1D54BAE5C8B491D86362471 /* BuoyancyField.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0B35557FAC2C71BA86600E8612BECA3D /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AA1E36B8BD50B91D374379CEFA1DFF /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		102F7E35E4DF7F2FECA6DF2D5C9804A4 /* CoolPhysics2D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 632383A8A2F87DB55F846D8AE4542C13 /* CoolPhysics2D-dummy.m */; };
 		10C998CE41351A11CDE274118F0F0B41 /* Pods-CoolPhysics2D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53C0C1C5E895763348CF82EBDD41943 /* Pods-CoolPhysics2D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1170B8A568BC66D87404DAC2005DD6B9 /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E78723E1B81048069972CE24D82BA288 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12DC27643AC78DB7471F4C19908DE941 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 6EF020D969D37608BE318DEFB69BB056 /* Makefile */; };
 		15565482854D733A483053FEB05CB63E /* Pods-CoolPhysics2D_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D98561AF72D5005639291911D56228 /* Pods-CoolPhysics2D_Example-dummy.m */; };
 		17D591FE4B09C5926D4E77C1F0CFFDE2 /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE7EF81DBCE28BB57434DAE8BD4532 /* COPYING */; };
+		192617CD4CA2C7443345AC56CB663823 /* Particle.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6212BCE13DD0414C29BBDA9CD9C0E8 /* Particle.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		20AA106225625B736D74BB6FA76A166F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		21A125E43B39594D39293D545951CBF5 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AC52100F0A0F0B82FC5499B5F7242EF /* CP2DGameViewController.mm */; };
-		335F6A366FA40A899256DA838484CAF4 /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C9D4FF980BD53D20EA6DA9B97694CF /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2968EA7847EC3152E2E02B98D6085BD6 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = F86C5CF9A1C984509EA6386B1967A168 /* Color.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3482D51590713FF675E9E60306544DDC /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C387F4DD9CEB2516E31844D2FA7E01A /* CentripetalGravityField.cpp */; };
 		3975DC03E135AF95E4490C97138C8E94 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A4ECE8481E686DE9649AAF327A750 /* GameWorld.cpp */; };
-		4390B61FB16582A245372AB75DC7FBF9 /* AttachableField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8C374AA0DD9B4A2151B9030129BC7F /* AttachableField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C397976A8EB6D3C556F064D1BF72ACB /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 614EBEB21ABBAB47C4521AF8DBA97DC9 /* ThreadPool.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		440A7702CF3725BD334E5BB19801BB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		4495F3CEB386887EFFD3C262EE1378EB /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5204AEF3CF2D8722110154D5B8110012 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		466E6D70C5F4EAFA52B086E2288FDFDC /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = F94994509DCB39DACFE0F5E4384FD9F7 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48EA0C868D66FFD998127F537C89F162 /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = F01ECC124F8516846D83159279D5A8CB /* DampingField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5167225EC13E71A6085BE7E928354759 /* RetainCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 526472D769EB1944588DEAA5B534682C /* RetainCount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACB8CB97833226104A44DA1E8C5023 /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = F01ECC124F8516846D83159279D5A8CB /* DampingField.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		51420A3D8AC4DDA51891572F336B9BC5 /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A6DB96F8400801C3AA16D81CF54978 /* MathDefines.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		524471CA74CFC0CE0AD289ACD753E7D6 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2379D8DEA2E2F01806E2738FAD1B01AF /* Circle.cpp */; };
-		52E92A2A5052F27BC654EA4EEE725757 /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C31FC6C6AE64787D70F1E195F8D48A /* retaincount_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		539B207576F3826346C8F4E01D1FDF00 /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = 63205A46575F9BF9EE778646A995CA09 /* Wave.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		599E4F8D5237EEF101210344FDD7CD4C /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E05015572B2D6AFC78F3EBD258FD199 /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553E68A4127135382F840C9C744EBE3B /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C9D4FF980BD53D20EA6DA9B97694CF /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57B7D498B01027BD6D972FBA4A28CEC2 /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = F94994509DCB39DACFE0F5E4384FD9F7 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A7777849B11DDFFD5B71FD1E870EB7E /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = 63205A46575F9BF9EE778646A995CA09 /* Wave.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5B8F91FDD8CF3DFB3524B17B97C363BA /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62BB9F945C043A5FD2FB9489789B4DB /* example.cpp */; };
 		5BCF7197552E82B41DC1CA7CDE89DD80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		5D1BF4DFBA07A69C03DD93D6390FB2C6 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 067EBA0C24FD6B4407D9ED3838CB4778 /* ObstacleField.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5F1296553FAA28EDDFBCC0E16C059B34 /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D44EF2B2DF373594F6CE8C8521D327C5 /* CP2DWaveRenderer.mm */; };
-		6036A3CBCD3ED60306F48675827B3C53 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB7F21AB57BF20A35E3E5B650D7F80 /* Rectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62494AC6329D7297036381FA376AE6B3 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 614EBEB21ABBAB47C4521AF8DBA97DC9 /* ThreadPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6695568333BAA9D7F7389708DA49AD97 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 245024132F4FCC8071AE2C0B7AB081FB /* CP2DParticleRenderer.mm */; };
-		701E9E141169C4EDC52B6F1077559371 /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6582176B1FA2067AAFA2622AC4A250 /* Circle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67BBD4DB61533813101674FD3253776D /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C59FA3EADAB7586985F8A7FFECC1885 /* opaque_config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		734C20EC8C705FA3F8F2BBF8AAC1E6F0 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D25F2C1B96FCFBB50ECD074090A0B28 /* Field.cpp */; };
 		76E20C230FAB76877DD03AD3FCC298CE /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7526CA598F32E2E6C3C5A17636D86CEF /* RetainCount.cpp */; };
-		789E57C2531204BA287A4A6E0EFABCCB /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A009B50CCD2EDC371FE7375F2EEA71B /* Vector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F71D4E9F36B93BFF5F1BB694D58CA3 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE6E38352D1C60BDF88FC7F31444E0F /* Field.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8273F4DCB41279FE904145B201123F57 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 376C78F62D8DB26CD89B6ABDD0646A4F /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		851A81F299B1D4FC29EDC1D1AB57C79E /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8584E7C514E2D12CBBBDBA56541FB59D /* Vector.cpp */; };
 		86CD8F99637F2EBB7F4D80BA66CA4975 /* OpaqueParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91F60E1FF7E6E8C18CFCA5727B61628F /* OpaqueParticle.cpp */; };
 		888D79B65A659150015C1983B844BF34 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FAF481FF10FA392B17BD12394E96 /* ParticleEmitter.cpp */; };
-		896447FAF3D29CF69AB5A45BD87C89A6 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = CA284BAD86F48156E775236F601E53DC /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D561B1CDC7C3995EFD4E87328495A50 /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDCC8D7BA48906E42EBBBFF74E92D6 /* BuoyancyField.cpp */; };
 		8E998B4E75F8272D20B04FDDC59C6089 /* Pods-CoolPhysics2D_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B8E86480D3F561334876C137685037 /* Pods-CoolPhysics2D_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		919F92C8C0961D94864F70A8E485CA04 /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AA1E36B8BD50B91D374379CEFA1DFF /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963DE9970F5BD71F7C9DB80C5526D76A /* CoolPhysics2D-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C610A61105C47B2A3D5EC1CFCB9D2D52 /* CoolPhysics2D-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9883E18936DCC7F88F704D7E3CEFF6B4 /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01F58267E56EA85FFBDC4CDE99619DE9 /* GravityField.cpp */; };
 		A39145BC1E475ADD5EB7A0ED5F390555 /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E2BE9537A3C108B7AA18149672910B5 /* ObstacleField.cpp */; };
-		A4FEA34B74F4CE87F252FD89FAD1C671 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = AA588D594FA8E6BDC6EEDF0AA05289FC /* GameWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A676857FD6F971453274C1FD1C5A72C6 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B573A214AF54B30679602D9977E8557C /* Color.cpp */; };
+		A9A4E3E6CD8C42C08C05700455768F02 /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4285B1A8B88CD09E7B9C8D63B3024D76 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AA48815F9048760081ED84D4DD3AFAAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A306B8BB4787A31AF2F330F7ECECA669 /* README.md */; };
 		ADBB7C09F7339D3043E606EAEFF4718A /* Pods-CoolPhysics2D_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B85AAB67CCE07B37DD3462EE9FCA633 /* Pods-CoolPhysics2D_Tests-dummy.m */; };
-		ADE738BD769FCC57CBBD8CEB2602AE54 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F918FC505CF09EF34364A0B60716F1E /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2EFD81472A68F82AEBF60BD75BB9896 /* OpaqueParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4285B1A8B88CD09E7B9C8D63B3024D76 /* OpaqueParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC23E4D4C045A33F23AE59DD012C5F73 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = F86C5CF9A1C984509EA6386B1967A168 /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0EFB96BBB28A566CA218C4408E43FBE /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A6DB96F8400801C3AA16D81CF54978 /* MathDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE73DE09FDC6D7D3C2409BE0C79C008 /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A009B50CCD2EDC371FE7375F2EEA71B /* Vector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B2B35C52C0673E73F3D22D71540F9097 /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D31565C25C929DD2E0EC28C325B953 /* GravityField.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B8241A3FB236714EB3ED56E11F6635A7 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = CA284BAD86F48156E775236F601E53DC /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD15B834158B041EDEF243A2A579466E /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E78723E1B81048069972CE24D82BA288 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0E6E02A5358664206EDF29F4DC822D6 /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E05015572B2D6AFC78F3EBD258FD199 /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C5121C16C063A12656AA9A6B65C48F8D /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE6E38352D1C60BDF88FC7F31444E0F /* Field.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C517C1F8810ED67954D1C07866E2345E /* AttachableField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8C374AA0DD9B4A2151B9030129BC7F /* AttachableField.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C5C4E89321C4A434FF02B3989FBA5B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		C6827B5283FA90BFA13C0C01EA1D9FF9 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 067EBA0C24FD6B4407D9ED3838CB4778 /* ObstacleField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C895B6D0939D13B7F10124A684C9E918 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB7F21AB57BF20A35E3E5B650D7F80 /* Rectangle.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C9A19E685531CD2D7AE3A2BCE2451D69 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 787915EE260F0E4C0B567E371356DB14 /* DampingField.cpp */; };
-		D892201D926CB810078DD609A0B34E63 /* opaque_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C59FA3EADAB7586985F8A7FFECC1885 /* opaque_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A0C6B029F1F630515972F432779734 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = AA588D594FA8E6BDC6EEDF0AA05289FC /* GameWorld.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E4BBA79746E739E447DB8629B4F4CB73 /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0A1C6076CDEF1673532A2BCDEE1DFED /* CP2DGameView.mm */; };
+		E4E6C1D35347D6F7592A2A0C3C92D952 /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C31FC6C6AE64787D70F1E195F8D48A /* retaincount_config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EB16259637EA16FECBCADCE4BBA85AE1 /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF290B3BD1EC8728CE52EC301E23CC96 /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE24E922FE1F902F0FEAA8F6D9196206 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA0F0EC138DE2CCB9CC407DAAE1A187 /* Particle.cpp */; };
 		EE988B483667A95B6D973C9103754463 /* AttachableField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D876724E3853669B5E9D9DEE39DEF517 /* AttachableField.cpp */; };
-		F5A6A9BF537E092B6A0738B3AE5C6628 /* Particle.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6212BCE13DD0414C29BBDA9CD9C0E8 /* Particle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F66FD23D200AE0E620E6F01EE997D67A /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 376C78F62D8DB26CD89B6ABDD0646A4F /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F961BCF4D8ACCC4283D693A75C494464 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A44B9B00548D23658758998A152203B1 /* CP2DGameWorldRenderer.mm */; };
 		FC19CA4E4D75AC1A88F19C6A30979FAC /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE218E641C35139A407D300E15E58A1B /* Rectangle.cpp */; };
 		FC7B120A601F97508256AC534C6D445B /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E787D9569C605241A641F3069248D924 /* Wave.cpp */; };
-		FCE4484294D3FF8F6F4F0C34B989B719 /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF290B3BD1EC8728CE52EC301E23CC96 /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF4EF3B111BB49B4F7CD47E106DE08C /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5204AEF3CF2D8722110154D5B8110012 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FEFDB06B3D77BA8251CAEBB385CD6BFC /* RetainCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 526472D769EB1944588DEAA5B534682C /* RetainCount.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -483,36 +483,36 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4390B61FB16582A245372AB75DC7FBF9 /* AttachableField.h in Headers */,
-				0EA57B040985D43D4A8CBB785CDFC08B /* BuoyancyField.h in Headers */,
-				919F92C8C0961D94864F70A8E485CA04 /* CentripetalGravityField.h in Headers */,
-				701E9E141169C4EDC52B6F1077559371 /* Circle.h in Headers */,
-				BC23E4D4C045A33F23AE59DD012C5F73 /* Color.h in Headers */,
-				F66FD23D200AE0E620E6F01EE997D67A /* config.h in Headers */,
+				C517C1F8810ED67954D1C07866E2345E /* AttachableField.h in Headers */,
+				07C8FFCDE468D2A8ACD03091053CFC37 /* BuoyancyField.h in Headers */,
+				0B35557FAC2C71BA86600E8612BECA3D /* CentripetalGravityField.h in Headers */,
+				018DBAF3B9577C301358B8823D75AB63 /* Circle.h in Headers */,
+				2968EA7847EC3152E2E02B98D6085BD6 /* Color.h in Headers */,
+				8273F4DCB41279FE904145B201123F57 /* config.h in Headers */,
 				963DE9970F5BD71F7C9DB80C5526D76A /* CoolPhysics2D-umbrella.h in Headers */,
-				466E6D70C5F4EAFA52B086E2288FDFDC /* CP2DGameView.h in Headers */,
-				1170B8A568BC66D87404DAC2005DD6B9 /* CP2DGameViewController.h in Headers */,
-				FCE4484294D3FF8F6F4F0C34B989B719 /* CP2DGameWorldRenderer.h in Headers */,
-				599E4F8D5237EEF101210344FDD7CD4C /* CP2DParticleRenderer.h in Headers */,
-				335F6A366FA40A899256DA838484CAF4 /* CP2DRenderer.h in Headers */,
-				896447FAF3D29CF69AB5A45BD87C89A6 /* CP2DWaveRenderer.h in Headers */,
-				48EA0C868D66FFD998127F537C89F162 /* DampingField.h in Headers */,
-				79F71D4E9F36B93BFF5F1BB694D58CA3 /* Field.h in Headers */,
-				A4FEA34B74F4CE87F252FD89FAD1C671 /* GameWorld.h in Headers */,
-				0E35B7BD10AA47922E13EA29095009F3 /* GravityField.h in Headers */,
-				C0EFB96BBB28A566CA218C4408E43FBE /* MathDefines.h in Headers */,
-				C6827B5283FA90BFA13C0C01EA1D9FF9 /* ObstacleField.h in Headers */,
-				D892201D926CB810078DD609A0B34E63 /* opaque_config.h in Headers */,
-				B2EFD81472A68F82AEBF60BD75BB9896 /* OpaqueParticle.h in Headers */,
-				F5A6A9BF537E092B6A0738B3AE5C6628 /* Particle.h in Headers */,
-				4495F3CEB386887EFFD3C262EE1378EB /* ParticleEmitter.h in Headers */,
-				6036A3CBCD3ED60306F48675827B3C53 /* Rectangle.h in Headers */,
-				5167225EC13E71A6085BE7E928354759 /* RetainCount.h in Headers */,
-				52E92A2A5052F27BC654EA4EEE725757 /* retaincount_config.h in Headers */,
-				62494AC6329D7297036381FA376AE6B3 /* ThreadPool.h in Headers */,
-				ADE738BD769FCC57CBBD8CEB2602AE54 /* timer.h in Headers */,
-				789E57C2531204BA287A4A6E0EFABCCB /* Vector.h in Headers */,
-				539B207576F3826346C8F4E01D1FDF00 /* Wave.h in Headers */,
+				57B7D498B01027BD6D972FBA4A28CEC2 /* CP2DGameView.h in Headers */,
+				BD15B834158B041EDEF243A2A579466E /* CP2DGameViewController.h in Headers */,
+				EB16259637EA16FECBCADCE4BBA85AE1 /* CP2DGameWorldRenderer.h in Headers */,
+				C0E6E02A5358664206EDF29F4DC822D6 /* CP2DParticleRenderer.h in Headers */,
+				553E68A4127135382F840C9C744EBE3B /* CP2DRenderer.h in Headers */,
+				B8241A3FB236714EB3ED56E11F6635A7 /* CP2DWaveRenderer.h in Headers */,
+				45ACB8CB97833226104A44DA1E8C5023 /* DampingField.h in Headers */,
+				C5121C16C063A12656AA9A6B65C48F8D /* Field.h in Headers */,
+				E3A0C6B029F1F630515972F432779734 /* GameWorld.h in Headers */,
+				B2B35C52C0673E73F3D22D71540F9097 /* GravityField.h in Headers */,
+				51420A3D8AC4DDA51891572F336B9BC5 /* MathDefines.h in Headers */,
+				5D1BF4DFBA07A69C03DD93D6390FB2C6 /* ObstacleField.h in Headers */,
+				67BBD4DB61533813101674FD3253776D /* opaque_config.h in Headers */,
+				A9A4E3E6CD8C42C08C05700455768F02 /* OpaqueParticle.h in Headers */,
+				192617CD4CA2C7443345AC56CB663823 /* Particle.h in Headers */,
+				FCF4EF3B111BB49B4F7CD47E106DE08C /* ParticleEmitter.h in Headers */,
+				C895B6D0939D13B7F10124A684C9E918 /* Rectangle.h in Headers */,
+				FEFDB06B3D77BA8251CAEBB385CD6BFC /* RetainCount.h in Headers */,
+				E4E6C1D35347D6F7592A2A0C3C92D952 /* retaincount_config.h in Headers */,
+				3C397976A8EB6D3C556F064D1BF72ACB /* ThreadPool.h in Headers */,
+				045ACF8250F7301F19900430A56A57AD /* timer.h in Headers */,
+				AEE73DE09FDC6D7D3C2409BE0C79C008 /* Vector.h in Headers */,
+				5A7777849B11DDFFD5B71FD1E870EB7E /* Wave.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

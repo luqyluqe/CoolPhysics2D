@@ -18,6 +18,7 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
+  "private_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "libraries": "stdc++"
 }
