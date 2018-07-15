@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-#import "CP2DGameView.h"
+#import <CoolPhysics2D/CP2DGameView.h>
 
 @interface FireworkView:CP2DGameView
 

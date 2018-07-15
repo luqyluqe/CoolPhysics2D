@@ -4,7 +4,7 @@
 #include "config.h"
 #include "Vector.h"
 #include "Color.h"
-#include "Particle.hpp"
+#include "Particle.h"
 
 #include <vector>
 

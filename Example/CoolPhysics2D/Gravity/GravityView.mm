@@ -7,7 +7,7 @@
 //
 
 #import "GravityView.h"
-#include "CentripetalGravityField.h"
+#include <CoolPhysics2D/CentripetalGravityField.h>
 
 @implementation GravityView
 

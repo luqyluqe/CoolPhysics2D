@@ -8,14 +8,14 @@
 
 #import "BouncingBallView.h"
 
-#include "Vector.h"
-#import "CP2DParticleRenderer.h"
-#include "Field.h"
-#include "DampingField.h"
-#include "GravityField.h"
-#include "BuoyancyField.h"
-#include "CP2DGameWorldRenderer.h"
-#include "Color.h"
+#include <CoolPhysics2D/Vector.h>
+#import <CoolPhysics2D/CP2DParticleRenderer.h>
+#include <CoolPhysics2D/Field.h>
+#include <CoolPhysics2D/DampingField.h>
+#include <CoolPhysics2D/GravityField.h>
+#include <CoolPhysics2D/BuoyancyField.h>
+#include <CoolPhysics2D/CP2DGameWorldRenderer.h>
+#include <CoolPhysics2D/Color.h>
 
 @implementation BouncingBallView
 

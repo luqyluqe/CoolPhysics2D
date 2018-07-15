@@ -6,7 +6,7 @@
 //  Copyright © 2018 luqyluqe. All rights reserved.
 //
 
-#import "CP2DGameView.h"
+#import <CoolPhysics2D/CP2DGameView.h>
 
 @interface GravityView : CP2DGameView
 

@@ -1,6 +1,6 @@
 #import "WaveView.h"
-#include "Wave.hpp"
-#import "CP2DWaveRenderer.h"
+#include <CoolPhysics2D/Wave.h>
+#import <CoolPhysics2D/CP2DWaveRenderer.h>
 
 @implementation WaveView
 

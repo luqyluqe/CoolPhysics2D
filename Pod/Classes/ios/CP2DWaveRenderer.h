@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#include "Wave.hpp"
+#include "Wave.h"
 #import "CP2DRenderer.h"
 
 using namespace CoolPhysics2D;

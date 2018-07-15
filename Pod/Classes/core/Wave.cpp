@@ -1,4 +1,4 @@
-#include "Wave.hpp"
+#include "Wave.h"
 #include <cmath>
 
 BEGIN_NAMESPACE_COOLPHYSICS2D

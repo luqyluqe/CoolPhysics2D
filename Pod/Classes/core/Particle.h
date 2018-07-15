@@ -6,7 +6,7 @@
 #include "Circle.h"
 #include "Color.h"
 #include "OpaqueParticle.h"
-#include "RetainCount.hpp"
+#include "RetainCount.h"
 
 #include <string>
 #include <sstream>

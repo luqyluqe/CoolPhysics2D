@@ -6,7 +6,7 @@
 #include "Field.h"
 #include "Rectangle.h"
 #include "ThreadPool.h"
-#include "Wave.hpp"
+#include "Wave.h"
 
 #include <vector>
 

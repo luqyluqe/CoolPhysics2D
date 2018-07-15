@@ -6,7 +6,7 @@
 //  Copyright © 2018 luqyluqe. All rights reserved.
 //
 
-#import "CP2DGameViewController.h"
+#import <CoolPhysics2D/CP2DGameViewController.h>
 
 @interface GravityViewController : CP2DGameViewController
 

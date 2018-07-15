@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Particle.hpp"
-#import "GameWorld.h"
-#import "CP2DGameWorldRenderer.h"
-#import "CP2DGameView.h"
+#include <CoolPhysics2D/Particle.h>
+#include <CoolPhysics2D/GameWorld.h>
+#import <CoolPhysics2D/CP2DGameWorldRenderer.h>
+#import <CoolPhysics2D/CP2DGameView.h>
 
 @interface BouncingBallView : CP2DGameView;
 

@@ -1,8 +1,8 @@
 #import "FireworkView.h"
-#import "CP2DGameWorldRenderer.h"
-#include "ParticleEmitter.h"
-#include "GravityField.h"
-#include "DampingField.h"
+#import <CoolPhysics2D/CP2DGameWorldRenderer.h>
+#include <CoolPhysics2D/ParticleEmitter.h>
+#include <CoolPhysics2D/GravityField.h>
+#include <CoolPhysics2D/DampingField.h>
 
 using namespace CoolPhysics2D;
 

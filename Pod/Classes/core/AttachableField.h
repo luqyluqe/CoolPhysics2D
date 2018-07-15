@@ -9,7 +9,7 @@
 #define AttachableField_hpp
 
 #include "Field.h"
-#include "Particle.hpp"
+#include "Particle.h"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 

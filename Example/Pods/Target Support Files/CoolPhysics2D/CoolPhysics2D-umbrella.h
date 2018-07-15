@@ -11,7 +11,7 @@
 #endif
 
 #import "config.h"
-#import "AttachableField.hpp"
+#import "AttachableField.h"
 #import "BuoyancyField.h"
 #import "CentripetalGravityField.h"
 #import "Color.h"
@@ -26,11 +26,11 @@
 #import "ObstacleField.h"
 #import "OpaqueParticle.h"
 #import "opaque_config.h"
-#import "Particle.hpp"
+#import "Particle.h"
 #import "ParticleEmitter.h"
-#import "RetainCount.hpp"
+#import "RetainCount.h"
 #import "retaincount_config.h"
-#import "Wave.hpp"
+#import "Wave.h"
 #import "CP2DGameView.h"
 #import "CP2DGameViewController.h"
 #import "CP2DGameWorldRenderer.h"

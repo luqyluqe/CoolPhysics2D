@@ -1,5 +1,5 @@
 #include "GameWorld.h"
-#include "Particle.hpp"
+#include "Particle.h"
 #include "ParticleEmitter.h"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D

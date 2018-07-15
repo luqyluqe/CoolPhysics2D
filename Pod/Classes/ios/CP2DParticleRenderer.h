@@ -1,4 +1,4 @@
-#include "Particle.hpp"
+#include "Particle.h"
 #import "CP2DRenderer.h"
 #import <Foundation/Foundation.h>
 

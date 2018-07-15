@@ -1,4 +1,4 @@
-#include "RetainCount.hpp"
+#include "RetainCount.h"
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
 BEGIN_NAMESPACE_RETAINCOUNT
