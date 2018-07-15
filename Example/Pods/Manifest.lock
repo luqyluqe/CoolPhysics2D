@@ -1,34 +1,16 @@
 PODS:
-  - CoolPhysics2D (0.7.1.b)
-  - Expecta (1.0.5)
-  - Expecta+Snapshots (2.0.0):
-    - Expecta (~> 1.0)
-    - FBSnapshotTestCase/Core (~> 2.0.3)
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
-    - FBSnapshotTestCase/Core
-  - Specta (1.0.5)
+  - CoolPhysics2D (0.8.0)
 
 DEPENDENCIES:
   - CoolPhysics2D (from `../`)
-  - Expecta
-  - Expecta+Snapshots
-  - FBSnapshotTestCase
-  - Specta
 
 EXTERNAL SOURCES:
   CoolPhysics2D:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CoolPhysics2D: 4669eba4a65a6f0e7d1ba48146656f6914b8c62f
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  CoolPhysics2D: b5d89e0ec2bd22326b8cc8f50b987914fac0a515
 
-PODFILE CHECKSUM: aca9551fded7ce312bab1a7a4a2d7d08080e6d19
+PODFILE CHECKSUM: 8c8991f7962bc2cb818b014c212608060df8dcd6
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

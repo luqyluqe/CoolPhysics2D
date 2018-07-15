@@ -7,9 +7,4 @@ end
 
 target 'CoolPhysics2D_Tests' do
   pod "CoolPhysics2D", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
 end
