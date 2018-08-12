@@ -363,6 +363,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				E4DE46BC93874E96D31B3D7A /* [CP] Embed Pods Frameworks */,
+				77A7013592248917D82DE994 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,6 +383,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				370573CEB216624DA1AEB27C /* [CP] Embed Pods Frameworks */,
+				6EBDF04E0396D53BDD2FA1DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -543,6 +545,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EBDF04E0396D53BDD2FA1DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Tests/Pods-CoolPhysics2D_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A7013592248917D82DE994 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolPhysics2D_Example/Pods-CoolPhysics2D_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D9FD98ED37CBF28BF2E4C21 /* [CP] Check Pods Manifest.lock */ = {

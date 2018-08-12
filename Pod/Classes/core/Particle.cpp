@@ -4,7 +4,7 @@ BEGIN_NAMESPACE_COOLPHYSICS2D
 
 Particle::Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime,Color color)
 {
-    _particle=new OpaqueParticle(overlappable,radius,mass,elasticity,position,velocity,
+    _particle=new raw::Particle(overlappable,radius,mass,elasticity,position,velocity,
                                  acceleration,lifeTime,color);
 }
 
@@ -41,12 +41,12 @@ double Particle::distanceTo(const Particle& p)const
 
 bool Particle::collide(const Particle& p1,const Particle& p2)
 {
-    return OpaqueParticle::collide(*p1._particle, *p2._particle);
+    return raw::Particle::collide(*p1._particle, *p2._particle);
 }
 
 void Particle::handleCollision(Particle& e1,Particle& e2)
 {
-    OpaqueParticle::handleCollision(*e1._particle, *e2._particle);
+    raw::Particle::handleCollision(*e1._particle, *e2._particle);
 }
 
 double Particle::lifeTime()const

@@ -2,7 +2,7 @@
 #define COOLPHYSICS2D_PARTICLE_H
 
 #include "config.h"
-#include "opaque_config.h"
+#include "raw_config.h"
 #include "Vector.h"
 #include "Circle.h"
 #include "Color.h"
@@ -13,13 +13,13 @@
 using namespace Math;
 
 BEGIN_NAMESPACE_COOLPHYSICS2D
-BEGIN_NAMESPACE_OPAQUE
+BEGIN_NAMESPACE_RAW
 
 #define MAX_LIFETIME 10000
 
 class GameWorld;
 
-class OpaqueParticle
+class Particle
 {
     //Friend class
     friend class DampingField;
@@ -28,7 +28,7 @@ class OpaqueParticle
     friend class CentripetalGravityField;
     
 public:
-    OpaqueParticle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime=MAX_LIFETIME,Color color=Color::whiteColor);
+    Particle(bool overlappable,double radius,double mass,double elasticity,Vector position,Vector velocity,Vector acceleration,double lifeTime=MAX_LIFETIME,Color color=Color::whiteColor);
 
 	std::string description()const;
 
@@ -37,11 +37,11 @@ public:
 	void reflectAbout(const Vector& axis); //behavior when collides with the edge of the game world
     
     //Relation
-    double distanceTo(const OpaqueParticle& p)const;
-    static bool collide(const OpaqueParticle&,const OpaqueParticle&);
+    double distanceTo(const Particle& p)const;
+    static bool collide(const Particle&,const Particle&);
     
     //Action
-    static void handleCollision(OpaqueParticle& e1,OpaqueParticle& e2);
+    static void handleCollision(Particle& e1,Particle& e2);
 
 	//Accessor
     double lifeTime()const;
@@ -79,7 +79,7 @@ private:
     Color _color;
 };
 
-END_NAMESPACE_OPAQUE
+END_NAMESPACE_RAW
 END_NAMESPACE_COOLPHYSICS2D
 
 #endif

@@ -5,14 +5,13 @@
 #include "Vector.h"
 #include "Circle.h"
 #include "Color.h"
-#include "OpaqueParticle.h"
+#include "RawParticle.h"
 #include "RetainCount.h"
 
 #include <string>
 #include <sstream>
 #include <mutex>
 
-using CoolPhysics2D::opaque::OpaqueParticle;
 using CoolPhysics2D::retaincount::RetainCount;
 using namespace Math;
 
@@ -53,7 +52,7 @@ public:
     double mass()const;
     bool overlappable()const;
 private:
-    OpaqueParticle* _particle;
+    raw::Particle* _particle;
     RetainCount _retainCount;
 };
 
