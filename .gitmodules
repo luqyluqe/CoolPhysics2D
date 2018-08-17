@@ -1,3 +1,6 @@
 [submodule "Pod/Classes/core/Math"]
 	path = Pod/Classes/core/Math
 	url = https://github.com/luqyluqe/Math.git
+[submodule "Pod/Classes/CoolPhysics2DCore"]
+	path = Pod/Classes/CoolPhysics2DCore
+	url = https://github.com/luqyluqe/CoolPhysics2DCore.git

@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
 target 'CoolPhysics2D_Example' do
   pod "CoolPhysics2D", :path => "../"
