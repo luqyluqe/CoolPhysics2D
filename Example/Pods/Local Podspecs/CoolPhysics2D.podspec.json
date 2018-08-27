@@ -1,6 +1,6 @@
 {
   "name": "CoolPhysics2D",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "summary": "2D particle physics engine",
   "description": "2D particle physics engine.",
   "homepage": "https://github.com/luqyluqe/CoolPhysics2D",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/luqyluqe/CoolPhysics2D.git",
-    "tag": "0.8.1",
+    "tag": "0.8.2",
     "submodules": true
   },
   "platforms": {

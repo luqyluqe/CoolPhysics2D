@@ -1,5 +1,5 @@
 PODS:
-  - CoolPhysics2D (0.8.1)
+  - CoolPhysics2D (0.8.2)
 
 DEPENDENCIES:
   - CoolPhysics2D (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CoolPhysics2D: 50217bc9163153a0ff0ce4303a717db370f608d8
+  CoolPhysics2D: be3713ca7bdd6b34447a09bd311c919804dcd9ff
 
 PODFILE CHECKSUM: ac1f70653db2b3c0307f12e9c0156d09194ed63f
 
