@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024BA8D1A12CB8D2EFC0522FC63F81D5 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = C92240020ED6B1438C08FC13068723E1 /* GameWorld.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		03C0D75CC9747BBB31E2872D764C0D59 /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = B43AE6085A1DF72C62799CC4DD9E8AC9 /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0533A62D9CE19658621E030671D03795 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 360F16A7269ED91848BFE5481832DC86 /* timer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		06D8D07BB0ECF38D93C8C764249EBFF6 /* AttachableField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B82F370B2308323F0830775A018B0E1 /* AttachableField.cpp */; };
-		072EED66E55AC6F79CC031B9053CE990 /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE62C69DC6D0AF0041C642E3D8AED8D8 /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0779EEC647CAF178CD58FCA7E6C4EE33 /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29A553180FA62E5F07DEA82659AA8772 /* BuoyancyField.cpp */; };
-		09120F8C0E48C24B05ECA4D4D7C5BFC1 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0F7E751719451A04ABA890E7E4175AC /* CP2DParticleRenderer.mm */; };
-		0C99A18655D7F4668ADC57C8AC6C5B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
-		0E0E7154918ED36499DF9BA5045F2B4F /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A09FDFB147FC0B91A82945B1E6FCCDC1 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12B6D951E4C125760D744CED0B428BE4 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD4677292BFAC5939FD92007F03F096 /* Circle.cpp */; };
-		189E49079B9E15979561EA82E2781F65 /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDAA0CF93AD9177973AAA7CE39B4CF1 /* DampingField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CE7BEE972D099D5308E6524329F3362 /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42A868D38426C552F41A020745584077 /* ObstacleField.cpp */; };
-		1ECA41FB3CC1648367A6616F28C23E6C /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F5F05990889AA8DAF2F24CDDDCDA5EE /* GravityField.cpp */; };
-		249F2618AB5CC8A343072D0D09DD866E /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A72036FB3E0F4ADB44C98EE1316DBF /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		279CD2C80BC1D9B1022E031972CEE284 /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BE08870E49D2AE7FF9307A737516A9 /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		279F9843B257F593B0785ADF63FBA74A /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6BDA0711C578D1AB83407AF999067B /* CP2DGameViewController.mm */; };
-		2E3F3FC6E441F7301493C512CCFB2410 /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B40B86AEDE2BA2C870D2834300676EE /* CP2DWaveRenderer.mm */; };
-		3457ED88E98F5F0BD67C1EE31CC0E5F1 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5F6014D9AB60AF1B33E9D0B65B7C5F3 /* CP2DGameWorldRenderer.mm */; };
-		379824985E34D217471B20AED2BA5C76 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A04F5EA8E63DF0003838FCCD2F5CB /* ParticleEmitter.cpp */; };
-		3B9B1B2CC9DF6200A7B2C1EE5CC41C77 /* AttachableField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E98E7AF0C6B16C0E16B9E560AEBC004 /* AttachableField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45F30838CA2284FF52DD0E644B7943AC /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF02E6801A0782AA04FFBF4B7E3D6906 /* RetainCount.cpp */; };
-		46BB91D012D7012A0115955FC580A75F /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 242E886EF5C92C1B297046272B756F6C /* GravityField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F7BF92AACACB8EE85BA4700903DFFB0 /* raw_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B351002AF4CFA6A015D5E8698AD514 /* raw_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50D25BF97E4875D814A84DC705D4FC0C /* RawParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6693BAA1190A4C5BA3C44EDD48AFCFBF /* RawParticle.cpp */; };
-		5765C324757F74352AC31417D6413D33 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 155F67F0C2F08D0D10445FB06E979A4B /* ThreadPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5FDDB69EE4E32BE2B1D3C528A761F9F9 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 226E57CB7BA088AAA13844B4DBF72051 /* Wave.cpp */; };
-		61C73760AF465BC4A6B2871805B35A14 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCBB6F4FEE3CED22A384228B636E27C /* Rectangle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65FC87C2E4A66E95972E02ADF461536B /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 4168CE140C563D694032FECB68140D72 /* LICENSE.md */; };
-		6D6E6148DE4495C2B96AB3FCE2C8BAA4 /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A71B44714354C0D124118EEE0EEBD50D /* CP2DGameView.mm */; };
-		6F04EF5137590E097CB5378744D57610 /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB28C9881D8939930A1EA047BD37DDE6 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		73D71ED00107B67B7837C378269AA3BB /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93D362E7A0577ED9EF8BA1003EAD5464 /* Rectangle.cpp */; };
-		7EF5ACDF0DC62E1BE8ABCC14E9ED7DDE /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4F267AE8825B74707935382AAC322 /* LICENSE */; };
-		8AD8FF057B52F403F674B4AA51958E2A /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = B5309803CBFF3D1DE95284A3112AE935 /* Circle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8ADF9C8C004DC2F6252CFE81A9B1747D /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955B76FE8D268DAB4907E7B46E84EE9B /* example.cpp */; };
-		8CA0F08CC4F57338803E964979E00BF3 /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 54660E2CCD5E9B485C6A82608D71BF40 /* Vector.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E2FA53C61DE5E4E70A5C968E391D899 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 879BE0A762C920694B970F48209EE4FA /* README.md */; };
-		8FB2F07A1C14C9C3A2EB2A0DE5885275 /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5765A1A78AEF0C12B0603C94F6B3DBB2 /* CentripetalGravityField.cpp */; };
-		901157E7F7BEE03986CA42F5663AA5A2 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AE264598227DAA1C9D013895D37AA4 /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9455AC8827AA5122199C2A4A517C19F0 /* Particle.h in Headers */ = {isa = PBXBuildFile; fileRef = EE208181D8D2E0530F3B93E20BBC3C88 /* Particle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A14FC72E90E9995B34D72C80D3FBFE91 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 016B123E49F1CD8B46845298064BC01A /* Vector.cpp */; };
-		AC0D40E30E6F8D3586AEE1AF83C51F6F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8232F64CC0C6A161918FC99793551C /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE5454B6D9CC0EDC3440EFD51D412750 /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = DE94149A75CFAA458B751E3F19FE4673 /* COPYING */; };
-		B29ED0E2EA3CD9C1A0CD14923054C588 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9438A5B837EA2FB3CB6D7E053697C984 /* Color.cpp */; };
-		B45348506DEBB47D105552679344BABC /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3DD014000A0BAE3EA0883241B8F9C06 /* Field.cpp */; };
-		B743C4746EA2CD371E41B4D5543FE954 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2CCAA6AEC33C2714487ED360F26124 /* Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B85494FCC2BBF4AA7DDFB9F73438D9D5 /* RetainCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 42403D3659D23E5091E980E3A01DD549 /* RetainCount.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B875691DE83C197ECFBACCF62A5F5F6F /* CoolPhysics2D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CE10F4186CB359787137E650F19235 /* CoolPhysics2D-dummy.m */; };
+		0AC737632B9AD5DF656FA3B2C0F3A739 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54574AB1BEFDE00A6DB8A419E207CCE0 /* Color.cpp */; };
+		0C6FC72453CFB322CA1177333F07B191 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = DB28D89A74DE6ADCA47597CA60C0DA01 /* Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1385B2C9D9AD7A979DB09D22F9CBC3EE /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6B53A692915D514E81A51192C675B4 /* Circle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		160CDCE52FE7F4B735344144682158FC /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1B45D1EC51002BC1EB25C63930A522 /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D08871EFCCE650133FC66AE00DD5CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		1ECB4A12F15EED4236BE0CECF67CFB06 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA835EFA916E71728E0D3204F9603E4 /* timer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22D9CD522A9A68644A34A9D14BA0095B /* CP2DGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C42C8260CFC1D1866B8D6D650071683 /* CP2DGameView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28CA9AAF9E4783B6F4168B78A83177D9 /* GameWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF85E58C1FE8E0C66D2C3B5D9E93403 /* GameWorld.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32AFEEF7E85E4050F66156983B6552E3 /* CP2DGameWorldRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47CD21FCE2CADC2165D8DB4938BCEDFE /* CP2DGameWorldRenderer.mm */; };
+		3455044B114B0634A9E7D6D81445FCAF /* AttachableField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8411660FF671C945C02CA7B81D34C3 /* AttachableField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3624208E4BDFD44EE570061A06588358 /* CP2DParticleRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1112C3B334BE7443883EC0F67CBB588A /* CP2DParticleRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		371DDF317ABA345BB6432FBF9168C92E /* Particle.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A6F3D5E37CDBCDBDFE7BA1112B39A /* Particle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E9CE962C0B504851F9C3F14829668EB /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = 6085A4B844653B6B2F627F66E1436961 /* Wave.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		412F47F2A3CA94A23BE30B7D1CB4E72A /* GravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0BD146BF29715A9EA5053458C8063AA /* GravityField.cpp */; };
+		46011D6658BA3AAB229D7DD3FF179155 /* RetainCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D46E563F7D26A9B5FC72DBA64E77F0 /* RetainCount.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4846126A6CC8B10CF4F1618FE4AF2E4B /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8115B04BB729D53B6AEB1C8E831E68 /* Rectangle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5654A7751ABB66DBA88EFC7842B07C5A /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 878B70CE2313DEDA91E6EC12274A1242 /* GameWorld.cpp */; };
+		5B28BEFA18E8A9E97C1061226BC5C3F3 /* CP2DParticleRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 911CAA75917C4AFC994CBFBAD34C9829 /* CP2DParticleRenderer.mm */; };
+		6990CCCACF625179A708555EE3424142 /* RawParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9214DC4FB2E3AA55EA7D91B5F72B65AC /* RawParticle.cpp */; };
+		69B25DF4A3853C5E0439C1FBE14803D1 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106597801E51746A4DFCB9149D2584EB /* Field.cpp */; };
+		69E3FC7B66EF9B2F0CC8BB1F8600F754 /* CP2DGameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC576C9C260E5AAF6324DF9B65050324 /* CP2DGameViewController.mm */; };
+		6A51C1F21C5DCBB491CBC0703D2FE266 /* CentripetalGravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = CA89004109C1A2F5344FAE0A5688D42B /* CentripetalGravityField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DE6133C1ABED2285078C8BC3F1254A6 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11AC1668BA85101FD4D6C6CEF6B53E6D /* Circle.cpp */; };
+		70E901F38056350A9E2DADF226119787 /* RetainCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C9ED620D8A89DA86A3EA8D190D25 /* RetainCount.cpp */; };
+		747133B3D3A77F6C897CF8BEE36166FA /* CP2DWaveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 228DBEAEEF9F6FE62536FC6E0531FB14 /* CP2DWaveRenderer.mm */; };
+		7970642011E9F8AC441028BFD236AFBE /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = A1AA747CF7E2A83DDD0FCB19449C1A88 /* LICENSE.md */; };
+		7A48AB6C3A3AC8FA71E29D1EBD219B63 /* ThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6469C4BC9DE1B9EFACCCBB06D35DCBEE /* ThreadPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BEC0B52D65C8C056CC49535CF362356 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E4A017D6B4D596AC8EFF6C61D9FD6E35 /* Makefile */; };
+		81D0E047EBFA4F6F8056D0DE155F871C /* CP2DGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046BE572968F0B5DE2BFB7B9F88EB05 /* CP2DGameViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		822CEE43775A2D2F652C8127ECC66831 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E74BA10180F4DB2205A00C1B3E45A9A /* Wave.cpp */; };
+		8397DE5F473359713D10AF1D743D1661 /* RawParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AD3DBAF4BDDE548D4FBF62E339B0FE /* RawParticle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		852993D7CC19D46494DB3ADE5F154193 /* CP2DWaveRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D5EEB55FCBC80062F861F71404F0FE /* CP2DWaveRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A383DA56A71CA3E814562834A5E2832 /* ObstacleField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BB8C4CFF35D228D247307F1C720B3F /* ObstacleField.cpp */; };
+		8C4BBBA0773C280D8E1B1EB9D34E8A7F /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF1A80B99849ECAD5EE4C81E0C8FAF /* MathDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CEA1C2B93AE55FEEC475DDD3550F832 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 616EBEECE99515FAD432890FE6E7FFEC /* LICENSE */; };
+		90FEDF34D54B1BDE011C2D4E9C343AAA /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9100F1151D0D6CFB05D7F8C5123C4921 /* Vector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93CE2774FA9C8DF51D9DB1F9B03FD2E8 /* COPYING in Sources */ = {isa = PBXBuildFile; fileRef = 3F37FAC1FCCE0BA962EB101B1C2EA0A4 /* COPYING */; };
+		9DD6EB471C09415E991A6BFC48942E61 /* AttachableField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C200A6EC6FD683B094EFA52B54CDA991 /* AttachableField.cpp */; };
+		A4A564963E9204979E81C954FA75FA80 /* BuoyancyField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5AA2537F1D72130C27302A3C7E0BCD4 /* BuoyancyField.cpp */; };
+		A9A65CC670F52C6991F5266B8B6353B7 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCD4756521F338DBA0038459F863467 /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE6D40E3921787D92BF60E3A0BC8E8B9 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FA21F516E6063580DEDCF16E4C9B1 /* Particle.cpp */; };
+		B088B649471A17E14206FD8FB9A26D47 /* raw_config.h in Headers */ = {isa = PBXBuildFile; fileRef = E38ACF9ADC599CED523B9B87A4301ABD /* raw_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B24EC4A4836A1F94E867E62632942472 /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B6A2C639A80DFF42F1DA199E531575 /* DampingField.cpp */; };
+		B36B5278A8F77BCA130AA2EDF094A012 /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC493EF3255BA55A8221194D3356D0B /* ObstacleField.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B8A058144A816A88DECC9F0B1243F89F /* Pods-CoolPhysics2D_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A548D3DA0281760062C720C0288118D /* Pods-CoolPhysics2D_Example-dummy.m */; };
-		BCB6FF7A91493AFF53D499A0CFB13AC3 /* RawParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6F0ED1ECAD8B74FD5CC8487C4A723E /* RawParticle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5B6B62C4FC107C0AEFEE182D45AFA21 /* MathDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 640DFF7DCFA092AD324FE26F722FDDC6 /* MathDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5F85F920209A9545A335CC0F2DBA1F4 /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5D2191CBEEFF813980C9D25EA9A030 /* Wave.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8CFEBE92A6820DA58F778533B6D8DC5 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 456EA8DB299B4DBA621DC457ED82C3B4 /* Particle.cpp */; };
-		C92EE2D1511469E54A6E231A7F572B15 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0429CA610B71623B5087EA3FEB173 /* GameWorld.cpp */; };
-		D13D5B5D61B40D843B8BB1762E9A715D /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 526CC917BBE7F07B600ACEB147EE4A31 /* retaincount_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC29BF93D629472169C04098593B617D /* CP2DRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D19A3AC8629D44E87DDBF0C038DCC1A /* CP2DRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DDAD205541E9D6A6E13DFFF73F3F5972 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 4305B17E3110901E7D5FE44C654BA844 /* Field.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E866574904D0B8B2EAFC8319590BA1AF /* ObstacleField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9948B9D04804EFE5F5D6E1614E3969C7 /* ObstacleField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6AF0336EEAC3B0B0BED20DB4628F3AB /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7528DD114AE9F278AD7F0B20BC095431 /* BuoyancyField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7D0643B4E072A4EA3D2625DE2B2A6AF /* DampingField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD977C2083B8B795666F8136F223A247 /* DampingField.cpp */; };
+		BAB21476DB435CCFF9854C7C90D34B79 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4DE8402660509FBECE5AB112A080D /* Rectangle.cpp */; };
+		C855AAB368CCAFB7BCCC8D77DB0ABEB0 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D758968F2BAF3149D67AD6FC2591B54 /* example.cpp */; };
+		C8650F0573FA0CFB7CBBF31BBE34F04D /* GravityField.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DC8020B068A84C5883BFF7F4A41375 /* GravityField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1E2750CB7A6F227DF2799732C497C36 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24265D557E581794E4904E1EB717C3A9 /* ParticleEmitter.cpp */; };
+		D48F1A5DD3ECBEC9803F4059CBB84444 /* CP2DGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6A1DDAAD75158CD2FB1D1A4D73F1D78 /* CP2DGameView.mm */; };
+		D53A8C131BDA9369B56B392B6EB29227 /* CoolPhysics2D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C8541889D4AC23FC70501B68E0E5F0 /* CoolPhysics2D-dummy.m */; };
+		D6344A6FDF3BE0006147BD689A4815B0 /* CentripetalGravityField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A5469FB1EBC9BFC7B7B4CF022540479 /* CentripetalGravityField.cpp */; };
+		DBDDC53407AA059084FD950827E2B1AF /* BuoyancyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 886254429AEB7DBE8EFAD1CD4C408F0A /* BuoyancyField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDFE426A6D9207C0B5F9A385B6202493 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 294A6AAC74EE10C19E6E1D15AA4912E0 /* Field.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEB58297E2472531CB37D4756993E8C8 /* ParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E590A54D2BD5F5BD6775DA2569599A84 /* ParticleEmitter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E723079A3E97C4ACB007BB7F2793FF2A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D7AE212DA99276488E82863185C52B15 /* README.md */; };
+		EBB3B63FF8C85FC5518313F4E1B2AF83 /* CP2DGameWorldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5467114CF95E86EDFF6C4898EAD3F2B /* CP2DGameWorldRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5683318B5C65C2C196BE4B242CB2972 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA407B0FE6E5ED021F590E82AB708DE /* Vector.cpp */; };
+		F61D811E91375217A1D23F1C9DAD77AC /* DampingField.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD5ABB865CC0F7A3DBD85F1B817B1CB /* DampingField.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F82D08CAF2AEF2EAE5B13B65F55A9D28 /* Pods-CoolPhysics2D_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5EB5997561229F0FA4ADE7961CC512 /* Pods-CoolPhysics2D_Tests-dummy.m */; };
-		FE2F44930D4D0B3CDA1175BAC6F4B581 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 6C6D4832A19182CEC3A0222FF6083518 /* Makefile */; };
+		FFBE0D93972AE479237976419A60B17E /* retaincount_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA980F707BA13303F243DDAA26DAB07 /* retaincount_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,116 +75,120 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED8D79BA001617F24B5F91690CA5D433;
+			remoteGlobalIDString = 0AEF299B42FD7C12EB530F5BEB7C3071;
 			remoteInfo = CoolPhysics2D;
 		};
 		A60156763674E299822529F603533775 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED8D79BA001617F24B5F91690CA5D433;
+			remoteGlobalIDString = 0AEF299B42FD7C12EB530F5BEB7C3071;
 			remoteInfo = CoolPhysics2D;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		005C07AFB00B505C9BA3345E6261F584 /* Pods-CoolPhysics2D_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Example-frameworks.sh"; sourceTree = "<group>"; };
-		016B123E49F1CD8B46845298064BC01A /* Vector.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 		083C4C670AC87F864BFBCF2597A951D9 /* Pods-CoolPhysics2D_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolPhysics2D_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B40B86AEDE2BA2C870D2834300676EE /* CP2DWaveRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DWaveRenderer.mm; sourceTree = "<group>"; };
-		128F72B2C0EEC2D429DBE3DE54FB1011 /* libPods-CoolPhysics2D_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoolPhysics2D_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		155F67F0C2F08D0D10445FB06E979A4B /* ThreadPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
+		106597801E51746A4DFCB9149D2584EB /* Field.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Field.cpp; sourceTree = "<group>"; };
+		1112C3B334BE7443883EC0F67CBB588A /* CP2DParticleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DParticleRenderer.h; sourceTree = "<group>"; };
+		11AC1668BA85101FD4D6C6CEF6B53E6D /* Circle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Circle.cpp; sourceTree = "<group>"; };
+		128F72B2C0EEC2D429DBE3DE54FB1011 /* libPods-CoolPhysics2D_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolPhysics2D_Tests.a"; path = "libPods-CoolPhysics2D_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A652B7671EB12A3F61375F7CFCE3DBF /* Pods-CoolPhysics2D_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolPhysics2D_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		226E57CB7BA088AAA13844B4DBF72051 /* Wave.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
-		242E886EF5C92C1B297046272B756F6C /* GravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityField.h; sourceTree = "<group>"; };
+		1AD4DE8402660509FBECE5AB112A080D /* Rectangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Rectangle.cpp; sourceTree = "<group>"; };
+		1B8411660FF671C945C02CA7B81D34C3 /* AttachableField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AttachableField.h; sourceTree = "<group>"; };
+		228DBEAEEF9F6FE62536FC6E0531FB14 /* CP2DWaveRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DWaveRenderer.mm; sourceTree = "<group>"; };
+		24265D557E581794E4904E1EB717C3A9 /* ParticleEmitter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ParticleEmitter.cpp; sourceTree = "<group>"; };
+		25C8541889D4AC23FC70501B68E0E5F0 /* CoolPhysics2D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolPhysics2D-dummy.m"; sourceTree = "<group>"; };
 		2865BE7EFA3EAA9EAC77DCBABC7B33E9 /* Pods-CoolPhysics2D_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Example-resources.sh"; sourceTree = "<group>"; };
-		29A553180FA62E5F07DEA82659AA8772 /* BuoyancyField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = BuoyancyField.cpp; sourceTree = "<group>"; };
+		294A6AAC74EE10C19E6E1D15AA4912E0 /* Field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		2A5469FB1EBC9BFC7B7B4CF022540479 /* CentripetalGravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = CentripetalGravityField.cpp; sourceTree = "<group>"; };
 		2A548D3DA0281760062C720C0288118D /* Pods-CoolPhysics2D_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolPhysics2D_Example-dummy.m"; sourceTree = "<group>"; };
-		2BB4F267AE8825B74707935382AAC322 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		307636B8E38E44D9A87EA38A8B95F189 /* Pods-CoolPhysics2D_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolPhysics2D_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		360F16A7269ED91848BFE5481832DC86 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
-		3B82F370B2308323F0830775A018B0E1 /* AttachableField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = AttachableField.cpp; sourceTree = "<group>"; };
-		4168CE140C563D694032FECB68140D72 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		42403D3659D23E5091E980E3A01DD549 /* RetainCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RetainCount.h; sourceTree = "<group>"; };
-		42A868D38426C552F41A020745584077 /* ObstacleField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = ObstacleField.cpp; sourceTree = "<group>"; };
-		4305B17E3110901E7D5FE44C654BA844 /* Field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
-		456EA8DB299B4DBA621DC457ED82C3B4 /* Particle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
-		46AE264598227DAA1C9D013895D37AA4 /* CP2DWaveRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DWaveRenderer.h; sourceTree = "<group>"; };
-		4D8232F64CC0C6A161918FC99793551C /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		526CC917BBE7F07B600ACEB147EE4A31 /* retaincount_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = retaincount_config.h; sourceTree = "<group>"; };
-		54660E2CCD5E9B485C6A82608D71BF40 /* Vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
-		571D349B1BBC7F3CF6BF582EBC89F129 /* libCoolPhysics2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoolPhysics2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5765A1A78AEF0C12B0603C94F6B3DBB2 /* CentripetalGravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = CentripetalGravityField.cpp; sourceTree = "<group>"; };
-		5E2CCAA6AEC33C2714487ED360F26124 /* Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		60CE10F4186CB359787137E650F19235 /* CoolPhysics2D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolPhysics2D-dummy.m"; sourceTree = "<group>"; };
-		640DFF7DCFA092AD324FE26F722FDDC6 /* MathDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MathDefines.h; sourceTree = "<group>"; };
-		65BE08870E49D2AE7FF9307A737516A9 /* CP2DGameWorldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameWorldRenderer.h; sourceTree = "<group>"; };
-		6693BAA1190A4C5BA3C44EDD48AFCFBF /* RawParticle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = RawParticle.cpp; sourceTree = "<group>"; };
-		6C6D4832A19182CEC3A0222FF6083518 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		6D19A3AC8629D44E87DDBF0C038DCC1A /* CP2DRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
-		70F13AB930AFB5DF130CA41D58119B52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		30BB8C4CFF35D228D247307F1C720B3F /* ObstacleField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = ObstacleField.cpp; sourceTree = "<group>"; };
+		34DC8020B068A84C5883BFF7F4A41375 /* GravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityField.h; sourceTree = "<group>"; };
+		3C42C8260CFC1D1866B8D6D650071683 /* CP2DGameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameView.h; sourceTree = "<group>"; };
+		3D6B53A692915D514E81A51192C675B4 /* Circle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		3E2FA21F516E6063580DEDCF16E4C9B1 /* Particle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Particle.cpp; sourceTree = "<group>"; };
+		3E74BA10180F4DB2205A00C1B3E45A9A /* Wave.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Wave.cpp; sourceTree = "<group>"; };
+		3F37FAC1FCCE0BA962EB101B1C2EA0A4 /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
+		3F8115B04BB729D53B6AEB1C8E831E68 /* Rectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		4359A00343A2D669F4D708424D9A55B9 /* CoolPhysics2D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CoolPhysics2D.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47CD21FCE2CADC2165D8DB4938BCEDFE /* CP2DGameWorldRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameWorldRenderer.mm; sourceTree = "<group>"; };
+		4AA407B0FE6E5ED021F590E82AB708DE /* Vector.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Vector.cpp; sourceTree = "<group>"; };
+		4B1B45D1EC51002BC1EB25C63930A522 /* CP2DRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DRenderer.h; sourceTree = "<group>"; };
+		4DCD4756521F338DBA0038459F863467 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		54574AB1BEFDE00A6DB8A419E207CCE0 /* Color.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Color.cpp; sourceTree = "<group>"; };
+		571D349B1BBC7F3CF6BF582EBC89F129 /* libCoolPhysics2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCoolPhysics2D.a; path = libCoolPhysics2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D758968F2BAF3149D67AD6FC2591B54 /* example.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = example.cpp; sourceTree = "<group>"; };
+		6085A4B844653B6B2F627F66E1436961 /* Wave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		616EBEECE99515FAD432890FE6E7FFEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6469C4BC9DE1B9EFACCCBB06D35DCBEE /* ThreadPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
+		6B1F33A15532CC485CF2059C1E0C3BD7 /* ThreadPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
 		74A57C982575937DE4488644E142E3C1 /* Pods-CoolPhysics2D_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		74B351002AF4CFA6A015D5E8698AD514 /* raw_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = raw_config.h; sourceTree = "<group>"; };
-		7528DD114AE9F278AD7F0B20BC095431 /* BuoyancyField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuoyancyField.h; sourceTree = "<group>"; };
-		75442AFB2D8A36DEAAD3F6F795DAE817 /* CoolPhysics2D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CoolPhysics2D.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78440E6C2355141BB18B24B909A17124 /* Pods-CoolPhysics2D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7C6F0ED1ECAD8B74FD5CC8487C4A723E /* RawParticle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RawParticle.h; sourceTree = "<group>"; };
-		7CAC1D7D2CA2CB17EC1F556D29E86FD2 /* CoolPhysics2D-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-prefix.pch"; sourceTree = "<group>"; };
-		7E98E7AF0C6B16C0E16B9E560AEBC004 /* AttachableField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AttachableField.h; sourceTree = "<group>"; };
-		7EC0429CA610B71623B5087EA3FEB173 /* GameWorld.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		7FFF1A80B99849ECAD5EE4C81E0C8FAF /* MathDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MathDefines.h; sourceTree = "<group>"; };
+		816E930105455619980E3DA5064A6597 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		843008FBF55ABA82B782A0C013875409 /* Pods-CoolPhysics2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		869ED97C0E28DAB6C5C39DB175C20775 /* Pods-CoolPhysics2D_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86FB32AA1D388C77D37A6BEEE69D28DF /* libPods-CoolPhysics2D_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoolPhysics2D_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		879BE0A762C920694B970F48209EE4FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8B4A04F5EA8E63DF0003838FCCD2F5CB /* ParticleEmitter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleEmitter.cpp; sourceTree = "<group>"; };
-		8F5F05990889AA8DAF2F24CDDDCDA5EE /* GravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = GravityField.cpp; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D362E7A0577ED9EF8BA1003EAD5464 /* Rectangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
-		9438A5B837EA2FB3CB6D7E053697C984 /* Color.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
-		955B76FE8D268DAB4907E7B46E84EE9B /* example.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = example.cpp; sourceTree = "<group>"; };
-		9948B9D04804EFE5F5D6E1614E3969C7 /* ObstacleField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObstacleField.h; sourceTree = "<group>"; };
-		A09FDFB147FC0B91A82945B1E6FCCDC1 /* CP2DGameViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameViewController.h; sourceTree = "<group>"; };
-		A71B44714354C0D124118EEE0EEBD50D /* CP2DGameView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameView.mm; sourceTree = "<group>"; };
+		86D46E563F7D26A9B5FC72DBA64E77F0 /* RetainCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RetainCount.h; sourceTree = "<group>"; };
+		86FB32AA1D388C77D37A6BEEE69D28DF /* libPods-CoolPhysics2D_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolPhysics2D_Example.a"; path = "libPods-CoolPhysics2D_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878B70CE2313DEDA91E6EC12274A1242 /* GameWorld.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GameWorld.cpp; sourceTree = "<group>"; };
+		886254429AEB7DBE8EFAD1CD4C408F0A /* BuoyancyField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuoyancyField.h; sourceTree = "<group>"; };
+		8AA980F707BA13303F243DDAA26DAB07 /* retaincount_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = retaincount_config.h; sourceTree = "<group>"; };
+		9100F1151D0D6CFB05D7F8C5123C4921 /* Vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		911CAA75917C4AFC994CBFBAD34C9829 /* CP2DParticleRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DParticleRenderer.mm; sourceTree = "<group>"; };
+		9214DC4FB2E3AA55EA7D91B5F72B65AC /* RawParticle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RawParticle.cpp; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B6A2C639A80DFF42F1DA199E531575 /* DampingField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = DampingField.cpp; sourceTree = "<group>"; };
+		A1AA747CF7E2A83DDD0FCB19449C1A88 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		A2AD3DBAF4BDDE548D4FBF62E339B0FE /* RawParticle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RawParticle.h; sourceTree = "<group>"; };
+		A6A1DDAAD75158CD2FB1D1A4D73F1D78 /* CP2DGameView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameView.mm; sourceTree = "<group>"; };
 		A77279F846A434914350F9071FA6CAC0 /* Pods-CoolPhysics2D_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolPhysics2D_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA5EB5997561229F0FA4ADE7961CC512 /* Pods-CoolPhysics2D_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolPhysics2D_Tests-dummy.m"; sourceTree = "<group>"; };
-		AE62C69DC6D0AF0041C642E3D8AED8D8 /* CP2DParticleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DParticleRenderer.h; sourceTree = "<group>"; };
+		AC00DBCD593E295D09560F79E9D541DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AEF0B7536B2D5717DC6CF8193E94583F /* Pods-CoolPhysics2D_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolPhysics2D_Tests-resources.sh"; sourceTree = "<group>"; };
-		AF02E6801A0782AA04FFBF4B7E3D6906 /* RetainCount.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = RetainCount.cpp; sourceTree = "<group>"; };
-		B43AE6085A1DF72C62799CC4DD9E8AC9 /* CentripetalGravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CentripetalGravityField.h; sourceTree = "<group>"; };
-		B44D2C1F28C4CC690DA3C54FD422B5EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B5309803CBFF3D1DE95284A3112AE935 /* Circle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
-		BA6BDA0711C578D1AB83407AF999067B /* CP2DGameViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameViewController.mm; sourceTree = "<group>"; };
-		BB55E8C11CEF4C17AEE6E7506F82EAEF /* CoolPhysics2D.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolPhysics2D.xcconfig; sourceTree = "<group>"; };
-		C5F6014D9AB60AF1B33E9D0B65B7C5F3 /* CP2DGameWorldRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DGameWorldRenderer.mm; sourceTree = "<group>"; };
-		C92240020ED6B1438C08FC13068723E1 /* GameWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
-		CAD4677292BFAC5939FD92007F03F096 /* Circle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
-		CC5D2191CBEEFF813980C9D25EA9A030 /* Wave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		B0BD146BF29715A9EA5053458C8063AA /* GravityField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = GravityField.cpp; sourceTree = "<group>"; };
+		B9EAB13C00AF6DEC33A2606E0593E043 /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
+		BC576C9C260E5AAF6324DF9B65050324 /* CP2DGameViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CP2DGameViewController.mm; sourceTree = "<group>"; };
+		BFF85E58C1FE8E0C66D2C3B5D9E93403 /* GameWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
+		C046BE572968F0B5DE2BFB7B9F88EB05 /* CP2DGameViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameViewController.h; sourceTree = "<group>"; };
+		C200A6EC6FD683B094EFA52B54CDA991 /* AttachableField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = AttachableField.cpp; sourceTree = "<group>"; };
+		C2C182378192720851E4E9A073952474 /* CoolPhysics2D.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolPhysics2D.xcconfig; sourceTree = "<group>"; };
+		CA066B91D163C7D594BE002BC3AF9D3A /* CoolPhysics2D-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolPhysics2D-prefix.pch"; sourceTree = "<group>"; };
+		CA89004109C1A2F5344FAE0A5688D42B /* CentripetalGravityField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CentripetalGravityField.h; sourceTree = "<group>"; };
+		D24A6F3D5E37CDBCDBDFE7BA1112B39A /* Particle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		D7AE212DA99276488E82863185C52B15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DAD5ABB865CC0F7A3DBD85F1B817B1CB /* DampingField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DampingField.h; sourceTree = "<group>"; };
+		DB28D89A74DE6ADCA47597CA60C0DA01 /* Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DDDAA0CF93AD9177973AAA7CE39B4CF1 /* DampingField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DampingField.h; sourceTree = "<group>"; };
-		DE94149A75CFAA458B751E3F19FE4673 /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		E2A72036FB3E0F4ADB44C98EE1316DBF /* ParticleEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
-		E3DD014000A0BAE3EA0883241B8F9C06 /* Field.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = Field.cpp; sourceTree = "<group>"; };
+		DFC493EF3255BA55A8221194D3356D0B /* ObstacleField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObstacleField.h; sourceTree = "<group>"; };
+		E38ACF9ADC599CED523B9B87A4301ABD /* raw_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = raw_config.h; sourceTree = "<group>"; };
+		E4A017D6B4D596AC8EFF6C61D9FD6E35 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; path = Makefile; sourceTree = "<group>"; };
+		E5467114CF95E86EDFF6C4898EAD3F2B /* CP2DGameWorldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameWorldRenderer.h; sourceTree = "<group>"; };
+		E590A54D2BD5F5BD6775DA2569599A84 /* ParticleEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
 		E88329608DC5BF8B8230CD1BCFB71560 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolPhysics2D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE208181D8D2E0530F3B93E20BBC3C88 /* Particle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
-		F0F7E751719451A04ABA890E7E4175AC /* CP2DParticleRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CP2DParticleRenderer.mm; sourceTree = "<group>"; };
-		FB28C9881D8939930A1EA047BD37DDE6 /* CP2DGameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DGameView.h; sourceTree = "<group>"; };
-		FD977C2083B8B795666F8136F223A247 /* DampingField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = DampingField.cpp; sourceTree = "<group>"; };
-		FDCBB6F4FEE3CED22A384228B636E27C /* Rectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		ECDB395AEA7DE10EB29D763BB6D385B4 /* example.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = example.cpp; sourceTree = "<group>"; };
+		ECE1C9ED620D8A89DA86A3EA8D190D25 /* RetainCount.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = RetainCount.cpp; sourceTree = "<group>"; };
+		EDA835EFA916E71728E0D3204F9603E4 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		F5AA2537F1D72130C27302A3C7E0BCD4 /* BuoyancyField.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = BuoyancyField.cpp; sourceTree = "<group>"; };
+		F6D5EEB55FCBC80062F861F71404F0FE /* CP2DWaveRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CP2DWaveRenderer.h; sourceTree = "<group>"; };
+		FD2792518D4434342BE619AD87AF1DB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03E022647DD46D440D4452B2F20AECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D08871EFCCE650133FC66AE00DD5CF4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		080B0FAFF9D21FFE4D0E4B1BD3E30C60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B2D55D42327BFC9E24D5B3FFD418A60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C99A18655D7F4668ADC57C8AC6C5B6D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,45 +202,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		056F65E000004136D434EAB8A1CD528E /* CoolPhysics2D */ = {
+		12E297F1C37F15D8F854C89958F840B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F02E561E11960C4C0B4F9B8FE1CA944 /* CoolPhysics2DCore */,
-				42D4E476AF6FB504E364E803D5479507 /* ios */,
-				707B6FDE34624B112B358701AEFA764F /* Pod */,
-				29E6E2F16E7DA13930D9664C685E704E /* Support Files */,
-				A398D5B5AA90FDA20E425AD3E13FAD06 /* ThreadPool */,
-			);
-			name = CoolPhysics2D;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		12CCFF7C30A9AF52812F2231089B33A9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				056F65E000004136D434EAB8A1CD528E /* CoolPhysics2D */,
+				64A9344A0C2F00DA2EE5582AC9322B22 /* CoolPhysics2D */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1B211C99B70679CCA71BD7AB583FDA1C /* Math */ = {
-			isa = PBXGroup;
-			children = (
-				4168CE140C563D694032FECB68140D72 /* LICENSE.md */,
-				6C6D4832A19182CEC3A0222FF6083518 /* Makefile */,
-				D581A587037D0586F0B9D72763B1C645 /* src */,
-			);
-			path = Math;
-			sourceTree = "<group>";
-		};
-		200A5A84AF9AE88A981D67671128EC05 /* retaincount */ = {
-			isa = PBXGroup;
-			children = (
-				AF02E6801A0782AA04FFBF4B7E3D6906 /* RetainCount.cpp */,
-				42403D3659D23E5091E980E3A01DD549 /* RetainCount.h */,
-				526CC917BBE7F07B600ACEB147EE4A31 /* retaincount_config.h */,
-			);
-			path = retaincount;
 			sourceTree = "<group>";
 		};
 		223FBE16E86359A09DA4A0B4E60DB873 /* Pods-CoolPhysics2D_Example */ = {
@@ -254,53 +225,82 @@
 			path = "Target Support Files/Pods-CoolPhysics2D_Example";
 			sourceTree = "<group>";
 		};
-		29DFBFB37B265206A2EC3716375711F3 /* config */ = {
+		2FC815F90FFD9BD50B800B1B3E147640 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D8232F64CC0C6A161918FC99793551C /* config.h */,
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
-		29E6E2F16E7DA13930D9664C685E704E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB55E8C11CEF4C17AEE6E7506F82EAEF /* CoolPhysics2D.xcconfig */,
-				60CE10F4186CB359787137E650F19235 /* CoolPhysics2D-dummy.m */,
-				7CAC1D7D2CA2CB17EC1F556D29E86FD2 /* CoolPhysics2D-prefix.pch */,
+				C2C182378192720851E4E9A073952474 /* CoolPhysics2D.xcconfig */,
+				25C8541889D4AC23FC70501B68E0E5F0 /* CoolPhysics2D-dummy.m */,
+				CA066B91D163C7D594BE002BC3AF9D3A /* CoolPhysics2D-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CoolPhysics2D";
 			sourceTree = "<group>";
 		};
-		2F02E561E11960C4C0B4F9B8FE1CA944 /* CoolPhysics2DCore */ = {
+		2FE98FEF4A0AA01AC7A7747C8A1A3408 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				2BB4F267AE8825B74707935382AAC322 /* LICENSE */,
-				80C572DB95705BFBF24D2422A9E2E55F /* src */,
-			);
-			name = CoolPhysics2DCore;
-			path = Pod/Classes/CoolPhysics2DCore;
-			sourceTree = "<group>";
-		};
-		42D4E476AF6FB504E364E803D5479507 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				FB28C9881D8939930A1EA047BD37DDE6 /* CP2DGameView.h */,
-				A71B44714354C0D124118EEE0EEBD50D /* CP2DGameView.mm */,
-				A09FDFB147FC0B91A82945B1E6FCCDC1 /* CP2DGameViewController.h */,
-				BA6BDA0711C578D1AB83407AF999067B /* CP2DGameViewController.mm */,
-				65BE08870E49D2AE7FF9307A737516A9 /* CP2DGameWorldRenderer.h */,
-				C5F6014D9AB60AF1B33E9D0B65B7C5F3 /* CP2DGameWorldRenderer.mm */,
-				AE62C69DC6D0AF0041C642E3D8AED8D8 /* CP2DParticleRenderer.h */,
-				F0F7E751719451A04ABA890E7E4175AC /* CP2DParticleRenderer.mm */,
-				6D19A3AC8629D44E87DDBF0C038DCC1A /* CP2DRenderer.h */,
-				46AE264598227DAA1C9D013895D37AA4 /* CP2DWaveRenderer.h */,
-				0B40B86AEDE2BA2C870D2834300676EE /* CP2DWaveRenderer.mm */,
-				360F16A7269ED91848BFE5481832DC86 /* timer.h */,
+				3C42C8260CFC1D1866B8D6D650071683 /* CP2DGameView.h */,
+				A6A1DDAAD75158CD2FB1D1A4D73F1D78 /* CP2DGameView.mm */,
+				C046BE572968F0B5DE2BFB7B9F88EB05 /* CP2DGameViewController.h */,
+				BC576C9C260E5AAF6324DF9B65050324 /* CP2DGameViewController.mm */,
+				E5467114CF95E86EDFF6C4898EAD3F2B /* CP2DGameWorldRenderer.h */,
+				47CD21FCE2CADC2165D8DB4938BCEDFE /* CP2DGameWorldRenderer.mm */,
+				1112C3B334BE7443883EC0F67CBB588A /* CP2DParticleRenderer.h */,
+				911CAA75917C4AFC994CBFBAD34C9829 /* CP2DParticleRenderer.mm */,
+				4B1B45D1EC51002BC1EB25C63930A522 /* CP2DRenderer.h */,
+				F6D5EEB55FCBC80062F861F71404F0FE /* CP2DWaveRenderer.h */,
+				228DBEAEEF9F6FE62536FC6E0531FB14 /* CP2DWaveRenderer.mm */,
+				EDA835EFA916E71728E0D3204F9603E4 /* timer.h */,
 			);
 			name = ios;
 			path = Pod/Classes/ios;
+			sourceTree = "<group>";
+		};
+		3A40DF154BA80921B36B4F83438A51CB /* retaincount */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1C9ED620D8A89DA86A3EA8D190D25 /* RetainCount.cpp */,
+				86D46E563F7D26A9B5FC72DBA64E77F0 /* RetainCount.h */,
+				8AA980F707BA13303F243DDAA26DAB07 /* retaincount_config.h */,
+			);
+			name = retaincount;
+			path = retaincount;
+			sourceTree = "<group>";
+		};
+		47553B7D2680C3D35F58231D28D4C1E5 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				A1AA747CF7E2A83DDD0FCB19449C1A88 /* LICENSE.md */,
+				E4A017D6B4D596AC8EFF6C61D9FD6E35 /* Makefile */,
+				88B28ECD1AA838BD4726FB3919FC5837 /* src */,
+			);
+			name = Math;
+			path = Math;
+			sourceTree = "<group>";
+		};
+		5D0DB0B3C9127810A1EA682C386F8B20 /* ThreadPool */ = {
+			isa = PBXGroup;
+			children = (
+				3F37FAC1FCCE0BA962EB101B1C2EA0A4 /* COPYING */,
+				5D758968F2BAF3149D67AD6FC2591B54 /* example.cpp */,
+				D7AE212DA99276488E82863185C52B15 /* README.md */,
+				6469C4BC9DE1B9EFACCCBB06D35DCBEE /* ThreadPool.h */,
+			);
+			name = ThreadPool;
+			path = Pod/Classes/ThreadPool;
+			sourceTree = "<group>";
+		};
+		64A9344A0C2F00DA2EE5582AC9322B22 /* CoolPhysics2D */ = {
+			isa = PBXGroup;
+			children = (
+				7AC0C2519339E528516289D15BE982E6 /* CoolPhysics2DCore */,
+				2FE98FEF4A0AA01AC7A7747C8A1A3408 /* ios */,
+				E45A802ACAF27F57EDC9BD0A5DBA89F2 /* Pod */,
+				2FC815F90FFD9BD50B800B1B3E147640 /* Support Files */,
+				5D0DB0B3C9127810A1EA682C386F8B20 /* ThreadPool */,
+			);
+			name = CoolPhysics2D;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		693873BE49E7103CFA75927DEFE6DF1C /* Products */ = {
@@ -313,72 +313,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		707B6FDE34624B112B358701AEFA764F /* Pod */ = {
+		74653C30C8F703BA217B3BE64098222D /* ThreadPool */ = {
 			isa = PBXGroup;
 			children = (
-				75442AFB2D8A36DEAAD3F6F795DAE817 /* CoolPhysics2D.podspec */,
-				70F13AB930AFB5DF130CA41D58119B52 /* LICENSE */,
-				B44D2C1F28C4CC690DA3C54FD422B5EC /* README.md */,
+				B9EAB13C00AF6DEC33A2606E0593E043 /* COPYING */,
+				ECDB395AEA7DE10EB29D763BB6D385B4 /* example.cpp */,
+				816E930105455619980E3DA5064A6597 /* README.md */,
+				6B1F33A15532CC485CF2059C1E0C3BD7 /* ThreadPool.h */,
 			);
-			name = Pod;
+			name = ThreadPool;
+			path = ThreadPool;
+			sourceTree = "<group>";
+		};
+		7AC0C2519339E528516289D15BE982E6 /* CoolPhysics2DCore */ = {
+			isa = PBXGroup;
+			children = (
+				616EBEECE99515FAD432890FE6E7FFEC /* LICENSE */,
+				CC320E8798CE1FCB24AFD12BF89826A9 /* src */,
+			);
+			name = CoolPhysics2DCore;
+			path = Pod/Classes/CoolPhysics2DCore;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				12CCFF7C30A9AF52812F2231089B33A9 /* Development Pods */,
+				12E297F1C37F15D8F854C89958F840B6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				693873BE49E7103CFA75927DEFE6DF1C /* Products */,
 				A96868FBE6A8CAB24D19F1519308BAB6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80C572DB95705BFBF24D2422A9E2E55F /* src */ = {
+		88B28ECD1AA838BD4726FB3919FC5837 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				3B82F370B2308323F0830775A018B0E1 /* AttachableField.cpp */,
-				7E98E7AF0C6B16C0E16B9E560AEBC004 /* AttachableField.h */,
-				29A553180FA62E5F07DEA82659AA8772 /* BuoyancyField.cpp */,
-				7528DD114AE9F278AD7F0B20BC095431 /* BuoyancyField.h */,
-				5765A1A78AEF0C12B0603C94F6B3DBB2 /* CentripetalGravityField.cpp */,
-				B43AE6085A1DF72C62799CC4DD9E8AC9 /* CentripetalGravityField.h */,
-				9438A5B837EA2FB3CB6D7E053697C984 /* Color.cpp */,
-				5E2CCAA6AEC33C2714487ED360F26124 /* Color.h */,
-				FD977C2083B8B795666F8136F223A247 /* DampingField.cpp */,
-				DDDAA0CF93AD9177973AAA7CE39B4CF1 /* DampingField.h */,
-				E3DD014000A0BAE3EA0883241B8F9C06 /* Field.cpp */,
-				4305B17E3110901E7D5FE44C654BA844 /* Field.h */,
-				7EC0429CA610B71623B5087EA3FEB173 /* GameWorld.cpp */,
-				C92240020ED6B1438C08FC13068723E1 /* GameWorld.h */,
-				8F5F05990889AA8DAF2F24CDDDCDA5EE /* GravityField.cpp */,
-				242E886EF5C92C1B297046272B756F6C /* GravityField.h */,
-				42A868D38426C552F41A020745584077 /* ObstacleField.cpp */,
-				9948B9D04804EFE5F5D6E1614E3969C7 /* ObstacleField.h */,
-				456EA8DB299B4DBA621DC457ED82C3B4 /* Particle.cpp */,
-				EE208181D8D2E0530F3B93E20BBC3C88 /* Particle.h */,
-				8B4A04F5EA8E63DF0003838FCCD2F5CB /* ParticleEmitter.cpp */,
-				E2A72036FB3E0F4ADB44C98EE1316DBF /* ParticleEmitter.h */,
-				226E57CB7BA088AAA13844B4DBF72051 /* Wave.cpp */,
-				CC5D2191CBEEFF813980C9D25EA9A030 /* Wave.h */,
-				29DFBFB37B265206A2EC3716375711F3 /* config */,
-				1B211C99B70679CCA71BD7AB583FDA1C /* Math */,
-				ADEBBBE7AF5FD0C5F9CE8CDB441768FE /* raw */,
-				200A5A84AF9AE88A981D67671128EC05 /* retaincount */,
+				11AC1668BA85101FD4D6C6CEF6B53E6D /* Circle.cpp */,
+				3D6B53A692915D514E81A51192C675B4 /* Circle.h */,
+				7FFF1A80B99849ECAD5EE4C81E0C8FAF /* MathDefines.h */,
+				1AD4DE8402660509FBECE5AB112A080D /* Rectangle.cpp */,
+				3F8115B04BB729D53B6AEB1C8E831E68 /* Rectangle.h */,
+				4AA407B0FE6E5ED021F590E82AB708DE /* Vector.cpp */,
+				9100F1151D0D6CFB05D7F8C5123C4921 /* Vector.h */,
 			);
+			name = src;
 			path = src;
-			sourceTree = "<group>";
-		};
-		A398D5B5AA90FDA20E425AD3E13FAD06 /* ThreadPool */ = {
-			isa = PBXGroup;
-			children = (
-				DE94149A75CFAA458B751E3F19FE4673 /* COPYING */,
-				955B76FE8D268DAB4907E7B46E84EE9B /* example.cpp */,
-				879BE0A762C920694B970F48209EE4FA /* README.md */,
-				155F67F0C2F08D0D10445FB06E979A4B /* ThreadPool.h */,
-			);
-			name = ThreadPool;
-			path = Pod/Classes/ThreadPool;
 			sourceTree = "<group>";
 		};
 		A96868FBE6A8CAB24D19F1519308BAB6 /* Targets Support Files */ = {
@@ -390,16 +370,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ADEBBBE7AF5FD0C5F9CE8CDB441768FE /* raw */ = {
-			isa = PBXGroup;
-			children = (
-				74B351002AF4CFA6A015D5E8698AD514 /* raw_config.h */,
-				6693BAA1190A4C5BA3C44EDD48AFCFBF /* RawParticle.cpp */,
-				7C6F0ED1ECAD8B74FD5CC8487C4A723E /* RawParticle.h */,
-			);
-			path = raw;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,18 +378,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D581A587037D0586F0B9D72763B1C645 /* src */ = {
+		CC320E8798CE1FCB24AFD12BF89826A9 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				CAD4677292BFAC5939FD92007F03F096 /* Circle.cpp */,
-				B5309803CBFF3D1DE95284A3112AE935 /* Circle.h */,
-				640DFF7DCFA092AD324FE26F722FDDC6 /* MathDefines.h */,
-				93D362E7A0577ED9EF8BA1003EAD5464 /* Rectangle.cpp */,
-				FDCBB6F4FEE3CED22A384228B636E27C /* Rectangle.h */,
-				016B123E49F1CD8B46845298064BC01A /* Vector.cpp */,
-				54660E2CCD5E9B485C6A82608D71BF40 /* Vector.h */,
+				C200A6EC6FD683B094EFA52B54CDA991 /* AttachableField.cpp */,
+				1B8411660FF671C945C02CA7B81D34C3 /* AttachableField.h */,
+				F5AA2537F1D72130C27302A3C7E0BCD4 /* BuoyancyField.cpp */,
+				886254429AEB7DBE8EFAD1CD4C408F0A /* BuoyancyField.h */,
+				2A5469FB1EBC9BFC7B7B4CF022540479 /* CentripetalGravityField.cpp */,
+				CA89004109C1A2F5344FAE0A5688D42B /* CentripetalGravityField.h */,
+				54574AB1BEFDE00A6DB8A419E207CCE0 /* Color.cpp */,
+				DB28D89A74DE6ADCA47597CA60C0DA01 /* Color.h */,
+				4DCD4756521F338DBA0038459F863467 /* config.h */,
+				96B6A2C639A80DFF42F1DA199E531575 /* DampingField.cpp */,
+				DAD5ABB865CC0F7A3DBD85F1B817B1CB /* DampingField.h */,
+				106597801E51746A4DFCB9149D2584EB /* Field.cpp */,
+				294A6AAC74EE10C19E6E1D15AA4912E0 /* Field.h */,
+				878B70CE2313DEDA91E6EC12274A1242 /* GameWorld.cpp */,
+				BFF85E58C1FE8E0C66D2C3B5D9E93403 /* GameWorld.h */,
+				B0BD146BF29715A9EA5053458C8063AA /* GravityField.cpp */,
+				34DC8020B068A84C5883BFF7F4A41375 /* GravityField.h */,
+				30BB8C4CFF35D228D247307F1C720B3F /* ObstacleField.cpp */,
+				DFC493EF3255BA55A8221194D3356D0B /* ObstacleField.h */,
+				3E2FA21F516E6063580DEDCF16E4C9B1 /* Particle.cpp */,
+				D24A6F3D5E37CDBCDBDFE7BA1112B39A /* Particle.h */,
+				24265D557E581794E4904E1EB717C3A9 /* ParticleEmitter.cpp */,
+				E590A54D2BD5F5BD6775DA2569599A84 /* ParticleEmitter.h */,
+				3E74BA10180F4DB2205A00C1B3E45A9A /* Wave.cpp */,
+				6085A4B844653B6B2F627F66E1436961 /* Wave.h */,
+				47553B7D2680C3D35F58231D28D4C1E5 /* Math */,
+				FE4CC665568E8F684410BF22E26281D9 /* raw */,
+				3A40DF154BA80921B36B4F83438A51CB /* retaincount */,
+				74653C30C8F703BA217B3BE64098222D /* ThreadPool */,
 			);
+			name = src;
 			path = src;
+			sourceTree = "<group>";
+		};
+		E45A802ACAF27F57EDC9BD0A5DBA89F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4359A00343A2D669F4D708424D9A55B9 /* CoolPhysics2D.podspec */,
+				AC00DBCD593E295D09560F79E9D541DB /* LICENSE */,
+				FD2792518D4434342BE619AD87AF1DB6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E79E621442091FA930142E21344A06CC /* Pods-CoolPhysics2D_Tests */ = {
@@ -437,6 +440,17 @@
 			path = "Target Support Files/Pods-CoolPhysics2D_Tests";
 			sourceTree = "<group>";
 		};
+		FE4CC665568E8F684410BF22E26281D9 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				E38ACF9ADC599CED523B9B87A4301ABD /* raw_config.h */,
+				9214DC4FB2E3AA55EA7D91B5F72B65AC /* RawParticle.cpp */,
+				A2AD3DBAF4BDDE548D4FBF62E339B0FE /* RawParticle.h */,
+			);
+			name = raw;
+			path = raw;
+			sourceTree = "<group>";
+		};
 		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,46 +462,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D8FC6F1F6860E2DF293EC063BD287AA9 /* Headers */ = {
+		E46FEFD4B8038FB61814396151951BC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9B1B2CC9DF6200A7B2C1EE5CC41C77 /* AttachableField.h in Headers */,
-				F6AF0336EEAC3B0B0BED20DB4628F3AB /* BuoyancyField.h in Headers */,
-				03C0D75CC9747BBB31E2872D764C0D59 /* CentripetalGravityField.h in Headers */,
-				8AD8FF057B52F403F674B4AA51958E2A /* Circle.h in Headers */,
-				B743C4746EA2CD371E41B4D5543FE954 /* Color.h in Headers */,
-				AC0D40E30E6F8D3586AEE1AF83C51F6F /* config.h in Headers */,
-				AC0D40E30E6F8D3586AEE1AF83C51F6F /* config.h in Headers */,
-				6F04EF5137590E097CB5378744D57610 /* CP2DGameView.h in Headers */,
-				0E0E7154918ED36499DF9BA5045F2B4F /* CP2DGameViewController.h in Headers */,
-				279CD2C80BC1D9B1022E031972CEE284 /* CP2DGameWorldRenderer.h in Headers */,
-				072EED66E55AC6F79CC031B9053CE990 /* CP2DParticleRenderer.h in Headers */,
-				DC29BF93D629472169C04098593B617D /* CP2DRenderer.h in Headers */,
-				901157E7F7BEE03986CA42F5663AA5A2 /* CP2DWaveRenderer.h in Headers */,
-				189E49079B9E15979561EA82E2781F65 /* DampingField.h in Headers */,
-				DDAD205541E9D6A6E13DFFF73F3F5972 /* Field.h in Headers */,
-				024BA8D1A12CB8D2EFC0522FC63F81D5 /* GameWorld.h in Headers */,
-				46BB91D012D7012A0115955FC580A75F /* GravityField.h in Headers */,
-				C5B6B62C4FC107C0AEFEE182D45AFA21 /* MathDefines.h in Headers */,
-				E866574904D0B8B2EAFC8319590BA1AF /* ObstacleField.h in Headers */,
-				9455AC8827AA5122199C2A4A517C19F0 /* Particle.h in Headers */,
-				249F2618AB5CC8A343072D0D09DD866E /* ParticleEmitter.h in Headers */,
-				4F7BF92AACACB8EE85BA4700903DFFB0 /* raw_config.h in Headers */,
-				BCB6FF7A91493AFF53D499A0CFB13AC3 /* RawParticle.h in Headers */,
-				61C73760AF465BC4A6B2871805B35A14 /* Rectangle.h in Headers */,
-				B85494FCC2BBF4AA7DDFB9F73438D9D5 /* RetainCount.h in Headers */,
-				D13D5B5D61B40D843B8BB1762E9A715D /* retaincount_config.h in Headers */,
-				5765C324757F74352AC31417D6413D33 /* ThreadPool.h in Headers */,
-				0533A62D9CE19658621E030671D03795 /* timer.h in Headers */,
-				8CA0F08CC4F57338803E964979E00BF3 /* Vector.h in Headers */,
-				C5F85F920209A9545A335CC0F2DBA1F4 /* Wave.h in Headers */,
+				3455044B114B0634A9E7D6D81445FCAF /* AttachableField.h in Headers */,
+				DBDDC53407AA059084FD950827E2B1AF /* BuoyancyField.h in Headers */,
+				6A51C1F21C5DCBB491CBC0703D2FE266 /* CentripetalGravityField.h in Headers */,
+				1385B2C9D9AD7A979DB09D22F9CBC3EE /* Circle.h in Headers */,
+				0C6FC72453CFB322CA1177333F07B191 /* Color.h in Headers */,
+				A9A65CC670F52C6991F5266B8B6353B7 /* config.h in Headers */,
+				22D9CD522A9A68644A34A9D14BA0095B /* CP2DGameView.h in Headers */,
+				81D0E047EBFA4F6F8056D0DE155F871C /* CP2DGameViewController.h in Headers */,
+				EBB3B63FF8C85FC5518313F4E1B2AF83 /* CP2DGameWorldRenderer.h in Headers */,
+				3624208E4BDFD44EE570061A06588358 /* CP2DParticleRenderer.h in Headers */,
+				160CDCE52FE7F4B735344144682158FC /* CP2DRenderer.h in Headers */,
+				852993D7CC19D46494DB3ADE5F154193 /* CP2DWaveRenderer.h in Headers */,
+				F61D811E91375217A1D23F1C9DAD77AC /* DampingField.h in Headers */,
+				DDFE426A6D9207C0B5F9A385B6202493 /* Field.h in Headers */,
+				28CA9AAF9E4783B6F4168B78A83177D9 /* GameWorld.h in Headers */,
+				C8650F0573FA0CFB7CBBF31BBE34F04D /* GravityField.h in Headers */,
+				8C4BBBA0773C280D8E1B1EB9D34E8A7F /* MathDefines.h in Headers */,
+				B36B5278A8F77BCA130AA2EDF094A012 /* ObstacleField.h in Headers */,
+				371DDF317ABA345BB6432FBF9168C92E /* Particle.h in Headers */,
+				DEB58297E2472531CB37D4756993E8C8 /* ParticleEmitter.h in Headers */,
+				B088B649471A17E14206FD8FB9A26D47 /* raw_config.h in Headers */,
+				8397DE5F473359713D10AF1D743D1661 /* RawParticle.h in Headers */,
+				4846126A6CC8B10CF4F1618FE4AF2E4B /* Rectangle.h in Headers */,
+				46011D6658BA3AAB229D7DD3FF179155 /* RetainCount.h in Headers */,
+				FFBE0D93972AE479237976419A60B17E /* retaincount_config.h in Headers */,
+				7A48AB6C3A3AC8FA71E29D1EBD219B63 /* ThreadPool.h in Headers */,
+				7A48AB6C3A3AC8FA71E29D1EBD219B63 /* ThreadPool.h in Headers */,
+				1ECB4A12F15EED4236BE0CECF67CFB06 /* timer.h in Headers */,
+				90FEDF34D54B1BDE011C2D4E9C343AAA /* Vector.h in Headers */,
+				3E9CE962C0B504851F9C3F14829668EB /* Wave.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0AEF299B42FD7C12EB530F5BEB7C3071 /* CoolPhysics2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE1E80385996E7B65C6E0EA543F985D /* Build configuration list for PBXNativeTarget "CoolPhysics2D" */;
+			buildPhases = (
+				0A0AB0E636145BBE6085B299C9AADB34 /* Sources */,
+				03E022647DD46D440D4452B2F20AECD1 /* Frameworks */,
+				E46FEFD4B8038FB61814396151951BC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolPhysics2D;
+			productName = CoolPhysics2D;
+			productReference = 571D349B1BBC7F3CF6BF582EBC89F129 /* libCoolPhysics2D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2B656C64E761528908B4ACB235202AE1 /* Pods-CoolPhysics2D_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804FAE8B75019A5F245C21260ECFC446 /* Build configuration list for PBXNativeTarget "Pods-CoolPhysics2D_Tests" */;
@@ -522,23 +553,6 @@
 			productReference = 86FB32AA1D388C77D37A6BEEE69D28DF /* libPods-CoolPhysics2D_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ED8D79BA001617F24B5F91690CA5D433 /* CoolPhysics2D */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0CBC0A3A0D9D636A138B974AEFFD44 /* Build configuration list for PBXNativeTarget "CoolPhysics2D" */;
-			buildPhases = (
-				B32F9EC39A893FE1F499BD9226A011F6 /* Sources */,
-				0B2D55D42327BFC9E24D5B3FFD418A60 /* Frameworks */,
-				D8FC6F1F6860E2DF293EC063BD287AA9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CoolPhysics2D;
-			productName = CoolPhysics2D;
-			productReference = 571D349B1BBC7F3CF6BF582EBC89F129 /* libCoolPhysics2D.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -560,7 +574,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED8D79BA001617F24B5F91690CA5D433 /* CoolPhysics2D */,
+				0AEF299B42FD7C12EB530F5BEB7C3071 /* CoolPhysics2D */,
 				9721A38D86662552282AC8D90474157B /* Pods-CoolPhysics2D_Example */,
 				2B656C64E761528908B4ACB235202AE1 /* Pods-CoolPhysics2D_Tests */,
 			);
@@ -568,47 +582,50 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A0AB0E636145BBE6085B299C9AADB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD6EB471C09415E991A6BFC48942E61 /* AttachableField.cpp in Sources */,
+				A4A564963E9204979E81C954FA75FA80 /* BuoyancyField.cpp in Sources */,
+				D6344A6FDF3BE0006147BD689A4815B0 /* CentripetalGravityField.cpp in Sources */,
+				6DE6133C1ABED2285078C8BC3F1254A6 /* Circle.cpp in Sources */,
+				0AC737632B9AD5DF656FA3B2C0F3A739 /* Color.cpp in Sources */,
+				D53A8C131BDA9369B56B392B6EB29227 /* CoolPhysics2D-dummy.m in Sources */,
+				93CE2774FA9C8DF51D9DB1F9B03FD2E8 /* COPYING in Sources */,
+				93CE2774FA9C8DF51D9DB1F9B03FD2E8 /* COPYING in Sources */,
+				D48F1A5DD3ECBEC9803F4059CBB84444 /* CP2DGameView.mm in Sources */,
+				69E3FC7B66EF9B2F0CC8BB1F8600F754 /* CP2DGameViewController.mm in Sources */,
+				32AFEEF7E85E4050F66156983B6552E3 /* CP2DGameWorldRenderer.mm in Sources */,
+				5B28BEFA18E8A9E97C1061226BC5C3F3 /* CP2DParticleRenderer.mm in Sources */,
+				747133B3D3A77F6C897CF8BEE36166FA /* CP2DWaveRenderer.mm in Sources */,
+				B24EC4A4836A1F94E867E62632942472 /* DampingField.cpp in Sources */,
+				C855AAB368CCAFB7BCCC8D77DB0ABEB0 /* example.cpp in Sources */,
+				C855AAB368CCAFB7BCCC8D77DB0ABEB0 /* example.cpp in Sources */,
+				69B25DF4A3853C5E0439C1FBE14803D1 /* Field.cpp in Sources */,
+				5654A7751ABB66DBA88EFC7842B07C5A /* GameWorld.cpp in Sources */,
+				412F47F2A3CA94A23BE30B7D1CB4E72A /* GravityField.cpp in Sources */,
+				8CEA1C2B93AE55FEEC475DDD3550F832 /* LICENSE in Sources */,
+				7970642011E9F8AC441028BFD236AFBE /* LICENSE.md in Sources */,
+				7BEC0B52D65C8C056CC49535CF362356 /* Makefile in Sources */,
+				8A383DA56A71CA3E814562834A5E2832 /* ObstacleField.cpp in Sources */,
+				AE6D40E3921787D92BF60E3A0BC8E8B9 /* Particle.cpp in Sources */,
+				D1E2750CB7A6F227DF2799732C497C36 /* ParticleEmitter.cpp in Sources */,
+				6990CCCACF625179A708555EE3424142 /* RawParticle.cpp in Sources */,
+				E723079A3E97C4ACB007BB7F2793FF2A /* README.md in Sources */,
+				E723079A3E97C4ACB007BB7F2793FF2A /* README.md in Sources */,
+				BAB21476DB435CCFF9854C7C90D34B79 /* Rectangle.cpp in Sources */,
+				70E901F38056350A9E2DADF226119787 /* RetainCount.cpp in Sources */,
+				F5683318B5C65C2C196BE4B242CB2972 /* Vector.cpp in Sources */,
+				822CEE43775A2D2F652C8127ECC66831 /* Wave.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B7A5853E06B14780D4D2D454AD7AE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F82D08CAF2AEF2EAE5B13B65F55A9D28 /* Pods-CoolPhysics2D_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B32F9EC39A893FE1F499BD9226A011F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06D8D07BB0ECF38D93C8C764249EBFF6 /* AttachableField.cpp in Sources */,
-				0779EEC647CAF178CD58FCA7E6C4EE33 /* BuoyancyField.cpp in Sources */,
-				8FB2F07A1C14C9C3A2EB2A0DE5885275 /* CentripetalGravityField.cpp in Sources */,
-				12B6D951E4C125760D744CED0B428BE4 /* Circle.cpp in Sources */,
-				B29ED0E2EA3CD9C1A0CD14923054C588 /* Color.cpp in Sources */,
-				B875691DE83C197ECFBACCF62A5F5F6F /* CoolPhysics2D-dummy.m in Sources */,
-				AE5454B6D9CC0EDC3440EFD51D412750 /* COPYING in Sources */,
-				6D6E6148DE4495C2B96AB3FCE2C8BAA4 /* CP2DGameView.mm in Sources */,
-				279F9843B257F593B0785ADF63FBA74A /* CP2DGameViewController.mm in Sources */,
-				3457ED88E98F5F0BD67C1EE31CC0E5F1 /* CP2DGameWorldRenderer.mm in Sources */,
-				09120F8C0E48C24B05ECA4D4D7C5BFC1 /* CP2DParticleRenderer.mm in Sources */,
-				2E3F3FC6E441F7301493C512CCFB2410 /* CP2DWaveRenderer.mm in Sources */,
-				F7D0643B4E072A4EA3D2625DE2B2A6AF /* DampingField.cpp in Sources */,
-				8ADF9C8C004DC2F6252CFE81A9B1747D /* example.cpp in Sources */,
-				B45348506DEBB47D105552679344BABC /* Field.cpp in Sources */,
-				C92EE2D1511469E54A6E231A7F572B15 /* GameWorld.cpp in Sources */,
-				1ECA41FB3CC1648367A6616F28C23E6C /* GravityField.cpp in Sources */,
-				7EF5ACDF0DC62E1BE8ABCC14E9ED7DDE /* LICENSE in Sources */,
-				65FC87C2E4A66E95972E02ADF461536B /* LICENSE.md in Sources */,
-				FE2F44930D4D0B3CDA1175BAC6F4B581 /* Makefile in Sources */,
-				1CE7BEE972D099D5308E6524329F3362 /* ObstacleField.cpp in Sources */,
-				C8CFEBE92A6820DA58F778533B6D8DC5 /* Particle.cpp in Sources */,
-				379824985E34D217471B20AED2BA5C76 /* ParticleEmitter.cpp in Sources */,
-				50D25BF97E4875D814A84DC705D4FC0C /* RawParticle.cpp in Sources */,
-				8E2FA53C61DE5E4E70A5C968E391D899 /* README.md in Sources */,
-				73D71ED00107B67B7837C378269AA3BB /* Rectangle.cpp in Sources */,
-				45F30838CA2284FF52DD0E644B7943AC /* RetainCount.cpp in Sources */,
-				A14FC72E90E9995B34D72C80D3FBFE91 /* Vector.cpp in Sources */,
-				5FDDB69EE4E32BE2B1D3C528A761F9F9 /* Wave.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,21 +643,21 @@
 		643D1EC0497B82FD592FCD348A61902A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CoolPhysics2D;
-			target = ED8D79BA001617F24B5F91690CA5D433 /* CoolPhysics2D */;
+			target = 0AEF299B42FD7C12EB530F5BEB7C3071 /* CoolPhysics2D */;
 			targetProxy = A60156763674E299822529F603533775 /* PBXContainerItemProxy */;
 		};
 		9A59D5BC4E60AB073517F00A5B2EC4E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CoolPhysics2D;
-			target = ED8D79BA001617F24B5F91690CA5D433 /* CoolPhysics2D */;
+			target = 0AEF299B42FD7C12EB530F5BEB7C3071 /* CoolPhysics2D */;
 			targetProxy = 65BF51D8965DAC4A8119D3E4DC3CE4AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F8D62EE001EFCEE4AAE8452B0280FA1 /* Debug */ = {
+		5D2E318D93B1FF6E7AA98A679CE5AEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB55E8C11CEF4C17AEE6E7506F82EAEF /* CoolPhysics2D.xcconfig */;
+			baseConfigurationReference = C2C182378192720851E4E9A073952474 /* CoolPhysics2D.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,8 +673,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		7FFD74F87684B3B202826B3B2673F416 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -842,6 +860,27 @@
 			};
 			name = Release;
 		};
+		E73D2DBC71E42B1C199292C072C75E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C182378192720851E4E9A073952474 /* CoolPhysics2D.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D/CoolPhysics2D-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		EAD010DDB1249F8AC7950F4C951EC280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E88329608DC5BF8B8230CD1BCFB71560 /* Pods-CoolPhysics2D_Tests.debug.xcconfig */;
@@ -862,40 +901,9 @@
 			};
 			name = Debug;
 		};
-		F5FD083618CF6DC63463723ECB40A6A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB55E8C11CEF4C17AEE6E7506F82EAEF /* CoolPhysics2D.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CoolPhysics2D/CoolPhysics2D-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A0CBC0A3A0D9D636A138B974AEFFD44 /* Build configuration list for PBXNativeTarget "CoolPhysics2D" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F8D62EE001EFCEE4AAE8452B0280FA1 /* Debug */,
-				F5FD083618CF6DC63463723ECB40A6A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		14968CE8D3ADFD8400AD8E72DCC29AB2 /* Build configuration list for PBXNativeTarget "Pods-CoolPhysics2D_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -910,6 +918,15 @@
 			buildConfigurations = (
 				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
 				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE1E80385996E7B65C6E0EA543F985D /* Build configuration list for PBXNativeTarget "CoolPhysics2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73D2DBC71E42B1C199292C072C75E43 /* Debug */,
+				5D2E318D93B1FF6E7AA98A679CE5AEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
