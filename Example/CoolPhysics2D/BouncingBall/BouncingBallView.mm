@@ -30,17 +30,63 @@
         Field* buoyancyField=new BuoyancyField(water,*gravityField,0.0002);
         self.gameWorld->addField(buoyancyField);
         
-        Particle* _particle0=new Particle(false,50,1,0.95,Vector(0,0),Vector(500,0),Vector(0,0),10000,Color::blueColor);
-        Particle* _particle1=new Particle(false,30,0.5,0.99,Vector(300,100),Vector(-400,0),Vector(0,0),10000,Color::redColor);
-        Particle* _particle2=new Particle(false,40,0.8,0.98,Vector(200,300),Vector(500,0),Vector(0,0),10000,Color::greenColor);
+        Particle* particle0=[self buildParticle0];
+        Particle* particle1=[self buildParticle1];
+        Particle* particle2=[self buildParticle2];
         
-        self.gameWorld->addParticle(_particle0);
-        self.gameWorld->addParticle(_particle1);
-        self.gameWorld->addParticle(_particle2);
-        
-        
+        self.gameWorld->addParticle(particle0);
+        self.gameWorld->addParticle(particle1);
+        self.gameWorld->addParticle(particle2);
     }
     return self;
+}
+
+-(Particle*)buildParticle0
+{
+    ParticleBuilder builder;
+    return builder
+        .overlappable(false)
+        .radius(50)
+        .mass(1)
+        .elasticity(0.95)
+        .position(Vector(0,0))
+        .velocity(Vector(500,0))
+        .acceleration(Vector(0,0))
+        .lifetime(10000)
+        .color(Color::blueColor)
+        .build();
+}
+
+-(Particle*)buildParticle1
+{
+    ParticleBuilder builder;
+    return builder
+        .overlappable(false)
+        .radius(30)
+        .mass(0.5)
+        .elasticity(0.99)
+        .position(Vector(300,100))
+        .velocity(Vector(-400,0))
+        .acceleration(Vector(0,0))
+        .lifetime(10000)
+        .color(Color::redColor)
+        .build();
+}
+
+-(Particle*)buildParticle2
+{
+    ParticleBuilder builder;
+    return builder
+        .overlappable(false)
+        .radius(40)
+        .mass(0.8)
+        .elasticity(0.98)
+        .position(Vector(200,300))
+        .velocity(Vector(500,0))
+        .acceleration(Vector(0,0))
+        .lifetime(10000)
+        .color(Color::greenColor)
+        .build();
 }
 
 -(void)drawRect:(CGRect)rect
