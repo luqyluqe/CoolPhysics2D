@@ -14,7 +14,7 @@ using namespace CoolPhysics2D;
         Rectangle range(0,0,self.frame.size.width,self.frame.size.height);
         GravityField* gravityField=new GravityField(range,Vector(0,500));
         self.gameWorld->addField(gravityField);
-        DampingField* dampingField=new DampingField(range,100);
+        DampingField* dampingField=new DampingField(range,10);
         self.gameWorld->addField(dampingField);
     }
     return self;
@@ -29,11 +29,11 @@ using namespace CoolPhysics2D;
      Vector(location.x,location.y),   //position
      5000,               //frequency
      0,1,               //min & max life time
-     Color(0.7f, 0.7f, 0, 0),Color(1,1,0.8f,0.4f), //min & max color
+     Color(0.7f, 0.7f, 0, 0),Color(1,1,0.8f,1.f), //min & max color
      0,2,               //min & max radius
      1,10,               //min & max density
      0,0,             //min & max elasticity
-     0,500,           //min & max speed
+     0,1000,           //min & max speed
      0,2*M_PI                //min & max radian
      );
     particleEmitter->enable();

@@ -17,6 +17,7 @@
 
 -(void)renderInContext:(CGContextRef)ctx
 {
+    _gameWorld->lock();
     std::vector<Particle*> ps=_gameWorld->particles();
     for (size_t i=0; i<ps.size(); i++) {
         CP2DParticleRenderer* particleRenderer=[[CP2DParticleRenderer alloc] initWithParticle:ps[i]];
@@ -28,6 +29,7 @@
         CP2DWaveRenderer* waveRenderer=[[CP2DWaveRenderer alloc] initWithWave:waves[i]];
         [waveRenderer renderInContext:ctx];
     }
+    _gameWorld->unlock();
 }
 
 @end

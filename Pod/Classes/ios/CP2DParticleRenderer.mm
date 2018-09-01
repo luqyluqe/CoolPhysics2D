@@ -20,8 +20,8 @@
     if (!_particle) {
         return;
     }
-    bool lock_success=_particle->_destructorMutex.try_lock();
-    if (lock_success) {
+//    bool lock_success=_particle->_destructorMutex.try_lock();
+//    if (lock_success) {
         if (isnan(_particle->position().x())||isnan(_particle->position().y())) {
             return;
         }
@@ -34,8 +34,8 @@
         CGContextSetFillColor(context, colorComponents);
         CGContextAddArc(context, thePoint.x, thePoint.y, _particle->radius(),  0, 2*M_PI, 0);
         CGContextFillPath(context);
-        _particle->_destructorMutex.unlock();
-    }
+//        _particle->_destructorMutex.unlock();
+//    }
 }
 
 @end

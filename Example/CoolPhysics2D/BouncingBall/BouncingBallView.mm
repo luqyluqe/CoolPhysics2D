@@ -23,7 +23,7 @@
 {
     if (self=[super initWithFrame:frame]) {
         Rectangle water(0,400,self.frame.size.width,self.frame.size.height-400);
-        Field* dampingField=new DampingField(water,-1.5);
+        Field* dampingField=new DampingField(water,1.5);
         self.gameWorld->addField(dampingField);
         GravityField* gravityField=new GravityField(Rectangle(0,0,self.frame.size.width,self.frame.size.height),Vector(0, 500));
         self.gameWorld->addField(gravityField);
